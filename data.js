@@ -98,6 +98,30 @@ window.COMPETITOR_DATA = {
   ],
   "updates": [
     {
+      "competitor": "tapnow",
+      "date": "2026-09-24",
+      "title": "Creative OS 更新：Astra 6 Studio 上线，按创作方向选择电影工作流",
+      "details": [
+        "Astra 6 Studio 上线 Creative OS App Store：按创作方向选择 Play，涵盖 3D previs（3D 预演）、motion design（动效设计）、depth filmmaking（深度电影制作）、fashion（时尚）等场景",
+        "每个 Play 展示输入、输出与限制，可从示例开始或直接在 Agent 对话中调用"
+      ],
+      "type": "新功能",
+      "source": "https://docs.tapnow.ai/en/docs/changelog",
+      "sourceName": "TapNow Changelog"
+    },
+    {
+      "competitor": "tapnow",
+      "date": "2026-09-24",
+      "title": "Seedance 2.5 Draft Mode 草稿模式与 Depth Filmmaking Studio 深度电影重拍上线",
+      "details": [
+        "Seedance 2.5 视频节点新增 Draft Mode：480P 预览动作、构图与参考效果，选择 Generate Final Video 复用草稿提示词与参考生成 1080P 成片，草稿修订与最终成片保留为独立画布节点",
+        "Depth Filmmaking Studio：上传源动作视频 + 角色/场景/服装/道具参考，先生成可复用深度动作，再基于参考重拍镜头，结果作为新画布节点且源视频保留"
+      ],
+      "type": "新功能",
+      "source": "https://docs.tapnow.ai/en/docs/changelog",
+      "sourceName": "TapNow Changelog"
+    },
+    {
       "competitor": "sora",
       "date": "2026-09-24",
       "title": "Sora API 正式关停：OpenAI 关闭独立视频生成服务",
@@ -159,6 +183,19 @@ window.COMPETITOR_DATA = {
       "sourceName": "即梦AI 官方微博"
     },
     {
+      "competitor": "pixverse",
+      "date": "2026-09-22",
+      "title": "发布 R2 实时世界模型：迈向持久、可游玩的实时世界",
+      "details": [
+        "R2 以 Omni Causal AR 为能力引擎（单一持续训练的因果模型）+ 实时加速层压缩运行，替代多阶段训练管线，能力增长不牺牲实时速度",
+        "7 月上线的 PixVerse Game Engine 已基于 R2 运行；CEO 称目标是从创作工具演进为可进入、可塑造的环境",
+        "9 月在 Tech in Asia Conference 现场展示实时游戏引擎"
+      ],
+      "type": "模型更新",
+      "source": "https://pixverse.ai/en/blog/pixverse-introduces-r2-real-time-world-model",
+      "sourceName": "PixVerse 官网"
+    },
+    {
       "competitor": "higgsfield",
       "date": "2026-09-20",
       "title": "Grok 4.7 上线 Supercomputer",
@@ -169,6 +206,44 @@ window.COMPETITOR_DATA = {
       "type": "模型更新",
       "source": "https://higgsfield.ai/creator-hub/changelog",
       "sourceName": "Higgsfield Changelog"
+    },
+    {
+      "competitor": "pika",
+      "date": "2026-09-20",
+      "title": "新创意平台上线：Video Studio 3 分钟多镜头、多模型聚合与全套创意工具",
+      "details": [
+        "Pika 发布全新 AI 创意平台：Video Studio 支持从短片段到 3 分钟多镜头作品，可在提示词中 @ 引用角色、产品、场景与风格",
+        "多模型聚合：Seedance 2.5、MiniMax H3、Wan 3.0、Google Veo 3.1、GPT Image 2.5、Grok Imagine 等可一键切换",
+        "配套 Color Grade 调色、Extend Video 延长、Pika Soundtrack 配乐/氛围音、Character Studio、Image Studio、Product Shot、Speech Studio 等创意应用",
+        "音频侧集成 Pika Speech、Pika Music、Pika Soundtrack 及 ElevenLabs 语音模型"
+      ],
+      "type": "产品升级",
+      "source": "https://agihunt.info/en/p/1a0b121452fed859ae3a9786245",
+      "sourceName": "AGI Hunt"
+    },
+    {
+      "competitor": "pixverse",
+      "date": "2026-09-20",
+      "title": "获评美国 Google Play 商店本周 App of the Week",
+      "details": [
+        "PixVerse 被美国 Google Play 商店评为「本周应用」（App of the Week）"
+      ],
+      "type": "产品升级",
+      "source": "https://pixverse.ai/en",
+      "sourceName": "PixVerse 官网"
+    },
+    {
+      "competitor": "higgsfield",
+      "date": "2026-09-19",
+      "title": "接入 GPT-6 Astra 上线 ChatGPT 广告投放插件",
+      "details": [
+        "Higgsfield 推出与 OpenAI GPT-6 Astra 深度整合的 ChatGPT 插件，面向付费广告投放场景",
+        "在 ChatGPT 对话框输入 @Higgsfield /marketing 即可直接运行广告投放流程：运营广告账户（投放新广告、测试创意素材、自动放量）、跨平台分析目标客户需求、基于产品卖点迭代广告 hook 文案与创意方向",
+        "基于 OpenAI Apps SDK（MCP 协议）构建；Marketing Studio 上线首 30 天吸引 6.8 万名营销人员"
+      ],
+      "type": "新功能",
+      "source": "https://www.ababnews.com/news/855ab30f-7044-4c97-911c-efee5684807f",
+      "sourceName": "ABAB News"
     },
     {
       "competitor": "higgsfield",
@@ -477,6 +552,20 @@ window.COMPETITOR_DATA = {
       "type": "产品升级",
       "source": "https://www.s5l.com/news/higgsfield-ai-video-platform-launch",
       "sourceName": "Agent Development Kit"
+    },
+    {
+      "competitor": "higgsfield",
+      "date": "2026-09-01",
+      "title": "发布 Genjutsu：视频局部重拍与动作迁移工具",
+      "details": [
+        "Genjutsu 对现有视频重建局部内容：可替换画面中的人物、地点或物体，其余部分保持原拍摄不变，无需重新拍摄",
+        "Motion Transfer：提取源视频的运动、运镜与节奏，围绕其重建新场景与新角色；Object Swap：仅替换指定元素，其余画面保持原样",
+        "无需完整提示词，可结合参考图或预设使用；单次支持 4–30 秒输入视频与最多 30 张参考图，最高 1080p 输出",
+        "9 月 1 日发布，9 月 3 日上架 Product Hunt"
+      ],
+      "type": "新功能",
+      "source": "https://higgsfield.ai/blog/higgsfield-genjutsu",
+      "sourceName": "Higgsfield Blog"
     },
     {
       "competitor": "libtv",
