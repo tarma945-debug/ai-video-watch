@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 视频竞品每日功能监控</title>
+<meta name="description" content="产品视角，每日追踪 DeeVid / TapNow / LibTV / Higgsfield / 小云雀AI 的功能更新动态。">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <h1>🌿 AI 视频竞品每日功能监控</h1>
+  <p class="subtitle">产品视角 · 每日追踪五大竞品功能动态，数据驱动、一键更新</p>
+  <div class="header-meta">
+    <span class="dot"></span>
+    <span>最新更新：<span id="latest-date">--</span></span>
+    <span>·</span>
+    <span id="total-count">0</span> 条功能动态
+  </div>
+</header>
+
+<main class="container">
+  <!-- 筛选栏 -->
+  <div class="filter-bar" id="filter-bar">
+    <span class="label">筛选竞品：</span>
+    <button class="filter-btn active" data-filter="all">全部</button>
+    <!-- 竞品按钮由 JS 生成 -->
+  </div>
+
+  <!-- 统计卡 -->
+  <div class="stats-row" id="stats-row"></div>
+
+  <!-- 内容区 -->
+  <div id="content"></div>
+</main>
+
+<footer class="site-footer">
+  <p>数据驱动站点：每日新增功能条目只需在 <code>data.js</code> 的 <code>updates</code> 数组顶部追加一条记录，刷新页面即可生效。</p>
+  <p style="margin-top:6px;">© 2026 · AI 视频竞品监控 · 信息整理自公开来源，供产品调研参考</p>
+</footer>
+
+<script src="data.js"></script>
+<script>
+(function () {
+  "use strict";
+
+  var C = window.COMPETITOR_DATA;
+  var UPDATES = (C.updates || []).slice().sort(function (a, b) {
+    return b.date.localeCompare(a.date);
+  });
+  var COMPETITORS = C.competitors || [];
+
+  var TYPE_LABEL = {
+    "新功能": "新功能",
+    "模型更新": "模型更新",
+    "产品升级": "产品升级",
+    "修复": "修复"
+  };
+  var TYPE_CLASS = {
+    "新功能": "tag-new",
+    "模型更新": "tag-model",
+    "产品升级": "tag-upgrade",
+    "修复": "tag-fix"
+  };
+  var AVATAR_COLORS = [
+    "linear-gradient(135deg,#3fae8a,#9fe0c8)",
+    "linear-gradient(135deg,#4cb39a,#7fd4b8)",
+    "linear-gradient(135deg,#2e8b6e,#6fceaa)",
+    "linear-gradient(135deg,#5cc9a5,#b8ecd6)",
+    "linear-gradient(135deg,#26805f,#8fdcc0)"
+  ];
+
+  function escapeHtml(s) {
+    return String(s == null ? "" : s)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#39;");
+  }
+
+  function competitorById(id) {
+    for (var i = 0; i < COMPETITORS.length; i++) {
+      if (COMPETITORS[i].id === id) return COMPETITORS[i];
+    }
+    return null;
+  }
+
+  function avatarLetter(name) {
+    return name ? name.charAt(0) : "?";
+  }
+
+  // ---------- 渲染筛选按钮 ----------
+  function renderFilterBar() {
+    var bar = document.getElementById("filter-bar");
+    COMPETITORS.forEach(function (comp, idx) {
+      var count = UPDATES.filter(function (u) { return u.competitor === comp.id; }).length;
+      var btn = document.createElement("button");
+      btn.className = "filter-btn";
+      btn.dataset.filter = comp.id;
+      btn.innerHTML = escapeHtml(comp.name) + ' <span class="count">' + count + "</span>";
+      btn.style.animationDelay = (idx * 0.03) + "s";
+      bar.appendChild(btn);
+    });
+  }
+
+  // ---------- 渲染统计卡 ----------
+  function renderStats() {
+    var row = document.getElementById("stats-row");
+    var today = new Date();
+    var monthAgo = new Date(today.getTime() - 30 * 24 * 3600 * 1000);
+    var monthAgoStr = monthAgo.toISOString().slice(0, 10);
+    var monthCount = UPDATES.filter(function (u) { return u.date >= monthAgoStr; }).length;
+
+    var cards = [
+      { num: UPDATES.length, cap: "累计收录功能动态" },
+      { num: COMPETITORS.length, cap: "监控竞品数量" },
+      { num: monthCount, cap: "近 30 天新增" },
+      { num: countType("新功能"), cap: "新功能类条目" }
+    ];
+    cards.forEach(function (card) {
+      var div = document.createElement("div");
+      div.className = "stat-card";
+      div.innerHTML = '<div class="num">' + card.num + '</div><div class="cap">' + card.cap + "</div>";
+      row.appendChild(div);
+    });
+  }
+
+  function countType(type) {
+    return UPDATES.filter(function (u) { return u.type === type; }).length;
+  }
+
+  // ---------- 渲染条目卡片 ----------
+  function renderCard(u) {
+    var comp = competitorById(u.competitor) || { name: u.competitor, url: "#" };
+    var detailsHtml = (u.details || []).map(function (d) {
+      return "<li>" + escapeHtml(d) + "</li>";
+    }).join("");
+
+    var typeCls = TYPE_CLASS[u.type] || "tag-upgrade";
+    var typeTxt = TYPE_LABEL[u.type] || u.type || "更新";
+
+    return (
+      '<article class="card">' +
+        '<div class="card-head">' +
+          '<span class="brand">' + escapeHtml(comp.name) + "</span>" +
+          '<span class="date">' + escapeHtml(u.date) + "</span>" +
+          '<span class="tag ' + typeCls + '">' + escapeHtml(typeTxt) + "</span>" +
+        "</div>" +
+        '<h3 class="card-title">' + escapeHtml(u.title) + "</h3>" +
+        (detailsHtml ? '<ul class="card-details">' + detailsHtml + "</ul>" : "") +
+        '<div class="card-source">来源：<a href="' + escapeHtml(u.source) + '" target="_blank" rel="noopener noreferrer">' +
+          escapeHtml(u.sourceName || u.source) + "</a></div>" +
+      "</article>"
+    );
+  }
+
+  // ---------- 竞品分组视图 ----------
+  function renderGroupView() {
+    var html = "";
+    COMPETITORS.forEach(function (comp, idx) {
+      var items = UPDATES.filter(function (u) { return u.competitor === comp.id; });
+      if (!items.length) return;
+      var style = "background:" + (AVATAR_COLORS[idx % AVATAR_COLORS.length]) + ";";
+      html +=
+        '<section class="group-section">' +
+          '<div class="group-header">' +
+            '<div class="avatar" style="' + style + '">' + escapeHtml(avatarLetter(comp.name)) + "</div>" +
+            '<div>' +
+              '<div class="group-title"><a href="' + escapeHtml(comp.url) + '" target="_blank" rel="noopener noreferrer">' +
+                escapeHtml(comp.name) + "</a></div>" +
+              '<div class="group-tagline">' + escapeHtml(comp.tagline) + "</div>" +
+            "</div>" +
+            '<div class="group-meta">' + items.length + " 条更新</div>" +
+          "</div>" +
+          items.map(renderCard).join("") +
+        "</section>";
+    });
+    return html;
+  }
+
+  // ---------- 时间线视图（全部） ----------
+  function renderTimelineView() {
+    var html = '<div class="timeline">';
+    var lastDate = "";
+    UPDATES.forEach(function (u) {
+      if (u.date !== lastDate) {
+        html += '<div class="date-sep">' + escapeHtml(u.date) + "</div>";
+        lastDate = u.date;
+      }
+      html += renderCard(u);
+    });
+    html += "</div>";
+    return html;
+  }
+
+  // ---------- 主渲染 ----------
+  function render(filter) {
+    var content = document.getElementById("content");
+    var comp = filter === "all" ? null : competitorById(filter);
+
+    if (filter === "all") {
+      content.innerHTML = renderTimelineView();
+    } else if (comp) {
+      content.innerHTML =
+        '<section class="group-section">' +
+          '<div class="group-header">' +
+            '<div class="avatar" style="' + AVATAR_COLORS[0] + '">' + escapeHtml(avatarLetter(comp.name)) + "</div>" +
+            '<div>' +
+              '<div class="group-title"><a href="' + escapeHtml(comp.url) + '" target="_blank" rel="noopener noreferrer">' +
+                escapeHtml(comp.name) + "</a></div>" +
+              '<div class="group-tagline">' + escapeHtml(comp.tagline) + "</div>" +
+            "</div>" +
+            '<div class="group-meta">' +
+              UPDATES.filter(function (u) { return u.competitor === filter; }).length + " 条更新</div>" +
+          "</div>" +
+          UPDATES.filter(function (u) { return u.competitor === filter; }).map(renderCard).join("") +
+        "</section>";
+    } else {
+      content.innerHTML = '<div class="empty">暂无更新数据，请检查 data.js</div>';
+    }
+  }
+
+  // ---------- 事件绑定 ----------
+  function bindFilter() {
+    var bar = document.getElementById("filter-bar");
+    bar.addEventListener("click", function (e) {
+      var btn = e.target.closest(".filter-btn");
+      if (!btn) return;
+      var btns = bar.querySelectorAll(".filter-btn");
+      for (var i = 0; i < btns.length; i++) btns[i].classList.remove("active");
+      btn.classList.add("active");
+      render(btn.dataset.filter);
+    });
+  }
+
+  // ---------- 初始化 ----------
+  function init() {
+    document.getElementById("latest-date").textContent = UPDATES.length ? UPDATES[0].date : "--";
+    document.getElementById("total-count").textContent = UPDATES.length;
+    renderFilterBar();
+    renderStats();
+    render("all");
+    bindFilter();
+  }
+
+  init();
+})();
+</script>
+</body>
+</html>
