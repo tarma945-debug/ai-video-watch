@@ -2,12 +2,12 @@
  * AI 视频竞品每日功能监控 —— 数据文件
  * 数据驱动：每日新增更新条目只需在下方 updates 数组顶部追加一条记录，无需改动 index.html。
  * 条目字段：competitor(竞品id) / date(YYYY-MM-DD) / title / details(功能点列表) / type(新功能|模型更新|产品升级|修复) / source / sourceName
- * 竞品 id：deevid / tapnow / libtv / higgsfield / xyq
+ * 竞品 id：deevid / tapnow / libtv / higgsfield / xyq / runway / pika / kling / luma / vidu / jimeng / hailuo / sora / pixverse / runninghub / openart / updream / oiioii / rhtv / elser / pexo / shotlab / ltxstudio / skyreels / storyboarder
  */
 window.COMPETITOR_DATA = {
   "site": {
     "title": "AI 视频竞品每日功能监控",
-    "subtitle": "产品视角 · 每日追踪 DeeVid / TapNow / LibTV / Higgsfield / 小云雀AI / Runway / Pika / 可灵Kling / Luma / Vidu / 即梦AI / 海螺AI / Sora / PixVerse 的功能动态",
+    "subtitle": "产品视角 · 每日追踪 DeeVid / TapNow / LibTV / Higgsfield / 小云雀AI / Runway / Pika / 可灵Kling / Luma / Vidu / 即梦AI / 海螺AI / Sora / PixVerse / RunningHub / RHTV / OpenArt / Updream / OiiOii / Elser.AI / Pexo / Shotlab / LTX Studio / SkyReels / Storyboarder 的功能动态",
     "updated": "2026-09-24"
   },
   "competitors": [
@@ -94,9 +94,357 @@ window.COMPETITOR_DATA = {
       "name": "PixVerse",
       "url": "https://pixverse.ai/",
       "tagline": "全球 AI 视频生成平台：V6 电影级镜头控制、原生音频与多镜头引擎，从创作工具升级为专业视频制作平台，CLI 支持开发者与智能体工作流。"
+    },
+    {
+      "id": "runninghub",
+      "name": "RunningHub",
+      "url": "https://www.runninghub.cn/",
+      "tagline": "海马云旗下原生 AI 智能体驱动的内容创作平台：中国最大 ComfyUI 云平台升级为全能创作平台，无限画布 + 模型/工作流/应用 API，聚合 Seedance 2.5、MiniMax H3、Wan 3.0 等满血模型。"
+    },
+    {
+      "id": "openart",
+      "name": "OpenArt",
+      "url": "https://openart.ai/",
+      "tagline": "AI Creator Studio：集图像与视频生成、编辑于一体，内置 Smart Shot、Dub Video、Lip-Sync、VFX 等创作工具，聚合 Seedance 2.5、GPT Image 2.5、Flux 3 等模型。"
+    },
+    {
+      "id": "updream",
+      "name": "Updream",
+      "url": "https://www.updream.cn/",
+      "tagline": "AI 视频创作助手：画布式创作 + 官方技能体系，覆盖剧本策划、分镜设计、美术资产与 Seedance 2.5 提示词优化，Previs Studio 3D 预演工作流直连主流视频模型。"
+    },
+    {
+      "id": "oiioii",
+      "name": "OiiOii",
+      "url": "https://www.oiioii.tv/",
+      "tagline": "专业动画创作 Agent 平台（.ai / .tv 双域名）：艺术总监、编剧、角色设计师等 7 大智能体模拟专业团队全流程协作，智能画布 + 拉片复刻 + Skill 库，零基础做动画。"
+    },
+    {
+      "id": "rhtv",
+      "name": "RHTV",
+      "url": "https://www.runninghub.cn/",
+      "tagline": "RunningHub 原生 AI 智能体全能内容创作平台：无限画布内嵌原生智能体，自然语言驱动脚本、分镜到成片全流程，节点透明可控，全量接入 RunningHub 生态模型与节点。"
+    },
+    {
+      "id": "elser",
+      "name": "Elser.AI",
+      "url": "https://www.elser.ai/",
+      "tagline": "多模型 AI 视频生成平台：聚合 Seedance 2 Fast、Veo 3.1、Kling 等主流视频模型，支持 7 层提示词公式与多语言口型同步，面向快速迭代与量产内容管线。"
+    },
+    {
+      "id": "pexo",
+      "name": "Pexo",
+      "url": "https://pexo.ai/",
+      "tagline": "AI Video Agent：以对话方式把想法变成可发布视频，支持文本/图片/URL/音频/脚本多入口，智能路由 Midjourney/Flux 与 10+ 视频模型，自动完成配音、配乐与成片。"
+    },
+    {
+      "id": "shotlab",
+      "name": "Shotlab",
+      "url": "https://aigc.xinpianchang.com/",
+      "tagline": "新片场旗下 AI 创作平台：AI 视频/图片/音乐一站式创作，全面接入 Seedance 2.5（30 秒原生直出、50 全模态素材），面向短剧、电商与影视专业创作场景。"
+    },
+    {
+      "id": "ltxstudio",
+      "name": "LTX Studio",
+      "url": "https://ltx.studio/",
+      "tagline": "Lightricks 旗下电影级 AI 创作平台：LTX-2.5 基础模型 4K 原生长视频，Canvas 协作画布 + Flows 节点式工作流 + Video to Video 控制，面向专业影视制作。"
+    },
+    {
+      "id": "skyreels",
+      "name": "SkyReels",
+      "url": "https://www.skyreels.ai/",
+      "tagline": "昆仑万维 AI 视频平台：SkyReels-V4 音画一体双流架构 + 全模态强化学习，Artificial Analysis 带音频文生/图生视频榜单全球第一，支持数字人、多语言与 Omni Reference。"
+    },
+    {
+      "id": "storyboarder",
+      "name": "Storyboarder",
+      "url": "https://storyboarder.ai/",
+      "tagline": "AI 故事板生成器：从剧本到分镜、镜头列表、动画预览（Animatic）与 Pitch Deck 全流程自动生成，3D Camera Angle Control 精准控制机位。"
     }
   ],
   "updates": [
+    {
+      "competitor": "openart",
+      "date": "2026-09-24",
+      "title": "OpenArt 官网上新：Dub Video 多语言配音、Seedance 2.5 逐帧编辑、GPT Image 2.5 上线",
+      "details": [
+        "Dub Video：一键将视频配音成 10 种语言，保留口型同步",
+        "Seedance 2.5：30 秒视频原生直出 + 逐帧级编辑，细节更丰富",
+        "GPT Image 2.5 智能创建与编辑上线；Flux 3 视频限免至 10 月 31 日；OpenArt Ad Awards 广告创作奖 5 万美元奖金池"
+      ],
+      "type": "新功能",
+      "source": "https://openart.ai/",
+      "sourceName": "OpenArt 官网"
+    },
+    {
+      "competitor": "updream",
+      "date": "2026-09-24",
+      "title": "Updream 预演台 2.0 更新：一键生成 3D 场景建模，Seedance 2.0 Fast 限时 5 折",
+      "details": [
+        "预演台 2.0：无需会员一键生成 3D 场景建模，直连 Seedance 2.5 等模型渲染",
+        "Seedance 2.0 Fast 限时 5 折低至 0.07 元/秒；特约导演计划上线，提交作品得积分奖励",
+        "官方技能体系持续扩充：剧本策划、分镜光影设计、人物多视角生成、sd2.5 提示词优化等"
+      ],
+      "type": "产品升级",
+      "source": "https://www.updream.cn/",
+      "sourceName": "Updream 官网"
+    },
+    {
+      "competitor": "storyboarder",
+      "date": "2026-09-24",
+      "title": "Storyboarder Video 2.0 上线：新增 3D Camera Angle Control 机位控制",
+      "details": [
+        "Video 2.0 新功能：3D 摄像机角度工具，为任意镜头找到精确机位，无需重拍",
+        "完整流水线：上传剧本自动生成镜头列表、分镜、Animatic（带音频）与 Pitch Deck",
+        "角色/场景/道具跨镜头一致性锁定，一次输入产出全套交付物"
+      ],
+      "type": "新功能",
+      "source": "https://storyboarder.ai/",
+      "sourceName": "Storyboarder 官网"
+    },
+    {
+      "competitor": "elser",
+      "date": "2026-09-24",
+      "title": "Elser.AI 上线 Veo 3.1：原生音画同步 + 角色一致性 + 多场景合成",
+      "details": [
+        "Veo 3.1 登录 Elser AI：一次推理生成画面与同步音频，角色身份跨场景保持一致",
+        "Seedance 2 Fast 影片生成模型：速度优化版，8+ 语言音素级口型同步",
+        "支持 7 层提示词公式（机位/主体/动作/环境/光影/风格/音频），3 张参考图锁定外观"
+      ],
+      "type": "模型更新",
+      "source": "https://www.elser.ai/",
+      "sourceName": "Elser.AI 官网"
+    },
+    {
+      "competitor": "rhtv",
+      "date": "2026-09-08",
+      "title": "RHTV 长内容创作能力升级：Blender 白模预演 + 逐秒抽帧修改 + SkillHub",
+      "details": [
+        "RHTV 无限画布可通过 Blender 插件接入白模预演，逐秒抽帧进行精准画面修改",
+        "SkillHub 汇集「5 分钟长视频导演」「科幻镜场」等专业 Skill，快速调用长内容制作能力",
+        "配合 RunningHub 全球 AIGC 长片创作大赛，作为长片工作台支撑 90 分钟级影视创作"
+      ],
+      "type": "新功能",
+      "source": "https://www.runninghub.cn/",
+      "sourceName": "RunningHub 官网"
+    },
+    {
+      "competitor": "runninghub",
+      "date": "2026-09-08",
+      "title": "RunningHub 启动全球 AIGC 长片创作大赛：联动华语科幻星云奖，奖励池 550 万元",
+      "details": [
+        "联动第十七届华语科幻星云奖、金瞳奖，设置科幻/微光/品牌三个片场，总奖励 550 万元",
+        "精选 10 部科幻文学作品开放限时免费改编授权，重点关注 90 分钟及以上电影与长剧",
+        "获奖作品联动产业资源提供内容孵化、制作支持、展映与发行对接全链路扶持"
+      ],
+      "type": "产品升级",
+      "source": "https://www.runninghub.cn/",
+      "sourceName": "RunningHub 官网"
+    },
+    {
+      "competitor": "pexo",
+      "date": "2026-09-06",
+      "title": "Pexo 2026 发布 AI Video Agent：静态图一键转带旁白视频 + 2D 动画引擎",
+      "details": [
+        "AI Video Agent：自然语言直接生成 2D 动画视频，无需骨骼绑定与关键帧技能，填补 Toon Boom 与入门工具间鸿沟",
+        "图转视频：智能路由 Midjourney/Flux 生成图像后无缝衔接 Sora 2、Kling 3.0、Veo 3.1 等 10+ 视频模型",
+        "自动添加旁白、配乐与音效，支持 16:9 / 9:16 / 1:1 输出，无需 API Key 与 Discord"
+      ],
+      "type": "新功能",
+      "source": "https://pexo.ai/",
+      "sourceName": "Pexo 官网"
+    },
+    {
+      "competitor": "ltxstudio",
+      "date": "2026-09-05",
+      "title": "LTX Studio 发布 LTX-2.5 基础模型：4K 原生长视频 + Physical AI 开发者计划",
+      "details": [
+        "LTX-2.5 大幅提升文本到视频生成质量与物理一致性，上下文窗口指数级增长，支持 4K 长视频",
+        "推出 LTXV 专用接口降低推理延迟，支持实时预览与交互式调整",
+        "发布 Physical AI 世界模拟与仿真开发者计划；模型架构开源（HuggingFace/GitHub）"
+      ],
+      "type": "模型更新",
+      "source": "https://ltx.studio/release-notes",
+      "sourceName": "LTX Studio Release Notes"
+    },
+    {
+      "competitor": "updream",
+      "date": "2026-08-19",
+      "title": "Updream 上线 Previs Studio：3D 预演工作流，Blockout 取代长提示词",
+      "details": [
+        "将影视行业预演工作流集成进创作画布：先搭建 3D Blockout 场景，设定机位与角色运动并录制预演视频",
+        "预演视频可直连 Seedance、Kling、Wan、Gemini Veo 等视频模型完成最终渲染",
+        "解决 AI 视频生成中 3D 空间与镜头运动的可控性难题，减少反复试错"
+      ],
+      "type": "新功能",
+      "source": "https://chinaainews.org/news/ai-video-creation-enters-previsualization-era-3d-blockout-beats-2000-word-prompts",
+      "sourceName": "China AI News"
+    },
+    {
+      "competitor": "runninghub",
+      "date": "2026-08-15",
+      "title": "RunningHub 接入 Seedance 2.5：30 秒直出 + 50 多模态参考 + 时间戳级控制",
+      "details": [
+        "30 秒原生视频直出并支持多次延长，人物动作与场景变化更连贯",
+        "最多 50 个多模态参考输入，新增白模与运动参考能力，支持时间戳级精准控制",
+        "同步适配工作流：rhTV 局部编辑（指定时间/画面区域局部重绘）、RHSTORY 镜头模式（标准分镜 15 秒 / 自适应分镜 30 秒）"
+      ],
+      "type": "模型更新",
+      "source": "https://www.xhby.net/content/s6a79532de4b027d1d0a36b89.html",
+      "sourceName": "新华报业网"
+    },
+    {
+      "competitor": "rhtv",
+      "date": "2026-08-15",
+      "title": "RHTV 新增局部编辑功能：指定区域局部重绘，逐帧精准修改",
+      "details": [
+        "rhTV 局部编辑：支持通过指定时间区域与画面区域对视频进行局部重绘与修改",
+        "在保留已有画面基础上仅对需要优化的位置精准调整，适配 Seedance 2.5 新特性"
+      ],
+      "type": "新功能",
+      "source": "https://baike.baidu.com/item/RHTV/67763946",
+      "sourceName": "百度百科 RHTV"
+    },
+    {
+      "competitor": "shotlab",
+      "date": "2026-08-13",
+      "title": "Shotlab AI 视频能力全面升级：Seedance 2.5 全量上线，限时 5.6 折",
+      "details": [
+        "Seedance 2.5 全量上线：30 秒单段原生直出、50 个全模态素材联合输入、可迭代编辑",
+        "支持更换背景、人物服装等本地化编辑，搭配 11 国语言语音能力",
+        "限时 5.6 折，720P 低至 0.38 元/秒"
+      ],
+      "type": "模型更新",
+      "source": "https://www.toutiao.com/article/7673490467229434368",
+      "sourceName": "新片场"
+    },
+    {
+      "competitor": "shotlab",
+      "date": "2026-08-07",
+      "title": "Shotlab 正式接入 Seedance 2.5：30 秒原生视频生成，720P 低至 0.38 元/秒",
+      "details": [
+        "单段最长 30 秒原生视频生成（较 2.0 的 15 秒翻倍），支持高质量延长",
+        "最多 50 个全模态素材联合输入，复杂多场景创作保持角色形象稳定",
+        "支持本地化编辑与局部替换，广告等高频迭代场景无需整条重制"
+      ],
+      "type": "模型更新",
+      "source": "https://www.sohu.com/a/1061146829_121655492",
+      "sourceName": "搜狐科技"
+    },
+    {
+      "competitor": "oiioii",
+      "date": "2026-06-10",
+      "title": "OiiOii 2.0 升级：智能画布 + 拉片复刻 + Skill 库，接入 Seedance 2.0",
+      "details": [
+        "智能画布：对画布说话即可创作，自动调度角色总监、分镜总监等 7 个 Agent，无需写提示词",
+        "拉片复刻：从最多 18 个专业维度拆解参考视频，支持替换原片角色与场景",
+        "Skill 库覆盖自媒体创作、广告营销、游戏素材、周边设计等垂类场景；接入满血版 Seedance 2.0"
+      ],
+      "type": "产品升级",
+      "source": "https://caijing.chinadaily.com.cn/a/202606/10/WS6a28de26a310942cc49b0f3d.html",
+      "sourceName": "中国日报网财经"
+    },
+    {
+      "competitor": "oiioii",
+      "date": "2026-06-01",
+      "title": "OiiOii v5.0 多 Agent 流水线正式版：Sora 2 与 Veo 3.1 渲染后端上线",
+      "details": [
+        "7 个 Agent 流水线（艺术总监、编剧、角色设计师、场景师、动画师、剪辑师、音效师）正式可用",
+        "新增 Sora 2 与 Veo 3.1 作为渲染后端",
+        "新增英文、简体中文、日文、繁体中文原生 UI"
+      ],
+      "type": "产品升级",
+      "source": "https://www.oiioii.ai/zh-Hant/changelog",
+      "sourceName": "OiiOii Changelog"
+    },
+    {
+      "competitor": "runninghub",
+      "date": "2026-05-07",
+      "title": "RunningHub 发布 RHTV：原生 AI 智能体全能内容创作平台",
+      "details": [
+        "将 AI 智能体直接嵌入无限画布，全量接入 RunningHub 生态的海量模型与节点资源",
+        "内置品牌设计、TVC 广告短片、AI 漫剧、营销宣传册等行业级专业 Skills",
+        "用户仅用自然语言下达需求，智能体自动调度全域模型、工作流与专业工具"
+      ],
+      "type": "新功能",
+      "source": "https://news.sina.com.cn/sx/2026-05-22/detail-inhytyys6175044.shtml",
+      "sourceName": "新浪网"
+    },
+    {
+      "competitor": "rhtv",
+      "date": "2026-04-19",
+      "title": "RHTV 更新：智能体输入框与应用市场接入，支持「视频反推生视频」",
+      "details": [
+        "新增智能体输入框与应用市场接入功能",
+        "智能体核心逻辑为「视频反推生视频」：上传参考视频，系统解析分镜结构并生成新内容",
+        "从视频解析、脚本生成到视频渲染的自动化流水线打通"
+      ],
+      "type": "产品升级",
+      "source": "https://baike.baidu.com/item/RHTV/67763946",
+      "sourceName": "百度百科 RHTV"
+    },
+    {
+      "competitor": "shotlab",
+      "date": "2026-04-02",
+      "title": "Shotlab 上线 Seedance 2.0 / 2.0 Fast：四模态混合输入 + 连贯叙事",
+      "details": [
+        "支持文字、图片、音频、视频四模态混合输入，单次最多 9 图 + 3 视频 + 1 音频参考",
+        "单指令多场景连贯生成，双声道立体声输出，BGM/音效/台词多轨并行",
+        "Seedance 2.0 Fast 极速版：30-60 秒产出 5-10 秒成片，积分消耗更少"
+      ],
+      "type": "模型更新",
+      "source": "https://www.toutiao.com/article/7625975964350022186",
+      "sourceName": "新片场"
+    },
+    {
+      "competitor": "oiioii",
+      "date": "2026-04-01",
+      "title": "OiiOii v4.5 角色一致性引擎：跨数百镜头零漂移",
+      "details": [
+        "角色设计师 Agent 可跨数百镜头持久化身份，实现零漂移",
+        "新增「参考图生成角色」模式"
+      ],
+      "type": "新功能",
+      "source": "https://www.oiioii.ai/zh-Hant/changelog",
+      "sourceName": "OiiOii Changelog"
+    },
+    {
+      "competitor": "runninghub",
+      "date": "2026-02-27",
+      "title": "RunningHub 推出「无限画布」Beta：可视化 AI 工作流编排平台",
+      "details": [
+        "可视化的 AI 工作流编排平台，支持节点式画布创作",
+        "后续演进为 rhTV 无限画布与原生 AI 智能体产品矩阵"
+      ],
+      "type": "新功能",
+      "source": "https://baike.baidu.com/item/RunningHub/67615455",
+      "sourceName": "百度百科 RunningHub"
+    },
+    {
+      "competitor": "skyreels",
+      "date": "2026-02-01",
+      "title": "SkyReels-V4 发布：音画一体双流架构，带音频榜单全球第一",
+      "details": [
+        "发布时在 Artificial Analysis Text-to-Video（With Audio）与 Image to Video（With Audio）榜单均位列全球第一，超越 Kling 3.0、Veo 3.1、Sora 2",
+        "双流架构支持音画同出，全模态强化学习注入逻辑推理能力",
+        "新增多帧参考、网格图参考等高阶能力，全面提升一致性与稳定性；全面开放 API"
+      ],
+      "type": "模型更新",
+      "source": "https://www.cnfin.com/announ/detail/index.html?announ=lc&dannoun=lcdetail&id=830309989140",
+      "sourceName": "昆仑万维 2025 年报摘要"
+    },
+    {
+      "competitor": "skyreels",
+      "date": "2026-01-01",
+      "title": "SkyReels-V3 正式开源：全球开源视频生成社区重要基础模型",
+      "details": [
+        "SkyReels-V3 于 2025 年 11 月发布，在参考图生视频、视频延长、音频驱动虚拟形象三大能力登顶行业 SOTA",
+        "2026 年 1 月正式开源，成为全球开源视频生成社区重要基础模型之一"
+      ],
+      "type": "模型更新",
+      "source": "https://www.cnfin.com/announ/detail/index.html?announ=lc&dannoun=lcdetail&id=830309989140",
+      "sourceName": "昆仑万维 2025 年报摘要"
+    },
     {
       "competitor": "tapnow",
       "date": "2026-09-24",
