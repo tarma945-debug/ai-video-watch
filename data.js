@@ -8,7 +8,7 @@ window.COMPETITOR_DATA = {
   "site": {
     "title": "AI 视频竞品每日功能监控",
     "subtitle": "产品视角 · 每日追踪 DeeVid / TapNow / LibTV / Higgsfield / 小云雀AI / Runway / Pika / 可灵Kling / Luma / Vidu / 即梦AI / 海螺AI / Sora / PixVerse / RunningHub / RHTV / OpenArt / Updream / OiiOii / Elser.AI / Pexo / Shotlab / LTX Studio / SkyReels / Storyboarder 的功能动态",
-    "updated": "2026-09-24"
+    "updated": "2026-09-25"
   },
   "competitors": [
     {
@@ -163,6 +163,85 @@ window.COMPETITOR_DATA = {
     }
   ],
   "updates": [
+    {
+      "competitor": "higgsfield",
+      "date": "2026-09-24",
+      "title": "Higgsfield 年化收入突破 10 亿美元：推出 2000 万美元 API 现金返还计划",
+      "details": [
+        "18 个月达成年化收入 $1B（较 2025 年 9 月增长 20 倍），订阅收入占比超 60%，全球用户超 3000 万",
+        "企业采用 6 月以来增长 10 倍，服务 Fortune 500 组织",
+        "API 现金返还：9 月 30 日前新客户享 100% 费用返还，覆盖 Seedance 2.5 / Kling 3.0 / MiniMax H3 等模型，总池 $20M"
+      ],
+      "type": "产品升级",
+      "source": "https://www.bottlerocketcontent.com/higgsfield-1-billion-run-rate-cashback",
+      "sourceName": "Bottle Rocket Content"
+    },
+    {
+      "competitor": "runway",
+      "date": "2026-09-23",
+      "title": "DaVinci Resolve Plugin 上线：剪辑软件内直接调用 Runway",
+      "details": [
+        "Runway 直接内嵌 DaVinci Resolve，无需切换标签页即可在现有剪辑中使用 Runway 工具",
+        "面向付费计划用户开放，生成与编辑工作流无缝衔接"
+      ],
+      "type": "新功能",
+      "source": "https://runway.com/changelog",
+      "sourceName": "Runway Changelog"
+    },
+    {
+      "competitor": "runway",
+      "date": "2026-09-23",
+      "title": "Runway MCP 上线 Cursor Marketplace",
+      "details": [
+        "Runway MCP 现可在 Cursor 应用市场安装，将 Runway 生成能力直接接入 Cursor 工作流",
+        "所有计划用户可用"
+      ],
+      "type": "产品升级",
+      "source": "https://runway.com/changelog",
+      "sourceName": "Runway Changelog"
+    },
+    {
+      "competitor": "pixverse",
+      "date": "2026-09-22",
+      "title": "PixVerse CLI 1.4.5 / 1.4.6：Canvas 布局自动整理与后端校验优化",
+      "details": [
+        "1.4.5：新增 canvas arrange 自动整理并保存整个 Canvas 项目的节点布局（纯 JSON 输出）；15 个项目级 Canvas 操作支持位置型 project ID 并保留 --project-id 兼容",
+        "1.4.6：移除本地 music 提示词/歌词长度限制与 voice 文本长度限制，改由后端统一校验并透传错误",
+        "CLI 与官网同模型同参数（V6 / C1 / Seedance 2.5 / MiniMax H3 等），面向 AI Agent 与开发者自动化工作流"
+      ],
+      "type": "产品升级",
+      "source": "https://yarnpkg.com/en/package/pixverse",
+      "sourceName": "PixVerse CLI Changelog"
+    },
+    {
+      "competitor": "hailuo",
+      "date": "2026-09-14",
+      "title": "H3 开源生态更新：FastH3 / Sol-H3 / VDN / PDD / LightX2V",
+      "details": [
+        "FastH3（FastVideo、Nuva Lab、NVIDIA）：4 步蒸馏，支持 DGX Spark 与 Apple Silicon 本地运行",
+        "Sol-H3（NVIDIA SANA 团队）：768p 视频+音频 15 秒，8×B300 上约 6.6 秒生成",
+        "VDN（OpenVDN）：注意力重设计加速推理，权重与训练/推理代码开源；PDD（Alibaba PAI）8 步 LoRA 蒸馏并支持 ComfyUI",
+        "LightX2V：4/8 步 Turbo LoRAs，覆盖文/图/参考条件视频+音频工作流"
+      ],
+      "type": "模型更新",
+      "source": "https://www.vibeleaderboard.ai/intel/b240d3ef-6c01-4960-9fe2-354368bbac25",
+      "sourceName": "VibeLeaderboard"
+    },
+    {
+      "competitor": "kling",
+      "date": "2026-09-11",
+      "title": "Kling AI 3.0 平台发布：AI Director 范式，原生 4K 60fps 多镜头序列生成",
+      "details": [
+        "原生 4K（3840×2160）60fps、16-bit HDR，无上采样，单次最长 15 秒",
+        "Multi-Shot AI Director：单次生成最多 6 个连接镜头，角色与环境跨镜头一致",
+        "Elements 角色锁定：最多 4 张参考图锁定视觉身份，支持 3+ 多角色同框；Motion Control AI 提供 Curve Dolly 相机路径、多主体独立轨迹、相机抖动与运动笔刷",
+        "5 语言口型同步（英/中/日/韩/西，含美式/英式/印度口音），支持多语混说与最多 3 说话人",
+        "统一多模态视觉语言（MVL）架构，文生视频/图生视频/首尾帧插值；V3 电影真实感与 O3 Omni（48kHz 音频引擎、35% 更快推理）双变体"
+      ],
+      "type": "模型更新",
+      "source": "https://usatoday.com/press-release/story/43054/kling-ai-launches-kling-3-0-kuaishous-ai-director-platform-delivers-native-4k-60fps-video-with-multi-shot-storyboarding-motion-control-and-5-language-lip-sync",
+      "sourceName": "USA Today 新闻稿"
+    },
     {
       "competitor": "openart",
       "date": "2026-09-24",
