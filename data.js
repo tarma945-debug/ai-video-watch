@@ -8,7 +8,7 @@ window.COMPETITOR_DATA = {
   "site": {
     "title": "AI 视频竞品每日功能监控",
     "subtitle": "产品视角 · 每日追踪 DeeVid / TapNow / LibTV / Higgsfield / 小云雀AI / Runway / Pika / 可灵Kling / Luma / Vidu / 即梦AI / 海螺AI / Sora / PixVerse / RunningHub / RHTV / OpenArt / Updream / OiiOii / Elser.AI / Pexo / Shotlab / LTX Studio / SkyReels / Storyboarder 的功能动态",
-    "updated": "2026-09-25"
+    "updated": "2026-09-26"
   },
   "competitors": [
     {
@@ -163,6 +163,46 @@ window.COMPETITOR_DATA = {
     }
   ],
   "updates": [
+    {
+      "competitor": "kling",
+      "date": "2026-09-26",
+      "title": "可灵 Kling 上线团队工作区（Team Features）与桌面版 App",
+      "details": [
+        "全新团队工作区：无缝创意接力，个人工作区积分可一键转移至团队工作区，无需文件下载传输",
+        "团队资产库三层结构（我的/共享/成员资产），创作资产与元素资产一键导入共享；角色权限管理（Owner/Admin/Collaborator，查看/编辑/删除分级）",
+        "全新桌面版 App（Win/Mac）发布：一键启动、突破浏览器内存限制，团队数据与创意资产云端同步",
+        "跨空间资产管理升级：积分、创作资产、元素资产从个人工作区一键迁移，助力团队复用好内容"
+      ],
+      "type": "产品升级",
+      "source": "https://app.klingai.com/global/release-notes/v3c5osl0fp",
+      "sourceName": "可灵AI 官方 Release Notes"
+    },
+    {
+      "competitor": "kling",
+      "date": "2026-09-25",
+      "title": "Kling 4.0 泄露传闻：30 秒单次生成与实验性 2 分钟模式（未获官方确认）",
+      "details": [
+        "Discord 开发者模式泄露（Kol Tregaskes 9/24 披露）：Kling 4.0 Preview / 4.0 Flash / Image 4.0 正在准备中，快手官方未确认，属传闻",
+        "泄露规格：单次生成最长 30 秒（现为 15 秒）、60 秒延长模式、实验性 120 秒长视频模式（1080p）；Omni Reference 预算提升至 15 个元素、支持最多 3 个语音参考",
+        "Kling Image 4.0 传闻支持 1-9 张图像批量生成（最高 4K，或 8K）；Preview/Flash 命名暗示质量与速度双变体路线延续 3.0 代产品语言"
+      ],
+      "type": "模型更新",
+      "source": "https://www.frontiernews.ai/news/article/kling-40-leak-hints-at-30-second-videos-and-experi-2355c08b",
+      "sourceName": "FrontierNews"
+    },
+    {
+      "competitor": "higgsfield",
+      "date": "2026-09-23",
+      "title": "Higgsfield for Blender 插件发布：3D 视口内直接生成可编辑场景、网格与骨骼",
+      "details": [
+        "面向 Blender 5.1+ 的官方插件（Win/macOS），以浮动工具栏覆盖 3D 视口，内置 Scene Builder、3D Model、Character Animation、Image、Video、Camera、Asset 七大功能区",
+        "生成结果返回 Blender 原生可编辑数据：Scene Builder 搭建对象/布局/灯光，3D Model 将带材质网格放入 3D Cursor，Character Animation 返回带权重骨骼与时间线关键帧的角色",
+        "支持 MCP 桥接：AI Agent 可通过文档化端点直接访问与修改打开的工程；生成在 Higgsfield 云端执行，需账户、网络与积分"
+      ],
+      "type": "新功能",
+      "source": "https://www.streamingmeme.com/articles/higgsfield-for-blender-launches-cloud-ai-tools-for-editable-3d-assets",
+      "sourceName": "Streaming Meme"
+    },
     {
       "competitor": "higgsfield",
       "date": "2026-09-24",
