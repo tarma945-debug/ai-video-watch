@@ -8,7 +8,7 @@ window.COMPETITOR_DATA = {
   "site": {
     "title": "AI 视频竞品每日功能监控",
     "subtitle": "产品视角 · 每日追踪 DeeVid / TapNow / LibTV / Higgsfield / 小云雀AI / Runway / Pika / 可灵Kling / Luma / Vidu / 即梦AI / 海螺AI / Sora / PixVerse / RunningHub / RHTV / OpenArt / Updream / OiiOii / Elser.AI / Pexo / Shotlab / LTX Studio / SkyReels / Storyboarder 的功能动态",
-    "updated": "2026-09-26"
+    "updated": "2026-09-29"
   },
   "competitors": [
     {
@@ -163,6 +163,23 @@ window.COMPETITOR_DATA = {
     }
   ],
   "updates": [
+    {
+      "competitor": "kling",
+      "date": "2026-09-28",
+      "title": "Kling 4.0 开启内测：单次 30 秒、10 关键帧、4K/1080p 10-bit HDR，10 月正式上线",
+      "details": [
+        "9 月 28 日晚官方宣布全新模型 Kling 4.0 开启内测，将于 10 月正式上线；核心升级方向为「真实、可控、专业」",
+        "大幅动态与复杂运镜更稳定流畅；单次原生生成最长 30 秒，长镜头与连续叙事能力进一步提升；最多支持 10 张关键帧输入",
+        "支持 4K、1080p 的 10-bit HDR 高规格输出（逆光不爆、夜景不糊、霓虹不晕），新增 21:9 超宽画幅",
+        "全能参考大幅升级：单次最多 15 项多模态参考（10 张图片 + 5 段视频 + 7 个主体）同任务组合；提示词上限提升至 8000 tokens",
+        "音频升级：高品质双通道立体声、角色口型匹配精度提升，支持多语种及多种方言口音，支持生成多语种文字/Emoji/Logo",
+        "视频多次续拍最长可延展至 2 分钟（即将上线）；创作页面升级：图片/视频/音频参考同一输入框自由组合，宫格/列表布局，配备画布 Agent",
+        "轻量版 Kling 4.0 Flash 面向高频创作场景，已于 9 月 28 日率先向黑金年卡会员开放抢先体验"
+      ],
+      "type": "模型更新",
+      "source": "https://www.cnstock.com/commonDetail/796647",
+      "sourceName": "中国证券网（上证报）"
+    },
     {
       "competitor": "kling",
       "date": "2026-09-26",
