@@ -8,7 +8,7 @@ window.COMPETITOR_DATA = {
   "site": {
     "title": "AI 视频竞品每日功能监控",
     "subtitle": "产品视角 · 每日追踪 DeeVid / TapNow / LibTV / Higgsfield / 小云雀AI / Runway / Pika / 可灵Kling / Luma / Vidu / 即梦AI / 海螺AI / Sora / PixVerse / RunningHub / RHTV / OpenArt / Updream / OiiOii / Elser.AI / Pexo / Shotlab / LTX Studio / SkyReels / Storyboarder 的功能动态",
-    "updated": "2026-09-29"
+    "updated": "2026-09-30"
   },
   "competitors": [
     {
@@ -163,6 +163,82 @@ window.COMPETITOR_DATA = {
     }
   ],
   "updates": [
+    {
+      "competitor": "higgsfield",
+      "date": "2026-09-29",
+      "title": "Higgsfield 上线积分重置福利：订阅用户最高可获 2,000 免费积分",
+      "details": [
+        "订阅用户积分将自动补足至套餐月度全额，最高 2,000 免费积分；活动截止 2026-09-30 23:59 UTC",
+        "面向订阅套餐的积分/结算政策优化，降低高频创作成本"
+      ],
+      "type": "产品升级",
+      "source": "https://higgsfield.ai/creator-hub/changelog",
+      "sourceName": "Higgsfield 官方 Changelog"
+    },
+    {
+      "competitor": "hailuo",
+      "date": "2026-09-29",
+      "title": "MiniMax 宣布 M Plan 即将上线：精选档位解锁含 H3 在内的全模型阵容",
+      "details": [
+        "M Plan 在 Token Plan 基础上扩展订阅体系：价格与文本用量额度不变，精选档位可访问 MiniMax 全模型阵容（含视频模型 H3）",
+        "Token Plan 不再开放新购；已订阅且开启自动续费的用户权益不变，可随时升级至 M Plan",
+        "随 MiniMax Code v3.1.0 发布，Code 界面改版，并上线 M3.1-Flash-Preview 模型"
+      ],
+      "type": "产品升级",
+      "source": "https://platform.minimax.io/docs/token-plan/announcements",
+      "sourceName": "MiniMax 平台官方公告"
+    },
+    {
+      "competitor": "jimeng",
+      "date": "2026-09-28",
+      "title": "抖音创作者大会：剪映全面 AI 化，Hub 画布直接调用即梦引擎，AI Ultra 订阅打通创作全流程",
+      "details": [
+        "剪映新推一站式 AI 创作入口「Hub」：单画布整合想法、脚本、绘图与提示词，直接调用即梦/小云雀引擎生成图片、视频、音频素材，资产无需中转一键进入剪辑轨道",
+        "即梦生图、生视频功能深度绑定剪映专业版：绑定账号后视频资产同步，无需跳转网页端即可操作",
+        "手机端 AI 助手「小映」上线：生活素材一键剪成流行短片、上传商品图一键生成多平台带货视频；PC 端「剪映助手」升级：对话式粗剪、语音指令调整细节、内置剪辑技能",
+        "订阅方案 AI Ultra（99 元/月，22200 积分）打包字节系 AI 视频流程，各端通用"
+      ],
+      "type": "产品升级",
+      "source": "https://news.qq.com/rain/a/20260928A0BV5C00",
+      "sourceName": "腾讯新闻·AI新榜"
+    },
+    {
+      "competitor": "xyq",
+      "date": "2026-09-28",
+      "title": "小云雀AI 深度集成剪映：剪映专业版新增小云雀入口，账号绑定实现资产同步",
+      "details": [
+        "剪映专业版 PC 端增加小云雀与即梦集成选项：绑定账号后视频资产同步，可直接在剪映内操作小云雀，无需打开网页端",
+        "订阅方案 AI Ultra（99 元/月，22200 积分）将小云雀、即梦、剪映打包销售，各端通用，降低多平台分别订阅成本"
+      ],
+      "type": "产品升级",
+      "source": "https://news.qq.com/rain/a/20260928A0BV5C00",
+      "sourceName": "腾讯新闻·AI新榜"
+    },
+    {
+      "competitor": "higgsfield",
+      "date": "2026-09-27",
+      "title": "Higgsfield Supercomputer 上线 Claude Sonnet 5.5",
+      "details": [
+        "Supercomputer（Higgsfield 的 Agent 与自动化创作平台）接入 Anthropic Claude Sonnet 5.5 模型",
+        "输出速度较 Sonnet 5 提升 30% 以上，agentic 编码能力更强，可支撑更长任务与更复杂工作流"
+      ],
+      "type": "模型更新",
+      "source": "https://higgsfield.ai/creator-hub/changelog",
+      "sourceName": "Higgsfield 官方 Changelog"
+    },
+    {
+      "competitor": "deevid",
+      "date": "2026-09-23",
+      "title": "DeeVid App 2.6.3 发布：新增音乐创作功能、模板搜索与分享优化",
+      "details": [
+        "新增音乐创作能力，可一键生成无版权背景音乐素材",
+        "新增模板搜索功能，一键套用热门创作模板",
+        "分享流程与体验优化，并修复若干已知问题"
+      ],
+      "type": "新功能",
+      "source": "https://4phone.app/deevidai-video-generator/ai.deevid.aivideogenerator",
+      "sourceName": "4phone 应用商店版本记录"
+    },
     {
       "competitor": "kling",
       "date": "2026-09-28",
