@@ -8,7 +8,7 @@ window.COMPETITOR_DATA = {
   "site": {
     "title": "AI 视频竞品每日功能监控",
     "subtitle": "产品视角 · 每日追踪 DeeVid / TapNow / LibTV / Higgsfield / 小云雀AI / Runway / Pika / 可灵Kling / Luma / Vidu / 即梦AI / 海螺AI / Sora / PixVerse / RunningHub / RHTV / OpenArt / Updream / OiiOii / Elser.AI / Pexo / Shotlab / LTX Studio / SkyReels / Storyboarder 的功能动态",
-    "updated": "2026-09-30"
+    "updated": "2026-10-02"
   },
   "competitors": [
     {
@@ -163,6 +163,20 @@ window.COMPETITOR_DATA = {
     }
   ],
   "updates": [
+    {
+      "competitor": "higgsfield",
+      "date": "2026-10-01",
+      "title": "Higgsfield 上线 FLUX 3 Image 图像模型：全新多模态文生图/图生图能力",
+      "details": [
+        "接入 Black Forest Labs 全新多模态 FLUX 3 家族图像模型，支持文生图与图生图",
+        "更精准遵循复杂提示词，多语言文字渲染更准确，图像编辑更精确",
+        "支持 photo/illustration/poster/collage/editorial 等风格，分辨率 768p–4K（2K/4K 原生渲染）",
+        "入口：Image → 模型选择器 → FLUX 3 Image"
+      ],
+      "type": "模型更新",
+      "source": "https://higgsfield.ai/creator-hub/changelog",
+      "sourceName": "Higgsfield 官方 Changelog"
+    },
     {
       "competitor": "higgsfield",
       "date": "2026-09-29",
