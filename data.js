@@ -8,7 +8,7 @@ window.COMPETITOR_DATA = {
   "site": {
     "title": "AI 视频竞品每日功能监控",
     "subtitle": "产品视角 · 每日追踪 DeeVid / TapNow / LibTV / Higgsfield / 小云雀AI / Runway / Pika / 可灵Kling / Luma / Vidu / 即梦AI / 海螺AI / Sora / PixVerse / RunningHub / RHTV / OpenArt / Updream / OiiOii / Elser.AI / Pexo / Shotlab / LTX Studio / SkyReels / Storyboarder 的功能动态",
-    "updated": "2026-10-02"
+    "updated": "2026-10-03"
   },
   "competitors": [
     {
@@ -162,7 +162,44 @@ window.COMPETITOR_DATA = {
       "tagline": "AI 故事板生成器：从剧本到分镜、镜头列表、动画预览（Animatic）与 Pitch Deck 全流程自动生成，3D Camera Angle Control 精准控制机位。"
     }
   ],
-  "updates": [
+    "updates": [
+    {
+      "competitor": "runway",
+      "date": "2026-10-02",
+      "title": "Runway Agent 新增 Seedance 2.5 草稿模式（Draft Mode）：480P 快速草稿 + 生成后增强",
+      "details": [
+        "Agent 现可使用 Seedance 2.5 Draft mode 生成，快速产出 480P 草稿并支持生成后增强",
+        "以更低成本更快迭代与修正生成结果，Draft 模式自动推荐并可一键开关",
+        "所有计划可用（All Plans）"
+      ],
+      "type": "新功能",
+      "source": "https://runway.com/changelog",
+      "sourceName": "Runway Changelog"
+    },
+    {
+      "competitor": "runway",
+      "date": "2026-10-02",
+      "title": "Runway MCP 接入 Ideogram 4.5 图像模型",
+      "details": [
+        "Ideogram 4.5 现已在 Runway MCP 中支持，可将图像生成能力直接引入 MCP 工作流",
+        "面向付费计划用户开放（Paid Plans）"
+      ],
+      "type": "模型更新",
+      "source": "https://runway.com/changelog",
+      "sourceName": "Runway Changelog"
+    },
+    {
+      "competitor": "runway",
+      "date": "2026-10-01",
+      "title": "Runway 上线 OpenAI Dots：睡前简报分镜，Runway 自动拍摄成片",
+      "details": [
+        "Runway 现可在 OpenAI Dots 中使用，所有计划可用（All Plans）",
+        "在 Dots 中描述镜头规划后，Runway 负责生成画面，成片次日就绪"
+      ],
+      "type": "新功能",
+      "source": "https://runway.com/changelog",
+      "sourceName": "Runway Changelog"
+    },
     {
       "competitor": "higgsfield",
       "date": "2026-10-01",
