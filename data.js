@@ -8,7 +8,7 @@ window.COMPETITOR_DATA = {
   "site": {
     "title": "AI 视频竞品每日功能监控",
     "subtitle": "产品视角 · 每日追踪 DeeVid / TapNow / LibTV / Higgsfield / 小云雀AI / Runway / Pika / 可灵Kling / Luma / Vidu / 即梦AI / 海螺AI / Sora / PixVerse / RunningHub / RHTV / OpenArt / Updream / OiiOii / Elser.AI / Pexo / Shotlab / LTX Studio / SkyReels / Storyboarder 的功能动态",
-    "updated": "2026-10-03"
+    "updated": "2026-10-04"
   },
   "competitors": [
     {
@@ -164,6 +164,18 @@ window.COMPETITOR_DATA = {
   ],
     "updates": [
     {
+      "competitor": "xyq",
+      "date": "2026-10-03",
+      "title": "小云雀AI App 1.3.8 更新：创作体验优化升级",
+      "details": [
+        "App 发布 1.3.8 版本，创作过程体验优化升级，使用更省心",
+        "延续短剧创作方向，继续打磨剧本、分镜到成片的创作链路"
+      ],
+      "type": "产品升级",
+      "source": "https://apps.apple.com/cn/app/id6746231056",
+      "sourceName": "App Store 小云雀页面"
+    },
+    {
       "competitor": "runway",
       "date": "2026-10-02",
       "title": "Runway Agent 新增 Seedance 2.5 草稿模式（Draft Mode）：480P 快速草稿 + 生成后增强",
@@ -199,6 +211,58 @@ window.COMPETITOR_DATA = {
       "type": "新功能",
       "source": "https://runway.com/changelog",
       "sourceName": "Runway Changelog"
+    },
+    {
+      "competitor": "sora",
+      "date": "2026-10-01",
+      "title": "OpenAI 发布 Sora 2 模型：物理真实感大幅提升，原生音画同步",
+      "details": [
+        "新一代视频+音频生成模型，物理模拟显著增强：物体不再瞬移变形，如篮球弹框、跳水、体操等遵循真实物理规律",
+        "支持同步对话与音效，画面与声音原生联动生成",
+        "ChatGPT Pro 订阅用户可体验 Sora 2 Pro 模型"
+      ],
+      "type": "模型更新",
+      "source": "https://openai.com/index/sora-2/",
+      "sourceName": "OpenAI 官网"
+    },
+    {
+      "competitor": "sora",
+      "date": "2026-10-01",
+      "title": "OpenAI 上线 Sora 社交短视频应用：Cameos 形象植入 + 信息流分享",
+      "details": [
+        "Sora 应用内置 Cameos 功能：上传形象素材完成身份验证后，可将自己植入任意 Sora 生成场景，支持好友授权与多人同框",
+        "应用内提供类似 Instagram Reels 的信息流，可分享生成的视频",
+        "iOS 平台首发，初期仅美国与加拿大上线，需邀请码注册；含家长控制等安全保护",
+        "上线初期免费开放，未来或在高需求时段收费"
+      ],
+      "type": "新功能",
+      "source": "https://openai.com/index/sora-2/",
+      "sourceName": "OpenAI 官网"
+    },
+    {
+      "competitor": "pika",
+      "date": "2026-10-01",
+      "title": "Pika 上线 40+ 创意 Apps：按任务细分的一站式创作工具集",
+      "details": [
+        "围绕具体创作任务推出 40+ 独立 Apps，覆盖视频生成、调色、视频延长、配乐、图像编辑、角色、产品图、配音等场景",
+        "代表 Apps：Video Studio（30 秒多镜头成片）、Color Grade（调色）、Extend Video（延长视频）、Pika Soundtrack（配乐）、Character Studio（角色一致性）、Image Studio、Product Shot、Speech Studio（口播配音）",
+        "每个 App 即开即用的自包含工具，底层聚合 Seedance 2.5 / Pika 2.5 / GPT Image 2.5 / MiniMax H3 等模型"
+      ],
+      "type": "新功能",
+      "source": "https://pika.art/",
+      "sourceName": "Pika 官网"
+    },
+    {
+      "competitor": "pixverse",
+      "date": "2026-10-01",
+      "title": "PixVerse App 3.21.11 发布：AI 视频创作体验迭代",
+      "details": [
+        "App 更新至 3.21.11 版本，持续优化 AI 视频生成与编辑体验",
+        "由 PixVerse V6 驱动，支持文生视频、图生视频、特效模板、动态控制、4K 放大与无限视频扩充等能力"
+      ],
+      "type": "产品升级",
+      "source": "https://apkcombo.com/tw/pixverse-ai-video-generator/com.pixverseai.pixverse/",
+      "sourceName": "PixVerse App 版本记录"
     },
     {
       "competitor": "higgsfield",
