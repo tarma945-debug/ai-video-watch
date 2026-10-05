@@ -8,7 +8,7 @@ window.COMPETITOR_DATA = {
   "site": {
     "title": "AI 视频竞品每日功能监控",
     "subtitle": "产品视角 · 每日追踪 DeeVid / TapNow / LibTV / Higgsfield / 小云雀AI / Runway / Pika / 可灵Kling / Luma / Vidu / 即梦AI / 海螺AI / Sora / PixVerse / RunningHub / RHTV / OpenArt / Updream / OiiOii / Elser.AI / Pexo / Shotlab / LTX Studio / SkyReels / Storyboarder 的功能动态",
-    "updated": "2026-10-04"
+    "updated": "2026-10-05"
   },
   "competitors": [
     {
@@ -163,6 +163,19 @@ window.COMPETITOR_DATA = {
     }
   ],
     "updates": [
+    {
+      "competitor": "higgsfield",
+      "date": "2026-10-02",
+      "title": "Higgsfield 推出 AI Influencer：一键创建专属 AI 网红并接入任意热点趋势",
+      "details": [
+        "发布 AI Influencer 功能：创建专属 AI 网红形象并带入任意流行趋势/挑战中创作内容",
+        "由 Genjutsu 驱动，支持在 Higgsfield 平台与 ChatGPT 扩展中使用",
+        "新用户提供最多 5 次免费生成体验"
+      ],
+      "type": "新功能",
+      "source": "https://launcharchive.ai/companies/higgsfield-ai",
+      "sourceName": "Higgsfield 官方 X / Launch Archive"
+    },
     {
       "competitor": "xyq",
       "date": "2026-10-03",
