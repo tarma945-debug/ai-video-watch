@@ -164,6 +164,57 @@ window.COMPETITOR_DATA = {
   ],
     "updates": [
     {
+      "competitor": "pixverse",
+      "date": "2026-10-04",
+      "title": "PixVerse 上线广告变体插件 PixVerse Ad Variants：一段广告自动生成多平台变体",
+      "details": [
+        "推出「广告变体」插件：上传一条广告视频后，可自动生成适配不同市场/平台/受众的多个变体版本",
+        "支持替换人物、服装、产品、背景等元素，同时保持原片构图、镜头运动、节奏与灯光不变",
+        "可按目标市场（如美国、日本）、季节或受众需求批量产出广告素材，适合营销与电商团队规模化投放"
+      ],
+      "type": "新功能",
+      "source": "https://www.163.com/dy/article/L8E8BPR205561FZH.html",
+      "sourceName": "PixVerse 官方 X / 网易科技"
+    },
+    {
+      "competitor": "higgsfield",
+      "date": "2026-10-01",
+      "title": "Higgsfield 推出 Genjutsu Restyle：一键将任意视频重绘为 20+ 动画风格",
+      "details": [
+        "发布 Genjutsu Restyle 功能：保留原始动作与运镜，一键将视频重绘为 20+ 种动画风格，也可上传自定义参考风格",
+        "聚焦动作迁移与视频编辑，可通过平台使用，并同步开放 API 与 MCP 供应用集成",
+        "与 AI Influencer（Genjutsu 驱动）形成完整的视频风格化产品矩阵"
+      ],
+      "type": "新功能",
+      "source": "https://agihunt.info/en/p/1a0f475592d4749367885224926",
+      "sourceName": "Higgsfield 官网 / AGI Hunt"
+    },
+    {
+      "competitor": "hailuo",
+      "date": "2026-10-01",
+      "title": "MiniMax 推出 Hailuo Video Agent（Beta）：单输入一键生成成片，实时可见推理过程",
+      "details": [
+        "上线 Hailuo Video Agent 测试版：从单个输入（文本+图片）一键生成完整视频成片",
+        "Agent 在生成过程中实时展示逐步推理决策，而非直接返回黑盒结果",
+        "由 H3 与 2.3 模型驱动，标志着海螺从「生成单条片段」升级为「生产完整成片」"
+      ],
+      "type": "新功能",
+      "source": "https://lifestyle.all80sz1063.com/story/468953/hailuo-video-agent-review-one-click-video-creation-with-visible-ai-reasoning",
+      "sourceName": "MiniMax 官方发布 / Trivas Media 评测"
+    },
+    {
+      "competitor": "runway",
+      "date": "2026-09-29",
+      "title": "Runway 接入 ElevenLabs V4 音频模型：更具表现力的最新语音生成",
+      "details": [
+        "ElevenLabs V4 现已在 Runway 中支持，可使用最新、最具表现力的 ElevenLabs 模型生成音频",
+        "面向付费计划用户开放（Paid Plans）"
+      ],
+      "type": "模型更新",
+      "source": "https://runway.com/changelog",
+      "sourceName": "Runway Changelog"
+    },
+    {
       "competitor": "higgsfield",
       "date": "2026-10-02",
       "title": "Higgsfield 推出 AI Influencer：一键创建专属 AI 网红并接入任意热点趋势",
