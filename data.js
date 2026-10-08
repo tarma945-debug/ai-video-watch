@@ -8,7 +8,7 @@ window.COMPETITOR_DATA = {
   "site": {
     "title": "AI 视频竞品每日功能监控",
     "subtitle": "产品视角 · 每日追踪 DeeVid / TapNow / LibTV / Higgsfield / 小云雀AI / Runway / Pika / 可灵Kling / Luma / Vidu / 即梦AI / 海螺AI / Sora / PixVerse / RunningHub / RHTV / OpenArt / Updream / OiiOii / Elser.AI / Pexo / Shotlab / LTX Studio / SkyReels / Storyboarder 的功能动态",
-    "updated": "2026-10-07"
+    "updated": "2026-10-08"
   },
   "competitors": [
     {
@@ -163,6 +163,58 @@ window.COMPETITOR_DATA = {
     }
   ],
     "updates": [
+    {
+      "competitor": "vidu",
+      "date": "2026-10-07",
+      "title": "Vidu 发布 Q4 Preview：下一代旗舰音视频模型公开预览，创作成本降至 $0.014/秒",
+      "details": [
+        "生数科技正式发布 Q4 Preview，为其下一代旗舰表达型音视频模型的首个公开预览",
+        "在角色表演、运镜与视觉特效上显著提升：更细腻的面部表情、情绪、肢体动作与声音协调",
+        "支持最多 15 张图像参考、3 条音频参考，2K/4K 输出并支持 10-bit 色深",
+        "起售价 $0.014/秒，面向独立创作者、小型工作室与制作团队，降低旗舰级 AI 视频创作门槛"
+      ],
+      "type": "模型更新",
+      "source": "https://www.prnewswire.com/news-releases/vidu-launches-q4-preview-making-flagship-ai-video-creation-accessible-to-everyone-302901266.html",
+      "sourceName": "PR Newswire"
+    },
+    {
+      "competitor": "higgsfield",
+      "date": "2026-10-06",
+      "title": "Higgsfield Ad Multiplier：一条广告参考视频，批量复刻自有产品/演员/场景的广告变体",
+      "details": [
+        "Ads Studio 新增 Ad Multiplier 可视化界面：上传参考广告，自动保留原片结构并替换为你指定的产品、演员、地点、脚本、钩子或 CTA",
+        "可在提示词中用 @ 引用附件素材；支持反复尝试不同钩子与 CTA，无需重新上传参考",
+        "参考输入：1 条 4-30 秒视频 + 最多 20 张图片；输出 480p/720p/1080p"
+      ],
+      "type": "新功能",
+      "source": "https://higgsfield.ai/creator-hub/changelog",
+      "sourceName": "Higgsfield Changelog"
+    },
+    {
+      "competitor": "higgsfield",
+      "date": "2026-10-01",
+      "title": "Higgsfield 接入 Grok Imagine Video 1.5：xAI 新视频模型，声画同轨生成",
+      "details": [
+        "xAI 新视频模型 Grok Imagine Video 1.5 上线 Higgsfield：运动与声音在同一次生成中输出",
+        "支持图生视频、文生视频、参考生视频与视频续写模式（Video Extension 从最后一帧延续，保持角色/灯光/动作一致）",
+        "最多 7 张参考图保持角色或风格一致；输出 480p/720p/1080p、1-15 秒、24fps"
+      ],
+      "type": "模型更新",
+      "source": "https://higgsfield.ai/creator-hub/changelog",
+      "sourceName": "Higgsfield Changelog"
+    },
+    {
+      "competitor": "higgsfield",
+      "date": "2026-10-01",
+      "title": "Higgsfield 接入 FLUX 3 Image：多模态 FLUX 3 家族图像创建与编辑模型",
+      "details": [
+        "FLUX 3 Image 上线 Higgsfield，属于多模态 FLUX 3 模型家族，可用于图像创建与编辑",
+        "相比早期版本在图像质量与指令跟随上进一步升级，扩充 Higgsfield 图像生成模型矩阵"
+      ],
+      "type": "模型更新",
+      "source": "https://higgsfield.ai/creator-hub/changelog",
+      "sourceName": "Higgsfield Changelog"
+    },
     {
       "competitor": "pixverse",
       "date": "2026-10-04",
