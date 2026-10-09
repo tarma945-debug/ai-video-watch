@@ -8,7 +8,7 @@ window.COMPETITOR_DATA = {
   "site": {
     "title": "AI 视频竞品每日功能监控",
     "subtitle": "产品视角 · 每日追踪 DeeVid / TapNow / LibTV / Higgsfield / 小云雀AI / Runway / Pika / 可灵Kling / Luma / Vidu / 即梦AI / 海螺AI / Sora / PixVerse / RunningHub / RHTV / OpenArt / Updream / OiiOii / Elser.AI / Pexo / Shotlab / LTX Studio / SkyReels / Storyboarder 的功能动态",
-    "updated": "2026-10-08"
+    "updated": "2026-10-09"
   },
   "competitors": [
     {
@@ -163,6 +163,32 @@ window.COMPETITOR_DATA = {
     }
   ],
     "updates": [
+    {
+      "competitor": "luma",
+      "date": "2026-10-08",
+      "title": "Luma × Claude Motion 集成：Anthropic 动画工具一键接入 Luma，Ray/Uni 模型补全成片",
+      "details": [
+        "Luma 与 Anthropic 宣布合作：Claude Motion 生成的动画（文字、图表、形状与图片动态演示）可直接通过 MCP 连接在 Luma 中打开",
+        "创作者可在 Luma 中保持原有动态的同时重绘风格，并按 9:16、1:1、4:3、21:9 重构画面，或让 Luma Agent 生成更多版本",
+        "Claude Motion 现处于 Beta（Claude Team/Enterprise 计划），Luma 提供 Ray、Uni 视频生成模型将动画扩展为最终视频文件"
+      ],
+      "type": "产品升级",
+      "source": "https://lumalabs.ai/news/Luma-Claude-Motion-Launch-Partnership",
+      "sourceName": "Luma 官方 News"
+    },
+    {
+      "competitor": "pixverse",
+      "date": "2026-10-07",
+      "title": "PixVerse 插件：聊天框内直接出片，视频生成搬进对话（灰度测试中）",
+      "details": [
+        "推出 PixVerse 聊天插件：无需离开对话窗口即可生成视频，支持文字描述、图片或视频参考三种输入方式",
+        "生成前即可指定模型、时长、分辨率与画面比例，避免生成后反复调整参数",
+        "官方操作路径四步完成：选中插件 → 描述场景/添加素材 → 配置规格 → 开始生成；目前处于灰度测试阶段"
+      ],
+      "type": "新功能",
+      "source": "https://www.163.com/dy/article/L8M05SVA05561FZI.html",
+      "sourceName": "网易科技"
+    },
     {
       "competitor": "vidu",
       "date": "2026-10-07",
