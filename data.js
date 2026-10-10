@@ -8,7 +8,7 @@ window.COMPETITOR_DATA = {
   "site": {
     "title": "AI 视频竞品每日功能监控",
     "subtitle": "产品视角 · 每日追踪 DeeVid / TapNow / LibTV / Higgsfield / 小云雀AI / Runway / Pika / 可灵Kling / Luma / Vidu / 即梦AI / 海螺AI / Sora / PixVerse / RunningHub / RHTV / OpenArt / Updream / OiiOii / Elser.AI / Pexo / Shotlab / LTX Studio / SkyReels / Storyboarder 的功能动态",
-    "updated": "2026-10-09"
+    "updated": "2026-10-10"
   },
   "competitors": [
     {
@@ -163,6 +163,56 @@ window.COMPETITOR_DATA = {
     }
   ],
     "updates": [
+    {
+      "competitor": "deevid",
+      "date": "2026-10-08",
+      "title": "DeeVid App 2.6.4 发布：修复若干已知问题，优化稳定性",
+      "details": [
+        "App 更新至 2.6.4 版本（2026-10-08 上线）",
+        "本次更新以修复若干已知问题为主，提升稳定性与使用体验"
+      ],
+      "type": "修复",
+      "source": "https://deevidai-video-generator.apk.cafe/",
+      "sourceName": "APK Cafe 版本记录"
+    },
+    {
+      "competitor": "luma",
+      "date": "2026-10-08",
+      "title": "Luma Dream Machine 应用 v25：新增 Try-On & Swap 换装/换脸/换风格",
+      "details": [
+        "Luma Dream Machine Android 应用更新至 v25，上线 Try-On & Swap：上传本人照片 + 参考图（可选背景）即可一键生成新造型",
+        "支持面部/头部互换（Face & Head Swaps），可尝试不同人脸、肖像与创意变体",
+        "支持换装、换发型、换胡型等新风格探索；同步优化 UI、稳定性与性能"
+      ],
+      "type": "新功能",
+      "source": "https://apkpure.net/luma-dream-machine/com.luma.ai.dream.machine/download",
+      "sourceName": "APKPure 版本记录"
+    },
+    {
+      "competitor": "pika",
+      "date": "2026-10-06",
+      "title": "Pika 上线 Nano Banana 2.1：Google 图像模型 4K 编辑、掩码编辑与更强主体一致性",
+      "details": [
+        "Google 发布 Nano Banana 2.1，新增掩码编辑（mask editing）、更强主体一致性并修复若干问题",
+        "输出规格提升至最高 4K，同时价格更低；通过 API 提供，并上线 Pika、Higgsfield、ElevenCreative 等平台"
+      ],
+      "type": "模型更新",
+      "source": "https://www.ai-primer.com/creative/stories/nano-banana-2-1-creative-platform-launch",
+      "sourceName": "AI Primer"
+    },
+    {
+      "competitor": "higgsfield",
+      "date": "2026-10-06",
+      "title": "Higgsfield 上线 Nano Banana 2.1：Google 图像模型支持 4K 编辑与掩码编辑",
+      "details": [
+        "Nano Banana 2.1 在 Higgsfield 平台上线：新增掩码编辑、更强主体一致性，输出最高 4K 且价格更低",
+        "与 Pika、ElevenCreative 等平台同步接入该模型"
+      ],
+      "type": "模型更新",
+      "source": "https://www.ai-primer.com/creative/stories/nano-banana-2-1-creative-platform-launch",
+      "sourceName": "AI Primer"
+    },
+
     {
       "competitor": "luma",
       "date": "2026-10-08",
