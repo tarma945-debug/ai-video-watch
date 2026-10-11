@@ -8,7 +8,7 @@ window.COMPETITOR_DATA = {
   "site": {
     "title": "AI 视频竞品每日功能监控",
     "subtitle": "产品视角 · 每日追踪 DeeVid / TapNow / LibTV / Higgsfield / 小云雀AI / Runway / Pika / 可灵Kling / Luma / Vidu / 即梦AI / 海螺AI / Sora / PixVerse / RunningHub / RHTV / OpenArt / Updream / OiiOii / Elser.AI / Pexo / Shotlab / LTX Studio / SkyReels / Storyboarder 的功能动态",
-    "updated": "2026-10-10"
+    "updated": "2026-10-11"
   },
   "competitors": [
     {
@@ -163,6 +163,71 @@ window.COMPETITOR_DATA = {
     }
   ],
     "updates": [
+    {
+      "competitor": "pixverse",
+      "date": "2026-10-09",
+      "title": "PixVerse Growth Studio 集成 Meta Catalog Product Video：全商品目录规模化生成产品视频广告",
+      "details": [
+        "Growth Studio 与 Meta Catalog Product Video（CPV）打通：商家可从完整商品目录（而非仅畅销款）选取商品，基于商品 URL/目录条目批量生成产品专属视频广告",
+        "支持配置目标市场、语言、版位、画幅比例与格式后批量生成；可从优质概念继续生成变体，适配 Facebook、Instagram、Advantage+ 等目录驱动广告活动",
+        "提供网页端工作流与 API 两种方式；生成素材先经质量初检再交付商家终审，商家保留最终审批与平台合规责任"
+      ],
+      "type": "新功能",
+      "source": "https://pixverse.ai/en/blog/pixverse-growth-studio-meta-catalog-product-video",
+      "sourceName": "PixVerse 官方 News"
+    },
+    {
+      "competitor": "pixverse",
+      "date": "2026-10-08",
+      "title": "PixVerse × OpenAI 启动 Prompt to Production：ChatGPT 指挥中心直出成片，插件新增 Canvas 支持",
+      "details": [
+        "PixVerse 与 OpenAI 联合发起 Prompt to Production 教育计划：两场线上研讨会（10/29 US、10/30 APAC）+ 官方 YouTube 系列视频，演示 ChatGPT + PixVerse 插件从创意简报、镜头清单到成片的完整工作流",
+        "PixVerse 插件原生支持 ChatGPT 与 Codex，内置生产 playbook 与质量检查；PixVerse CLI 可将 Codex 变成 AI 内容工作室，支持规模化可复用工作流",
+        "插件新增 Canvas 支持：AI 视频项目工作台，集中组织与迭代创意资产、生成对比多个结果并直接进入生产交付"
+      ],
+      "type": "产品升级",
+      "source": "https://pixverse.ai/en/blog/pixverse-openai-prompt-to-production",
+      "sourceName": "PixVerse 官方 News"
+    },
+    {
+      "competitor": "higgsfield",
+      "date": "2026-10-08",
+      "title": "Higgsfield 推出 Katana：Claude 中的一键视频编辑 Skill（Aura Farming / Motion / Clipping）",
+      "details": [
+        "Katana 是 Higgsfield 为 Claude 打造的新 Skill：从一张参考照片出发，以 Aura Farming、Motion、Clipping 等风格生成视频编辑，基于 Higgsfield 模型通过 MCP 运行",
+        "提供预设库（三分类，可在官网与 Claude 中使用）；单次编辑最多 5 张参考图（角色/产品/服装），可开启 Prompt 描述调整结果",
+        "支持社区共享自定义预设（3-30 秒运动视频 + 最多 40 张图），入口：Katana 页面选预设 → 上传图片 → 在 Claude 中 Recreate，或直接让 Claude 生成产品编辑"
+      ],
+      "type": "新功能",
+      "source": "https://higgsfield.ai/creator-hub/changelog",
+      "sourceName": "Higgsfield Changelog"
+    },
+    {
+      "competitor": "hailuo",
+      "date": "2026-10-09",
+      "title": "海螺 AI App v4.21.0 发布：品牌视觉焕新并推出全新订阅 M Plan",
+      "details": [
+        "海螺 AI App 更新至 v4.21.0（2026-10-09）：品牌视觉全面焕新",
+        "同步上线全新订阅品牌 M Plan，与 MiniMax 平台订阅体系打通"
+      ],
+      "type": "产品升级",
+      "source": "https://www.iuuu9.com/app/com.xproducer.yingshiai",
+      "sourceName": "爱悠久网 App 版本记录"
+    },
+    {
+      "competitor": "hailuo",
+      "date": "2026-10-01",
+      "title": "MiniMax M Plan 正式上线：三档订阅全模态统一额度，H3 视频模型解禁",
+      "details": [
+        "2026-10-01 起 MiniMax 正式推出全新订阅品牌 M Plan，旧版 Token Plan 停止新售；已订阅且自动续费用户权益不变，可随时升级",
+        "划分 Go / Explore / Build 三档，覆盖轻量编码到重度多智能体集群场景；订阅获得统一共享算力池：文本推理（M3.1-Flash-Preview/M3）、长视频生成（H3/Hailuo）、语音（Speech-01）、图像（Image-01）",
+        "Explore 与 Build 档位将 H3 视频模型纳入订阅范围，不再按条计费单独申请企业配额",
+        "国庆福利：10/1-10/14 新购或升级首月 5 折；10/1-10/7 MiniMax Code 内 M3.1-Flash-Preview 无限零扣额畅用"
+      ],
+      "type": "产品升级",
+      "source": "https://juejin.cn/post/7691151105851605030",
+      "sourceName": "MiniMax 官方公告 / 稀土掘金"
+    },
     {
       "competitor": "deevid",
       "date": "2026-10-08",
