@@ -8,7 +8,7 @@ window.COMPETITOR_DATA = {
   "site": {
     "title": "AI 视频竞品每日功能监控",
     "subtitle": "产品视角 · 每日追踪 DeeVid / TapNow / LibTV / Higgsfield / 小云雀AI / Runway / Pika / 可灵Kling / Luma / Vidu / 即梦AI / 海螺AI / Sora / PixVerse / RunningHub / RHTV / OpenArt / Updream / OiiOii / Elser.AI / Pexo / Shotlab / LTX Studio / SkyReels / Storyboarder 的功能动态",
-    "updated": "2026-10-11"
+    "updated": "2026-10-13"
   },
   "competitors": [
     {
@@ -163,6 +163,70 @@ window.COMPETITOR_DATA = {
     }
   ],
     "updates": [
+    {
+      "competitor": "tapnow",
+      "date": "2026-10-12",
+      "title": "TapNow Desktop（CreativeOS）桌面版上线：将链式创作工作流带入本地桌面环境",
+      "details": [
+        "TapNow Desktop 正式上线：把 CreativeOS 从浏览器端扩展为 macOS 桌面应用（Mac Informer 收录），支持本地素材直接接入创意工作区",
+        "链式创作步骤覆盖生成、版式与动效全链路：每个步骤可独立选择模型，集成 Veo、Kling、GPT、Midjourney、Runway 等主流模型",
+        "支持可复用工作流与商用输出，社区项目可打开并二次改编；安卓端 v1.0.0 同步更新"
+      ],
+      "type": "产品升级",
+      "source": "https://agihunt.info/p/1a02518f8503cc318bb2ed34ab2",
+      "sourceName": "AGI Hunt / Mac Informer"
+    },
+    {
+      "competitor": "jimeng",
+      "date": "2026-10-09",
+      "title": "即梦AI App 10 月版本更新（v2.3.3/v2.3.4）：智能光影重构、图像引擎提速与界面重构",
+      "details": [
+        "连续发布 v2.3.3、v2.3.4 版本（现最新 v2.3.7）：新增智能光影重构与智能故事分镜模板，一键生成多场景连贯画面",
+        "视频引擎提速：1080P 渲染效率提升约 40%，支持多片段无缝衔接；图像生成引擎深度优化，毫秒级响应与超高清细节渲染，支持多风格一键切换",
+        "素材库分类重构并新增国风、赛博朋克等热门风格标签；界面全面重构更符合直觉，修复部分设备导出闪退问题，稳定性提升（崩溃率下降约 80%）"
+      ],
+      "type": "产品升级",
+      "source": "https://m.fxxz.com/mipf/740211.html",
+      "sourceName": "飞翔资源网（fxxz）版本记录"
+    },
+    {
+      "competitor": "pika",
+      "date": "2026-10-03",
+      "title": "Pika 重构视频创作体验：全新 Video Studio 与直接模型选择双入口",
+      "details": [
+        "Pika 对视频创作体验做整体重设计，提供两种生成方式：全新 Video Studio 面向直接产出（从短片段到最长 30 秒多镜头作品），另设直接创建模式支持显式选择具体生成模型",
+        "将视频、图像、声音工具整合进单一界面；模型菜单聚合 Seedance 2.5、Pika 2.5、GPT Image 2.5、Grok Imagine 1.5、Nano Banana 2、MiniMax H3 等",
+        "默认自动路由按任务匹配最佳模型，专业用户可锁定特定模型保证结果可复现性"
+      ],
+      "type": "产品升级",
+      "source": "https://headsupai.io/ai-news-and-updates/pika",
+      "sourceName": "HeadsUpAI / Pika 官网"
+    },
+    {
+      "competitor": "higgsfield",
+      "date": "2026-10-03",
+      "title": "Higgsfield 修复 Seedance 视频生成失败问题",
+      "details": [
+        "修复部分用户使用 Seedance 模型时视频生成失败的问题",
+        "同步更新电影节（Film Festival）投稿截止日期相关信息"
+      ],
+      "type": "修复",
+      "source": "https://higgsfield.ai/creator-hub/changelog",
+      "sourceName": "Higgsfield Changelog"
+    },
+    {
+      "competitor": "luma",
+      "date": "2026-10-02",
+      "title": "Luma 发布 Dream Machine 2.0：Uni-1 分层编辑 + Ray 3.2 原生 1080p HDR/16-bit EXR",
+      "details": [
+        "Luma 正式发布 Dream Machine 2.0：引入 Uni-1 驱动的分层编辑（Layer-based Editing），可在保留已批准画面的基础上仅修改特定元素（如标题、产品），解决重生成导致的上下文丢失问题",
+        "全新 Ray 3.2 引擎支持原生 1080p HDR 与 16-bit EXR 输出，兼容 ACES2065-1 专业色彩空间，可直接进入 DaVinci Resolve 等专业后期管线",
+        "新增多关键帧序列与 Motion Transfer 动作迁移；通过 Skills 跨项目复用工作流，生产公司前期制作成本可降低 60-85%"
+      ],
+      "type": "模型更新",
+      "source": "https://adk.wang/news/dream-machine-v2-unified-editing",
+      "sourceName": "ADK.wang（译自 Dream Machine 官方）"
+    },
     {
       "competitor": "pixverse",
       "date": "2026-10-09",
