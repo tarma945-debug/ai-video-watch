@@ -2,12 +2,12 @@
  * AI 视频竞品每日功能监控 —— 数据文件
  * 数据驱动：每日新增更新条目只需在下方 updates 数组顶部追加一条记录，无需改动 index.html。
  * 条目字段：competitor(竞品id) / date(YYYY-MM-DD) / title / details(功能点列表) / type(新功能|模型更新|产品升级|修复) / source / sourceName
- * 竞品 id：deevid / tapnow / libtv / higgsfield / xyq / runway / pika / kling / luma / vidu / jimeng / hailuo / sora / pixverse / runninghub / openart / updream / oiioii / rhtv / elser / pexo / shotlab / ltxstudio / skyreels / storyboarder
+ * 竞品 id：deevid / tapnow / libtv / higgsfield / xyq / runway / pika / kling / luma / vidu / jimeng / hailuo / sora / pixverse / runninghub / openart / pollo / updream / oiioii / rhtv / elser / pexo / shotlab / ltxstudio / skyreels / storyboarder
  */
 window.COMPETITOR_DATA = {
   "site": {
     "title": "AI 视频竞品每日功能监控",
-    "subtitle": "产品视角 · 每日追踪 DeeVid / TapNow / LibTV / Higgsfield / 小云雀AI / Runway / Pika / 可灵Kling / Luma / Vidu / 即梦AI / 海螺AI / Sora / PixVerse / RunningHub / RHTV / OpenArt / Updream / OiiOii / Elser.AI / Pexo / Shotlab / LTX Studio / SkyReels / Storyboarder 的功能动态",
+    "subtitle": "产品视角 · 每日追踪 DeeVid / TapNow / LibTV / Higgsfield / 小云雀AI / Runway / Pika / 可灵Kling / Luma / Vidu / 即梦AI / 海螺AI / Sora / PixVerse / RunningHub / RHTV / OpenArt / Pollo AI / Updream / OiiOii / Elser.AI / Pexo / Shotlab / LTX Studio / SkyReels / Storyboarder 的功能动态",
     "updated": "2026-10-13"
   },
   "competitors": [
@@ -108,6 +108,12 @@ window.COMPETITOR_DATA = {
       "tagline": "AI Creator Studio：集图像与视频生成、编辑于一体，内置 Smart Shot、Dub Video、Lip-Sync、VFX 等创作工具，聚合 Seedance 2.5、GPT Image 2.5、Flux 3 等模型。"
     },
     {
+      "id": "pollo",
+      "name": "Pollo AI",
+      "url": "https://pollo.ai/",
+      "tagline": "AI 视频/图片生成聚合平台（深圳九瓴科技）：聚合 Kling、Runway、Veo、Stable Diffusion 等模型，支持文生视频、图生视频、角色一致性、AI 动画与 8K 输出，定位「AI 版剪映」；2025 年 12 月获高成资本领投 1400 万美元种子轮。"
+    },
+    {
       "id": "updream",
       "name": "Updream",
       "url": "https://www.updream.cn/",
@@ -163,6 +169,19 @@ window.COMPETITOR_DATA = {
     }
   ],
     "updates": [
+    {
+      "competitor": "pollo",
+      "date": "2025-12-04",
+      "title": "Pollo AI 完成 1400 万美元种子轮：高成资本领投，年化收入超 2000 万美元并已盈亏平衡",
+      "details": [
+        "高成资本领投、真格基金跟投 1400 万美元种子轮（首轮机构融资）；截至 2025 年 12 月注册用户超 2000 万、月活超 600 万、日活超 20 万",
+        "聚合 Kling、Runway、Veo、Stable Diffusion 等模型，支持文生视频、图生视频、视频风格转换、角色一致性、AI 动画，最高 8K 输出与分钟级视频生成",
+        "定位「AI 版剪映 / 视频版 Canva」：以模型聚合 + 创作工作流为核，2025 年 5 月已盈亏平衡；后续将推进产品化重构与全球市场拓展"
+      ],
+      "type": "产品升级",
+      "source": "https://pandaily.com/ai-powered-cap-cut-alternative-pollo-ai-secures-nearly-14-m-in-seed-funding-hits-6-m-mau-and-turns-profitable",
+      "sourceName": "Pandaily / 晚点LatePost"
+    },
     {
       "competitor": "tapnow",
       "date": "2026-10-12",
