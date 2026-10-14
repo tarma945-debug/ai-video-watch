@@ -8,7 +8,7 @@ window.COMPETITOR_DATA = {
   "site": {
     "title": "AI 视频竞品每日功能监控",
     "subtitle": "产品视角 · 每日追踪 DeeVid / TapNow / LibTV / Higgsfield / 小云雀AI / Runway / Pika / 可灵Kling / Luma / Vidu / 即梦AI / 海螺AI / Sora / PixVerse / RunningHub / RHTV / OpenArt / Pollo AI / Updream / OiiOii / Elser.AI / Pexo / Shotlab / LTX Studio / SkyReels / Storyboarder 的功能动态",
-    "updated": "2026-10-13"
+    "updated": "2026-10-14"
   },
   "competitors": [
     {
@@ -169,6 +169,47 @@ window.COMPETITOR_DATA = {
     }
   ],
     "updates": [
+    {
+      "competitor": "higgsfield",
+      "date": "2026-10-13",
+      "title": "Higgsfield 接入 GPT-6 Astra：AI 视频时长上限从 1 分钟提升至 10 分钟以上",
+      "details": [
+        "Higgsfield 与 OpenAI 达成最新合作进展：接入 GPT-6 Astra 后，平台支持生成的 AI 视频时长上限从 1 分钟提升至 10 分钟以上；GPT-6 Astra 支持创意智能体调用外部工具，用于维持长视频在角色、场景和视觉细节上的一致性",
+        "同步集成 GPT-Image-2.5：可在图像上稳定渲染可读文字与信息图，帮助小型企业以较低成本生成宣传素材",
+        "披露下一阶段方向：基于 GPT-Live-1 探索「语音到视频」创作，用户口头描述创意，由 AI 理解语音意图并实时生成视频内容",
+        "团队已将相关流程用于近 50 万订阅者的 YouTube 频道，借助 GPT-6 Astra 生成超 10 分钟的教学视频"
+      ],
+      "type": "产品升级",
+      "source": "https://i.ifeng.com/c/8xD0UihPjzS",
+      "sourceName": "IT之家 / OpenAI 官方公告"
+    },
+    {
+      "competitor": "pika",
+      "date": "2026-10-02",
+      "title": "Pika 上线 40+ 任务专用创作 Apps：Camera Director、Color Grade、Podcast Video、Product Ad 等",
+      "details": [
+        "Pika 推出 40+ 个针对具体创作任务的应用（apps），覆盖精修到完整视频广告：Camera Director（上传片段生成多机位替代镜头并保持原场景）、Color Grade（参照/预设/手动三模式调色，可为黑白素材上色）、Podcast Video（双人播客对谈自动编排）、Product Ad（商品图+创意简报直接生成广告）",
+        "更多配套工具：Video Studio（短片至 30 秒多镜头视频）、Extend Video（延长已有片段）、Pika Soundtrack（按画面配乐/环境音/Foley）、Edit Image（元素替换/移除/重绘）、Character Studio、Image Studio、Product Shot",
+        "同步接入 Ideogram 4.5 图像编辑：选区 + 文字指令局部修改，保留周边细节；开发者可经 Pika API club 自助接入，一键密钥覆盖图像、视频、音频、语音、字幕、配音、放大等操作"
+      ],
+      "type": "新功能",
+      "source": "https://www.ai-primer.com/creative/stories/pika-creative-apps-launch",
+      "sourceName": "AI Primer / Pika 官方"
+    },
+    {
+      "competitor": "luma",
+      "date": "2026-10-01",
+      "title": "Luma 上线 Ad Variants：一张已过审广告自动生成多版位、多语言变体",
+      "details": [
+        "Luma 推出 Variants（广告变体）功能：上传一张已过审的静态广告主图，选择版位与语言，自动生成所有投放版本",
+        "Logo、标题与 CTA 保持不变，布局与文案自适应各版位与市场；支持 1:1 英文、1:1 西语、9:16 英文、9:16 西语等组合矩阵一次生成",
+        "五种标准版位：Story 9:16、Portrait 4:5、Square 1:1、Medium Rectangle 6:5、Widescreen 16:9；生成前可预览并逐项重新生成，完成后可下载或直出到 Luma Canvas 画布",
+        "入口：Luma 内 Discover 页选择 Ad Variants，面向多市场多版位规模投放的代理与品牌团队"
+      ],
+      "type": "新功能",
+      "source": "https://lumalabs.ai/news/introducing-luma-variants",
+      "sourceName": "Luma 官方 News"
+    },
     {
       "competitor": "pollo",
       "date": "2025-12-04",
