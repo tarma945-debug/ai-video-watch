@@ -8,7 +8,7 @@ window.COMPETITOR_DATA = {
   "site": {
     "title": "AI 视频竞品每日功能监控",
     "subtitle": "产品视角 · 每日追踪 DeeVid / TapNow / LibTV / Higgsfield / 小云雀AI / Runway / Pika / 可灵Kling / Luma / Vidu / 即梦AI / 海螺AI / Sora / PixVerse / RunningHub / RHTV / OpenArt / Pollo AI / Updream / OiiOii / Elser.AI / Pexo / Shotlab / LTX Studio / SkyReels / Storyboarder 的功能动态",
-    "updated": "2026-10-14"
+    "updated": "2026-10-15"
   },
   "competitors": [
     {
@@ -169,6 +169,64 @@ window.COMPETITOR_DATA = {
     }
   ],
     "updates": [
+    {
+      "competitor": "jimeng",
+      "date": "2026-10-14",
+      "title": "即梦 AI 3.0 全球发布：文生图/视频 3.0 系列 2K 直出，精准英文排版与多镜头叙事",
+      "details": [
+        "即梦 AI 3.0 正式全球上线（Jimeng AI 3.0 Global Launch）：文本到图像与视频生成技术大规模扩展至国际市场，支持 2K 分辨率直出、超写实纹理",
+        "文生图 3.0 针对海报设计强化图文排版、艺术字体与文字准确性；文生图 3.1 进一步提升画面整体美感、色彩光影与构图；图生图 3.0 智能参考支持精准局部编辑并完整保留人物特征",
+        "英文文字生成与字体控制表现突出，精准英文排版能力超越此前中文版表现，社交媒体讨论热度高",
+        "视频 3.0 支持专业级可控运镜与 1080P 高清渲染；视频 3.0 Pro 新增多镜头叙事能力（按文本指令自动完成镜头切换、动作与运动轨迹衔接），支持纯文本与首帧+文本两种模式",
+        "海外模型聚合平台 POE 同步上线即梦 3.0 图像模型与 Seedance 1.0 Lite 视频模型，字节系模型加速出海"
+      ],
+      "type": "模型更新",
+      "source": "https://www.aibase.com/search/Jimeng%203.0&type=0",
+      "sourceName": "AIBase / 即梦AI 官方"
+    },
+    {
+      "competitor": "tapnow",
+      "date": "2026-10-14",
+      "title": "TapNow 应用市场上线 Astra 6 Studio，画布新增样片模式、节点堆叠与批量下载",
+      "details": [
+        "应用市场新增 Astra 6 Studio：可按创作方向选择 3D 预演、动效设计、深度影视或时装等玩法，打开条目查看输入/输出与限制后可直接在对话中试用",
+        "Seedance 2.5 视频节点新增样片模式：先用 480P 验证动作、构图与素材，满意后一键生成 1080P 正式片，样片与正式片分别保留在画布上",
+        "深度影视工坊支持重拍镜头：加入动作源视频并提供角色、场景、服装或道具参考，先生成可复用深度动作再按参考素材重拍镜头",
+        "画布节点支持堆叠（最多 50 个节点收成一叠）、批量生成结果可选堆叠/铺开排列、重新生成不再覆盖原结果；批量下载可将多个媒体节点打包导出",
+        "上线分镜预演应用：开拍前把剧本拆成可预演的镜头、动作、节奏与转场；MiniMax H3 Max 高速视频生成（5-15 秒、480P/768P 原生音频）、Seed audio 1.0 图片参考同步上线"
+      ],
+      "type": "产品升级",
+      "source": "https://docs.tapnow.ai/changelog",
+      "sourceName": "TapNow 官方更新日志"
+    },
+    {
+      "competitor": "xyq",
+      "date": "2026-10-10",
+      "title": "小云雀AI 更新至 1.5.3：创作链路持续打磨，多端数据互通",
+      "details": [
+        "App 更新至 1.5.3 版本（2026-10-10 联想应用商店收录，PC 版同步更新）",
+        "延续短剧创作方向，覆盖智能成片（15-60 秒爆款短视频）、数字人口播、AI 图片/海报设计、智能换背景、照片说话、一镜到底、短剧批量生成（短剧 Agent）与爆款视频参考复刻",
+        "支持多端数据互通：手机、网页端数据同步，一键分享到抖音等平台；依托字节自研大模型，所有功能免费无使用限制"
+      ],
+      "type": "产品升级",
+      "source": "https://act.mbgstore.lenovo.com.cn/redsea/com.commercepro.and?cate_code=1_2561_921&num=5",
+      "sourceName": "联想应用商店版本记录"
+    },
+    {
+      "competitor": "libtv",
+      "date": "2026-10-09",
+      "title": "LibTV 1.5 发布：TV Director 剧本创作 + 导演分身 + 角色造型室 + 3D 虚拟影棚",
+      "details": [
+        "TV Director（升级版 Agent）上线：支持爆款预设开始原创、上传故事改编、剧本原创三种模式，一句话或一个想法即可自动补全情节、人物与细节，支持手动/自动两种生成模式",
+        "内置剧本评审角色：剧本生成结束后介入，指出不足并给出修改建议（剧本医生），排查伏笔与冲突",
+        "导演分身：将剧情、TVC 广告、悬疑短剧、口播带货、动画剧情、纪录片、卡点 MV 等不同内容类型的导演方法封装为可直接调用的能力，指导景别、机位、剪辑节奏与运镜",
+        "角色造型室：可微调脸型、年龄、身材、服装乃至疤痕等局部参数，保存专属音色角色卡并在后续创作中复用，保障长篇创作的角色资产一致性",
+        "3D 虚拟影棚：支持机位摆放与手绘路径预演运镜，低成本验证镜头方案；全能创作模式确定剧本后一键进入分镜、视频到成片的自动生成流程，全程可随时介入修改"
+      ],
+      "type": "产品升级",
+      "source": "https://news.qq.com/rain/a/20261009A04VYS00",
+      "sourceName": "腾讯新闻（LibTV 1.5 实测）"
+    },
     {
       "competitor": "higgsfield",
       "date": "2026-10-13",
