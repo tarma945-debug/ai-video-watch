@@ -8,7 +8,7 @@ window.COMPETITOR_DATA = {
   "site": {
     "title": "AI 视频竞品每日功能监控",
     "subtitle": "产品视角 · 每日追踪 DeeVid / TapNow / LibTV / Higgsfield / 小云雀AI / Runway / Pika / 可灵Kling / Luma / Vidu / 即梦AI / 海螺AI / Sora / PixVerse / RunningHub / RHTV / OpenArt / Pollo AI / Updream / OiiOii / Elser.AI / Pexo / Shotlab / LTX Studio / SkyReels / Storyboarder 的功能动态",
-    "updated": "2026-10-15"
+    "updated": "2026-10-16"
   },
   "competitors": [
     {
@@ -169,6 +169,37 @@ window.COMPETITOR_DATA = {
     }
   ],
     "updates": [
+    {
+      "competitor": "kling",
+      "date": "2026-10-15",
+      "title": "Kling 4.0 正式全量上线：30 秒原生直出 + 10-bit HDR + 15 项全能参考，接入 MCP/CLI",
+      "details": [
+        "10 月 15 日晚可灵 AI 宣布 Kling 4.0 正式全量上线 klingai.com：以「真实、可控、专业」为核心升级方向，聚焦高动态、强运镜的视频创作场景",
+        "大幅动态与复杂运镜更稳定：高速运动、连续动作、跟拍、环绕等大幅镜头运动画面稳定连贯，AI 视频生成迈向「生产级交付」",
+        "视听品质升级：支持最高 4K、1080p 的 10-bit HDR 格式输出与 21:9 超宽画幅，支持高品质音频与双通道立体声，声音纵深更接近同期声",
+        "单次原生生成时长提升至最长 30 秒，支持长镜头与连续叙事；提示词输入上限提升至 8000 tokens，引入导演思维自动扩写补充",
+        "全能参考单次最多组合 15 项素材（图片 10 张 + 视频 5 段 + 主体 7 个），支持最多 10 张关键帧自由设定关键画面节点；创意复刻升级，视频续拍最长可延展至 2 分钟",
+        "支持中、英、日、韩、西、葡、德、法、印地语等多语种语言，以及北京话、粤语、东北话、四川话、美式/英式英语等多口音方言，可生成多语种文字、Emoji 与 Logo",
+        "同步接入可灵 MCP 与 CLI，创作者可通过 AI Agent 调用全能参考、关键帧生视频等能力；面向企业客户与开发者的 API 服务将于近期开放"
+      ],
+      "type": "模型更新",
+      "source": "https://www.163.com/dy/article/L9BMQ6UI0511B8LM.html",
+      "sourceName": "IT之家 / 可灵AI 官方"
+    },
+    {
+      "competitor": "higgsfield",
+      "date": "2026-10-13",
+      "title": "Higgsfield 上线 Wan 3.0 限免福利：订阅用户 7 天无限生成，API 六折至 10 月底",
+      "details": [
+        "订阅用户（Pro 及以上，月付/年付均可）可免费畅用 Wan 3.0 与 Wan 3.0 Prime 一周：片段最长 30 秒、最高 1080p，共享队列生成",
+        "活动期间从 Basic/Starter 升级至更高档位的用户，7 天免费期从升级时刻起算",
+        "开发者侧 API 享 60% 折扣，优惠持续至 2026 年 10 月 31 日，活动结束后恢复标准费率；折扣适用于所有 API 用户",
+        "入口：Video → 模型选择器 → Wan 3.0；开发者可查阅 Higgsfield API 计价页"
+      ],
+      "type": "产品升级",
+      "source": "https://higgsfield.ai/creator-hub/changelog",
+      "sourceName": "Higgsfield 官方更新日志"
+    },
     {
       "competitor": "jimeng",
       "date": "2026-10-14",
