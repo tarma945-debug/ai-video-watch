@@ -8,7 +8,7 @@ window.COMPETITOR_DATA = {
   "site": {
     "title": "AI 视频竞品每日功能监控",
     "subtitle": "产品视角 · 每日追踪 DeeVid / TapNow / LibTV / Higgsfield / 小云雀AI / Runway / Pika / 可灵Kling / Luma / Vidu / 即梦AI / 海螺AI / Sora / PixVerse / RunningHub / RHTV / OpenArt / Pollo AI / Updream / OiiOii / Elser.AI / Pexo / Shotlab / LTX Studio / SkyReels / Storyboarder 的功能动态",
-    "updated": "2026-10-16"
+    "updated": "2026-10-20"
   },
   "competitors": [
     {
@@ -169,6 +169,111 @@ window.COMPETITOR_DATA = {
     }
   ],
     "updates": [
+    {
+      "competitor": "xyq",
+      "date": "2026-10-19",
+      "title": "小云雀 AI Agent 3.0 更新：3D 导演台 PRO 与短剧 Agent 10 万字剧本一键成片",
+      "details": [
+        "据 10 月 19 日初心榜×娱资论坛实录，小云雀 AI 近期更新 Agent 3.0：上线 3D 导演台 PRO，支持 3D 场景构建、运镜设计与预览，并适配本土化剧本与生图模型，面向短片导演工作流",
+        "新增动手前确认、修改记录与版本回退、项目记忆等协作机制，可沉淀创作上下文",
+        "与剪映资产、分镜、提示词体系连通，导演可在创作流程中复用剪映生态素材",
+        "短剧 Agent 支持 10 万字剧本解析、一键生成短剧成片（官网称行业首个 Seedance 2.5 短剧 Agent），大幅降低短剧制作门槛"
+      ],
+      "type": "产品升级",
+      "source": "https://xyq.jianying.com/",
+      "sourceName": "小云雀官网 / 搜狐·初心榜论坛报道"
+    },
+    {
+      "competitor": "higgsfield",
+      "date": "2026-10-16",
+      "title": "Higgsfield Academy 新增入门课程：AI Creation: First Steps",
+      "details": [
+        "Higgsfield Academy 上线新入门课程 AI Creation: First Steps，面向新手创作者讲解从提示词到成片的完整流程，帮助用户快速上手平台核心能力"
+      ],
+      "type": "产品升级",
+      "source": "https://higgsfield.ai/creator-hub/changelog",
+      "sourceName": "Higgsfield 官方更新日志"
+    },
+    {
+      "competitor": "higgsfield",
+      "date": "2026-10-15",
+      "title": "FLUX 3 Video Upscaler 更新：Higgsfield 视频放大能力升级",
+      "details": [
+        "Higgsfield 更新 FLUX 3 Video Upscaler，视频放大模型能力升级，可为生成或导入素材提供更高分辨率的增强输出"
+      ],
+      "type": "模型更新",
+      "source": "https://higgsfield.ai/creator-hub/changelog",
+      "sourceName": "Higgsfield 官方更新日志"
+    },
+    {
+      "competitor": "higgsfield",
+      "date": "2026-10-15",
+      "title": "Higgsfield Community 公开社区页面上线",
+      "details": [
+        "Higgsfield 上线公开社区页面 Community，面向创作者开放交流与作品分享空间，可与官方及社区成员互动"
+      ],
+      "type": "新功能",
+      "source": "https://higgsfield.ai/creator-hub/changelog",
+      "sourceName": "Higgsfield 官方更新日志"
+    },
+    {
+      "competitor": "runway",
+      "date": "2026-10-15",
+      "title": "Runway MCP 双更新：Mirelo SFX 2.0 音效生成与 BiRefNet v2 背景移除",
+      "details": [
+        "Mirelo SFX 2.0 上线 Runway MCP：给 Agent 一段素材并描述期望声音（脚步声、环境氛围等），即可生成独立音轨用于剪辑",
+        "BiRefNet v2 背景移除上线 Runway MCP：自动检测前景主体并去除背景，方便准备产品图、插画等素材用于排版与合成"
+      ],
+      "type": "新功能",
+      "source": "https://runway.com/changelog",
+      "sourceName": "Runway 官方更新日志"
+    },
+    {
+      "competitor": "runway",
+      "date": "2026-10-14",
+      "title": "Fish Audio Drama 3 上线 Runway MCP：脚本转情感化配音",
+      "details": [
+        "Fish Audio Drama 3 现已在 Runway MCP 可用：将脚本转换为富有表现力的配音，提供 7 种声音及耳语、笑声、戏剧时刻等表演提示词控制"
+      ],
+      "type": "新功能",
+      "source": "https://runway.com/changelog",
+      "sourceName": "Runway 官方更新日志"
+    },
+    {
+      "competitor": "runway",
+      "date": "2026-10-12",
+      "title": "Seedream 5.0 Flash 上线 Runway MCP：1K/2K 文生图与参考图生图",
+      "details": [
+        "Seedream 5.0 Flash 现已在 Runway MCP 上线：支持从文本生成 1K 或 2K 图像，也可基于最多 10 张参考图生成"
+      ],
+      "type": "模型更新",
+      "source": "https://runway.com/changelog",
+      "sourceName": "Runway 官方更新日志"
+    },
+    {
+      "competitor": "luma",
+      "date": "2026-10-12",
+      "title": "Luma 上线 Relight Studio：图片重打光工具，无需重新生成场景",
+      "details": [
+        "Luma 应用新增 Relight Studio（10 月 12 日公布）：可对已有图片重新打光，拖拽柔光箱、聚光灯或天光并调整颜色、亮度、角度与阴影边缘，无需重新生成画面",
+        "面向摄影与广告场景，可与 Product Shots 等图像工具组合使用"
+      ],
+      "type": "新功能",
+      "source": "https://lumalabs.ai/",
+      "sourceName": "Luma 官网 / TechPilot 评测"
+    },
+    {
+      "competitor": "runway",
+      "date": "2026-10-09",
+      "title": "Runway 推出 Project Credit Caps：项目额度上限管控（企业版）",
+      "details": [
+        "Workspace 管理员可为任意项目设置额度上限，为每个团队或客户分配独立预算",
+        "成员创作时可实时看到剩余额度，达到上限后生成自动暂停；需联系客户团队开通"
+      ],
+      "type": "产品升级",
+      "source": "https://runway.com/changelog",
+      "sourceName": "Runway 官方更新日志"
+    },
     {
       "competitor": "kling",
       "date": "2026-10-15",
