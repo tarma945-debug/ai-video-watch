@@ -8,7 +8,7 @@ window.COMPETITOR_DATA = {
   "site": {
     "title": "AI 视频竞品每日功能监控",
     "subtitle": "产品视角 · 每日追踪 DeeVid / TapNow / LibTV / Higgsfield / 小云雀AI / Runway / Pika / 可灵Kling / Luma / Vidu / 即梦AI / 海螺AI / Sora / PixVerse / RunningHub / RHTV / OpenArt / Pollo AI / Updream / OiiOii / Elser.AI / Pexo / Shotlab / LTX Studio / SkyReels / Storyboarder 的功能动态",
-    "updated": "2026-10-20"
+    "updated": "2026-10-21"
   },
   "competitors": [
     {
@@ -304,6 +304,19 @@ window.COMPETITOR_DATA = {
       "type": "产品升级",
       "source": "https://higgsfield.ai/creator-hub/changelog",
       "sourceName": "Higgsfield 官方更新日志"
+    },
+    {
+      "competitor": "jimeng",
+      "date": "2026-10-15",
+      "title": "即梦AI App 2.3.8 更新：Seedance 2.5 模型上线，30 秒超长视频直出",
+      "details": [
+        "即梦AI App 发布 2.3.8 版本（2026-10-15）",
+        "全新 Seedance 2.5 模型上线，支持 30 秒超长视频原生直出",
+        "延续即梦 AI 图片/视频创作链路，持续优化生成体验"
+      ],
+      "type": "产品升级",
+      "source": "https://appmagic.rocks/iphone/dreamina-ai-imageandvideo-maker/6503676563",
+      "sourceName": "AppMagic 版本记录"
     },
     {
       "competitor": "jimeng",
