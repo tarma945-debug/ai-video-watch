@@ -8,7 +8,7 @@ window.COMPETITOR_DATA = {
   "site": {
     "title": "AI 视频竞品每日功能监控",
     "subtitle": "产品视角 · 每日追踪 DeeVid / TapNow / LibTV / Higgsfield / 小云雀AI / Runway / Pika / 可灵Kling / Luma / Vidu / 即梦AI / 海螺AI / Sora / PixVerse / RunningHub / RHTV / OpenArt / Pollo AI / Updream / OiiOii / Elser.AI / Pexo / Shotlab / LTX Studio / SkyReels / Storyboarder 的功能动态",
-    "updated": "2026-10-21"
+    "updated": "2026-10-22"
   },
   "competitors": [
     {
@@ -169,6 +169,50 @@ window.COMPETITOR_DATA = {
     }
   ],
     "updates": [
+    {
+      "competitor": "higgsfield",
+      "date": "2026-10-21",
+      "title": "Kling 4.0 接入 Higgsfield",
+      "details": [
+        "平台上线 Kling 4.0 模型，可在 Higgsfield 视频工作流中直接调用"
+      ],
+      "type": "模型更新",
+      "source": "https://higgsfield.ai/creator-hub/changelog",
+      "sourceName": "Higgsfield 官方更新日志"
+    },
+    {
+      "competitor": "higgsfield",
+      "date": "2026-10-20",
+      "title": "全站中文化支持",
+      "details": [
+        "界面与创作流程全面支持中文，降低中文创作者使用门槛"
+      ],
+      "type": "产品升级",
+      "source": "https://higgsfield.ai/creator-hub/changelog",
+      "sourceName": "Higgsfield 官方更新日志"
+    },
+    {
+      "competitor": "higgsfield",
+      "date": "2026-10-19",
+      "title": "Genjutsu Lite 轻量版上线",
+      "details": [
+        "轻量化版 Genjutsu 上线，面向快节奏轻量创作场景"
+      ],
+      "type": "新功能",
+      "source": "https://higgsfield.ai/ai/video?model=genjutsu-lite",
+      "sourceName": "Higgsfield 模型页"
+    },
+    {
+      "competitor": "higgsfield",
+      "date": "2026-10-19",
+      "title": "3D Angles（ChatGPT 插件集成）",
+      "details": [
+        "通过 ChatGPT 插件支持 3D 场景多角度重拍"
+      ],
+      "type": "新功能",
+      "source": "https://higgsfield.ai/creator-hub/changelog",
+      "sourceName": "Higgsfield 官方更新日志"
+    },
     {
       "competitor": "xyq",
       "date": "2026-10-19",
