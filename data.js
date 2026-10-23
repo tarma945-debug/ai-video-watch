@@ -8,7 +8,7 @@ window.COMPETITOR_DATA = {
   "site": {
     "title": "AI 视频竞品每日功能监控",
     "subtitle": "产品视角 · 每日追踪 DeeVid / TapNow / LibTV / Higgsfield / 小云雀AI / Runway / Pika / 可灵Kling / Luma / Vidu / 即梦AI / 海螺AI / Sora / PixVerse / RunningHub / RHTV / OpenArt / Pollo AI / Updream / OiiOii / Elser.AI / Pexo / Shotlab / LTX Studio / SkyReels / Storyboarder 的功能动态",
-    "updated": "2026-10-22"
+    "updated": "2026-10-23"
   },
   "competitors": [
     {
@@ -169,6 +169,54 @@ window.COMPETITOR_DATA = {
     }
   ],
     "updates": [
+    {
+      "competitor": "libtv",
+      "date": "2026-10-21",
+      "title": "Kling 4.0 API 服务上线 LibTV",
+      "details": [
+        "Kling 4.0 API 在 LibTV 上线，创作者可直接调用新一代可灵模型进行创作"
+      ],
+      "type": "模型更新",
+      "source": "https://baike.baidu.com/item/LibTV/67506974",
+      "sourceName": "百度百科 LibTV 词条"
+    },
+    {
+      "competitor": "hailuo",
+      "date": "2026-10-17",
+      "title": "Hailuo02 模型重磅更新：1080P 高清画质与 10 秒超长镜头",
+      "details": [
+        "支持 1080P 高清画质输出",
+        "支持 10 秒超长镜头视频生成",
+        "视频动态效果更卓越，指令响应能力增强"
+      ],
+      "type": "模型更新",
+      "source": "https://www.mfunz.com/soft/13025.html",
+      "sourceName": "应用商店更新日志"
+    },
+    {
+      "competitor": "jimeng",
+      "date": "2026-10-16",
+      "title": "即梦学院教程栏目上线",
+      "details": [
+        "官方全新教程栏目《即梦学院》上线，首期讲解 Seedance 2.5 多模态参考的使用要点"
+      ],
+      "type": "产品升级",
+      "source": "https://weibo.com/u/7902366905",
+      "sourceName": "即梦AI 官方微博"
+    },
+    {
+      "competitor": "tapnow",
+      "date": "2026-10-13",
+      "title": "图片实时重打光预览与导出上线",
+      "details": [
+        "Relight 支持拖动光源实时预览，调整亮度、色温与轮廓光",
+        "可直接导出预览为新画布图片，导出不消耗 Tapies",
+        "重新处理光照仍走模型，按估算消耗 Tapies，原图保持不变"
+      ],
+      "type": "新功能",
+      "source": "https://docs.tapnow.ai/en/docs/changelog",
+      "sourceName": "TapNow 官方 changelog"
+    },
     {
       "competitor": "higgsfield",
       "date": "2026-10-21",
