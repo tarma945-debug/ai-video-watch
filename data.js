@@ -8,7 +8,7 @@ window.COMPETITOR_DATA = {
   "site": {
     "title": "AI 视频竞品每日功能监控",
     "subtitle": "产品视角 · 每日追踪 DeeVid / TapNow / LibTV / Higgsfield / 小云雀AI / Runway / Pika / 可灵Kling / Luma / Vidu / 即梦AI / 海螺AI / Sora / PixVerse / RunningHub / RHTV / OpenArt / Pollo AI / Updream / OiiOii / Elser.AI / Pexo / Shotlab / LTX Studio / SkyReels / Storyboarder 的功能动态",
-    "updated": "2026-10-23"
+    "updated": "2026-10-26"
   },
   "competitors": [
     {
@@ -169,6 +169,84 @@ window.COMPETITOR_DATA = {
     }
   ],
     "updates": [
+    {
+      "competitor": "luma",
+      "date": "2026-10-23",
+      "title": "Luma 平台接入 Kling 4.0 模型",
+      "details": [
+        "Luma 官方 Product 公告：Kling 4.0 接入 Luma，面向快速动作与大幅镜头运动场景提供生成能力",
+        "至此 Kling 4.0 已在 LibTV、Higgsfield、Luma 等多家平台完成接入"
+      ],
+      "type": "模型更新",
+      "source": "https://lumalabs.ai/news",
+      "sourceName": "Luma 官方新闻页"
+    },
+    {
+      "competitor": "pixverse",
+      "date": "2026-10-23",
+      "title": "API 新增 Video Expand 端点与错误详情",
+      "details": [
+        "Platform Docs 新增 Video Expand endpoint，开放视频扩展能力",
+        "新增 Error Details 字段，便于错误诊断与排障"
+      ],
+      "type": "新功能",
+      "source": "https://docs.platform.pixverse.ai/changelog-2394996m0",
+      "sourceName": "PixVerse Platform Docs Changelog"
+    },
+    {
+      "competitor": "pixverse",
+      "date": "2026-10-22",
+      "title": "V6-max 支持文生视频与图生视频",
+      "details": [
+        "API 新增 V6-max 模型对 Text-to-Video 与 Image-to-Video 工作流的支持"
+      ],
+      "type": "模型更新",
+      "source": "https://docs.platform.pixverse.ai/changelog-2394996m0",
+      "sourceName": "PixVerse Platform Docs Changelog"
+    },
+    {
+      "competitor": "sora",
+      "date": "2026-10-22",
+      "title": "Sora 宣布重大更新：Cameo 扩展至宠物与物体、视频编辑、社交频道与安卓版",
+      "details": [
+        "10 月 22 日 Sora 负责人 Bill Peebles 通过 X 宣布三大方向更新：Cameo 角色功能从人类扩展至宠物、毛绒玩具等任意物体，并实时展示热门 Cameo",
+        "首次引入视频编辑工具：初始版本支持将多段 AI 生成片段拼接为连贯视频，后续将扩展修剪与过渡等高级能力",
+        "重构社交体验：面向大学、公司、体育俱乐部等群体推出专属私密社区频道，支持协作内容创作",
+        "优化内容审核系统以减少误判，并提升生成速度",
+        "安卓版已在 Google Play 开放预注册，正式版即将发布"
+      ],
+      "type": "产品升级",
+      "source": "http://ai-damn.com/zh/sora-announces-major-updates-pets-as-stars-social-channels-android-launch-1761606088683",
+      "sourceName": "AI DAMN 报道（Sora 负责人 X 公告）"
+    },
+    {
+      "competitor": "jimeng",
+      "date": "2026-10-22",
+      "title": "即梦发布 AI 原生动态叙事工作台 Octo（小章鱼）",
+      "details": [
+        "首推 Vibe Create 共感创作模式：AI 作为创意合伙人，多轮对话梳理起承转合、推敲人设动机，并同步构建剧情节点树",
+        "多模态剧本解析：支持上传 PDF 剧本、设定大纲、概念参考图与配乐素材，自动实体抽取与逻辑冲突预警",
+        "结构化资产看板 Asset Board：自动沉淀角色、场景与艺术风格资产并作为全局约束注入生成链路，解决跨镜头一致性",
+        "深度融合 Seedance 2.0 渲染底座，支持单镜头重抽、运镜微调、局部动态重绘与无限节点画布，可无缝进入时间线编辑器完成终剪"
+      ],
+      "type": "新功能",
+      "source": "https://paooo.com/ai-tool/40271",
+      "sourceName": "Prompt语宙 / 夜雨聆风 AI 日报报道"
+    },
+    {
+      "competitor": "higgsfield",
+      "date": "2026-10-22",
+      "title": "Content Factory 内容工厂上线：主题一键生成完整视频",
+      "details": [
+        "新工具将 what if 主题直接转化为成品视频：自动完成脚本、角色、带配音场景与剪辑",
+        "支持 15 秒至 5 分钟视频，单次运行可生成 1-4 集",
+        "内置 50+ 格式预设，也可基于已有视频链接自定义模板",
+        "每句旁白独立生成、可单独重录"
+      ],
+      "type": "新功能",
+      "source": "https://higgsfield.ai/creator-hub/changelog",
+      "sourceName": "Higgsfield 官方更新日志"
+    },
     {
       "competitor": "libtv",
       "date": "2026-10-21",
