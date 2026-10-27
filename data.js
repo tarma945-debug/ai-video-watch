@@ -8,7 +8,7 @@ window.COMPETITOR_DATA = {
   "site": {
     "title": "AI 视频竞品每日功能监控",
     "subtitle": "产品视角 · 每日追踪 DeeVid / TapNow / LibTV / Higgsfield / 小云雀AI / Runway / Pika / 可灵Kling / Luma / Vidu / 即梦AI / 海螺AI / Sora / PixVerse / RunningHub / RHTV / OpenArt / Pollo AI / Updream / OiiOii / Elser.AI / Pexo / Shotlab / LTX Studio / SkyReels / Storyboarder 的功能动态",
-    "updated": "2026-10-26"
+    "updated": "2026-10-27"
   },
   "competitors": [
     {
@@ -169,6 +169,83 @@ window.COMPETITOR_DATA = {
     }
   ],
     "updates": [
+  {
+    "competitor": "luma",
+    "date": "2026-10-27",
+    "title": "Luma Agents 内置 Mini-Apps 一键工具上线",
+    "details": [
+      "Luma 在 Agents 中内置 8 个专用一键工具：Face Swap（换脸）、Camera Angles（多机位角度）、Light Transfer（光传递）、Relight Studio（重打光）、Virtual Try-On（虚拟试穿）、Background Swap（换背景）、Ad Variants（广告变体）、Product Shots（产品图）",
+      "遵循「只改指定元素、其余锁定」原则，配合 Layers 图层精准隔离修改区域，避免边缘伪影与风格漂移",
+      "Uni-1 驱动图像智能（理解布局、物体、文本与视觉身份），视频侧 Ray 3.2 提供帧级控制与 HDR/EXR 输出",
+      "Luma Skills 可将多步工作流保存为可复用的一键工具，官方演示约 10 分钟构建一条完整社媒广告"
+    ],
+    "type": "新功能",
+    "source": "https://lumalabs.ai/news/luma-mini-apps",
+    "sourceName": "Luma 官方新闻页"
+  },
+  {
+    "competitor": "jimeng",
+    "date": "2026-10-26",
+    "title": "即梦短剧工作室正式上线",
+    "details": [
+      "自研剧本模型 DreamScript：多题材剧本生成、剧本爆款诊断、10 万字长篇解析",
+      "自研图片模型 Anycook：差异化人物设定、多风格场景搭建，短剧美术专项调校",
+      "自研分镜模型 DreamShot：画布/故事板双模式、3D 导演台动态预演、智能预演关键分镜",
+      "专属后期：片段重拍、声音重构（人声与背景音分离重配）、智能切镜；重制转绘支持原片智能解构与本地化适配",
+      "整合小云雀短剧 Agent 同款能力，同步上线团队版管理（多账号资产与统一积分管理）"
+    ],
+    "type": "新功能",
+    "source": "https://www.toutiao.com/article/7700902799978136106",
+    "sourceName": "IT之家（今日头条）"
+  },
+  {
+    "competitor": "runway",
+    "date": "2026-10-23",
+    "title": "Runway 上线 App Studio：自然语言构建创意 App",
+    "details": [
+      "用自然语言描述创意 App，Runway 使用自身模型与品牌文件完成构建并托管",
+      "适用于付费计划（Paid Plans）用户"
+    ],
+    "type": "新功能",
+    "source": "https://runway.com/changelog",
+    "sourceName": "Runway 官方更新日志"
+  },
+  {
+    "competitor": "higgsfield",
+    "date": "2026-10-23",
+    "title": "Ideogram Vector 1.0 矢量图形模型上线",
+    "details": [
+      "支持从提示词或已有图片生成 SVG 矢量 Logo/图标/插画，任意尺寸保持清晰，适用于印刷与缩放",
+      "入口：Image → Ideogram Vector 1.0 → Text to SVG / Image to SVG"
+    ],
+    "type": "模型更新",
+    "source": "https://higgsfield.ai/creator-hub/changelog",
+    "sourceName": "Higgsfield 官方更新日志"
+  },
+  {
+    "competitor": "higgsfield",
+    "date": "2026-10-23",
+    "title": "Kimi K3.1 Pro 入驻 Higgsfield Supercomputer",
+    "details": [
+      "月之暗面开源模型 Kimi K3.1 Pro 上线 Supercomputer 模型选择器",
+      "低成本模型，适合长任务处理"
+    ],
+    "type": "模型更新",
+    "source": "https://higgsfield.ai/creator-hub/changelog",
+    "sourceName": "Higgsfield 官方更新日志"
+  },
+  {
+    "competitor": "pika",
+    "date": "2026-10-16",
+    "title": "Pika 插件接入 ChatGPT",
+    "details": [
+      "Pika x ChatGPT 插件扩展上线：40+ 创意应用与 100+ 生成媒体模型（图像、视频、声音）",
+      "无需离开对话即可完成创作"
+    ],
+    "type": "新功能",
+    "source": "https://pika.art/blog",
+    "sourceName": "Pika 官方 Blog"
+  },
     {
       "competitor": "luma",
       "date": "2026-10-23",
