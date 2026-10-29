@@ -8,7 +8,7 @@ window.COMPETITOR_DATA = {
   "site": {
     "title": "AI 视频竞品每日功能监控",
     "subtitle": "产品视角 · 每日追踪 DeeVid / TapNow / LibTV / Higgsfield / 小云雀AI / Runway / Pika / 可灵Kling / Luma / Vidu / 即梦AI / 海螺AI / Sora / PixVerse / RunningHub / RHTV / OpenArt / Pollo AI / Updream / OiiOii / Elser.AI / Pexo / Shotlab / LTX Studio / SkyReels / Storyboarder 的功能动态",
-    "updated": "2026-10-27"
+    "updated": "2026-10-29"
   },
   "competitors": [
     {
@@ -169,6 +169,58 @@ window.COMPETITOR_DATA = {
     }
   ],
     "updates": [
+  {
+    "competitor": "runway",
+    "date": "2026-10-27",
+    "title": "Runway Ads 上线：自动找到你的下一个爆款广告",
+    "details": [
+      "读取 Meta、Google、TikTok 上表现最好的素材，为每个投放位生成品牌一致的变体，经用户批准后自动发布",
+      "随所有付费计划提供（All Plans）"
+    ],
+    "type": "新功能",
+    "source": "https://runway.com/changelog",
+    "sourceName": "Runway 官方更新日志"
+  },
+  {
+    "competitor": "higgsfield",
+    "date": "2026-10-27",
+    "title": "GPT-6.1 Terra 上线 Higgsfield Supercomputer",
+    "details": [
+      "OpenAI 快速低成本模型，具备视觉分析与 computer use 能力，适合日常写作、图文读取与多步应用任务",
+      "据 OpenAI：速度比 GPT-6 Astra / GPT-6.1 Sol 快 3 倍以上，事实性错误与幻觉少于 GPT-5.6 Terra",
+      "入口：Supercomputer → 模型选择器 → GPT-6.1 Terra"
+    ],
+    "type": "模型更新",
+    "source": "https://higgsfield.ai/creator-hub/changelog",
+    "sourceName": "Higgsfield 官方更新日志"
+  },
+  {
+    "competitor": "higgsfield",
+    "date": "2026-10-26",
+    "title": "Higgsfield Playable 上线：描述即生成可玩手游与可玩广告",
+    "details": [
+      "输入文字描述或玩法视频，几分钟内生成可在浏览器游玩的手机游戏；支持 8 种类型（Shooter 到 Simulation）、2D/3D/3D Fast、手动或自动模式",
+      "无需写代码即可调整难度、玩家、敌人与镜头，可换主角或配色而保持机制不变",
+      "企业版 Playable Ads：支持最多 40 张图、1 段视频、20 个音频、3 个可玩素材，导出为单个 ≤5MB HTML 文件，适配 Generic MRAID / Moloco / AppLovin / Google App Campaigns / Unity Ads / Meta / Pangle / Mintegral / Liftoff",
+      "Playable 面向所有用户开放（Web / 移动端 / Claude 经 Higgsfield MCP）；Playable Ads 为企业版产品"
+    ],
+    "type": "新功能",
+    "source": "https://higgsfield.ai/creator-hub/changelog",
+    "sourceName": "Higgsfield 官方更新日志"
+  },
+  {
+    "competitor": "xyq",
+    "date": "2026-10-25",
+    "title": "小云雀并入即梦：剪映系 AI 创作业务整合，保留独立入口",
+    "details": [
+      "小云雀正式并入即梦智能创作平台，产品入口保留，用户无需切换渠道；即梦已完成小云雀短剧相关能力接入",
+      "组织上小云雀运营交由即梦运营和市场负责人统筹，原产品团队保持不变，短剧生产能力持续对外服务",
+      "小云雀短剧生产功能暂不受影响，后续能力迭代与即梦体系、剪映 Hub 创作工作台联动，强化剧本-素材-剪辑全链路协同"
+    ],
+    "type": "产品升级",
+    "source": "https://www.163.com/dy/article/LA33DVGM05527PMU.html",
+    "sourceName": "IT时代网（网易号）"
+  },
   {
     "competitor": "luma",
     "date": "2026-10-27",
