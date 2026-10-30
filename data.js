@@ -8,7 +8,7 @@ window.COMPETITOR_DATA = {
   "site": {
     "title": "AI 视频竞品每日功能监控",
     "subtitle": "产品视角 · 每日追踪 DeeVid / TapNow / LibTV / Higgsfield / 小云雀AI / Runway / Pika / 可灵Kling / Luma / Vidu / 即梦AI / 海螺AI / Sora / PixVerse / RunningHub / RHTV / OpenArt / Pollo AI / Updream / OiiOii / Elser.AI / Pexo / Shotlab / LTX Studio / SkyReels / Storyboarder 的功能动态",
-    "updated": "2026-10-29"
+    "updated": "2026-10-30"
   },
   "competitors": [
     {
@@ -169,6 +169,36 @@ window.COMPETITOR_DATA = {
     }
   ],
     "updates": [
+  {
+    "competitor": "pika",
+    "date": "2026-10-29",
+    "title": "Pika H3 Flex 上线：后训练 MiniMax H3 的快节奏创作模型",
+    "details": [
+      "6 步生成（较原 50 步蒸馏提速），快于实时的生成速度：15 秒 768p 同步音频片段仅需约 7 秒 transformer 计算",
+      "最多 12 个参考素材（草图、角色卡、产品图、情绪板、声音样本、动作视频），生成与参考一致的多镜头序列",
+      "导出 5 个独立音频音轨（对白/音效/音乐等分轨），成片最高 4K",
+      "开放权重；发布时位列 DesignArena 文生视频榜单开源模型第 1、总榜第 7",
+      "API 同步上线（pika-h3-flex）：5-15 秒、480p/768p、11 种宽高比；1080p/2K/4K 经 Pika Upsampler V1 升格输出"
+    ],
+    "type": "模型更新",
+    "source": "https://pika.art/blog",
+    "sourceName": "Pika 官方博客"
+  },
+  {
+    "competitor": "higgsfield",
+    "date": "2026-10-28",
+    "title": "Cinema Studio 4.0 发布：30 秒 AI 电影场景与导演面板",
+    "details": [
+      "单次生成最长 30 秒（3.5 版为 15 秒），参考素材最多 50 个（原 9 个，支持图片/视频/Soul Cast 角色与旧版本元素）",
+      "新增导演面板：7 种类型（General/Action/Epic/Drama/Comedy/Horror/Noir）、1960s-2020s 年代选择、4 档节奏（Chaotic/Dynamic/Calm/Single Shot）+ Auto、情绪轮以 8 种情绪驱动角色表演、手动布光（颜色/亮度/柔光/角度）+ 光圈 f/1.4-f/11",
+      "50+ 色彩预设（原 8）、30+ 运镜预设（原 9，含 POV/机械臂/航拍）、4 种相机类型、5 支光学建模镜头",
+      "Forward/Backward Extend 前后扩展（上传视频最长 30 秒）、Edit Video 局部编辑不重生成整段、原生音频同轨生成",
+      "支持最高 1080p；API 同步开放（4-30 秒、480p/720p、最多 30 图 + 10 视频 + 10 音频、6 种宽高比）"
+    ],
+    "type": "产品升级",
+    "source": "https://www.prnewswire.com/news-releases/higgsfield-cinema-studio-4-0-gives-ai-filmmakers-more-control-over-every-scene-302921818.html",
+    "sourceName": "Higgsfield 官方新闻稿"
+  },
   {
     "competitor": "runway",
     "date": "2026-10-27",
