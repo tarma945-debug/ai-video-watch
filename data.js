@@ -170,6 +170,19 @@ window.COMPETITOR_DATA = {
   ],
     "updates": [
   {
+    "competitor": "higgsfield",
+    "date": "2026-10-29",
+    "title": "Higgsfield 上线 Higgsfield Selected 精选系列：首期 MADSEASON 全开源",
+    "details": [
+      "Higgsfield 推出 Higgsfield Selected 系列，定期展示平台上的最强作品，首个入选作品为创作者 @dinitrobenzoll 的 MADSEASON",
+      "首期作品全开源：每个提示词与全部素材均公开，延续此前工作室短片全开源的策略——成片是广告，公开的项目文件是产品",
+      "系列化展示平台社区创作能力，强化公开创作与复刻生态"
+    ],
+    "type": "产品升级",
+    "source": "https://nitter.space/TraffAlex",
+    "sourceName": "Nitter AI ART & VISUALS ROUNDUP（转自 @higgsfield_ai）"
+  },
+  {
     "competitor": "hailuo",
     "date": "2026-10-26",
     "title": "FastH3 Omni 开源：MiniMax H3 全能模式支持消费级显卡本地部署",
