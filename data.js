@@ -170,6 +170,33 @@ window.COMPETITOR_DATA = {
   ],
     "updates": [
   {
+    "competitor": "hailuo",
+    "date": "2026-10-26",
+    "title": "FastH3 Omni 开源：MiniMax H3 全能模式支持消费级显卡本地部署",
+    "details": [
+      "Hailuo_AI 宣布 FastH3 Omni 正式开源，MiniMax H3 现可在消费级显卡上运行",
+      "相比此前仅支持文生视频，全能模式支持以图片、视频、音频作为参考，一次生成画面和同步音频，并可控制角色、动作和声音",
+      "支持消费级显卡本地部署，进一步降低 AI 视频创作门槛"
+    ],
+    "type": "模型更新",
+    "source": "https://www.me.news/contents/323414",
+    "sourceName": "ME News（转自 InFoQ）"
+  },
+  {
+    "competitor": "hailuo",
+    "date": "2026-10-23",
+    "title": "MiniMax 发布 Hailuo 2.3 视频生成模型",
+    "details": [
+      "运算效率较前代提升 2.5 倍，原生支持 10 秒 1080P 高清视频生成",
+      "技术创新包含超写实角色动画系统、物理法则光影反射引擎及多风格适配体系，8K 场景生成中实现镜面反射像素级同步",
+      "测试数据显示模型拟真度大幅提升（拟真度超 40%），预计未来几天开放全功能试用",
+      "主要应用于影视制作、数字营销及艺术创作领域"
+    ],
+    "type": "模型更新",
+    "source": "https://www.niutoushe.com?p=98156/",
+    "sourceName": "牛透社"
+  },
+  {
     "competitor": "pika",
     "date": "2026-10-29",
     "title": "Pika H3 Flex 上线：后训练 MiniMax H3 的快节奏创作模型",
