@@ -8,7 +8,7 @@ window.COMPETITOR_DATA = {
   "site": {
     "title": "AI 视频竞品每日功能监控",
     "subtitle": "产品视角 · 每日追踪 DeeVid / TapNow / LibTV / Higgsfield / 小云雀AI / Runway / Pika / 可灵Kling / Luma / Vidu / 即梦AI / 海螺AI / Sora / PixVerse / RunningHub / RHTV / OpenArt / Pollo AI / Updream / OiiOii / Elser.AI / Pexo / Shotlab / LTX Studio / SkyReels / Storyboarder 的功能动态",
-    "updated": "2026-10-30"
+    "updated": "2026-11-05"
   },
   "competitors": [
     {
@@ -169,6 +169,146 @@ window.COMPETITOR_DATA = {
     }
   ],
     "updates": [
+  {
+    "competitor": "kling",
+    "date": "2026-11-04",
+    "title": "Kling 4.0 与 Kling 4.0 Flash API 全面上线：4.0 支持 30 秒原生直出，Flash 覆盖 3-20 秒轻量场景",
+    "details": [
+      "可灵 API 更新公告：Kling 4.0 API 全面上线，原生视频生成最长支持 30s，支持 720P/1080P（10-bit 4K 即将上线），新增 21:9 与自适应比例",
+      "新增灵活关键帧能力，最多支持 10 张关键帧输入；提示词上限提升至 26000 英文字符，参考图片最多 10 张、参考视频最多 5 段，全能参考单次任务最多 15 个素材",
+      "文生视频 / 图生视频 / 全能参考生视频分别开放 /text-to-video/kling-4.0、/image-to-video/kling-4.0、/omni-video/kling-4.0 接口，4.0 全能参考接口支持直接引用音色",
+      "Kling 4.0 Flash API 同步上线：轻量版支持 3-20s 视频生成，输出 720P，图生视频支持单张首帧输入",
+      "计费改为按总时长计费（输入视频时长 + 输出视频时长共同决定）"
+    ],
+    "type": "模型更新",
+    "source": "https://klingai.com/document-api/updates/api",
+    "sourceName": "可灵 AI API 更新公告"
+  },
+  {
+    "competitor": "skyreels",
+    "date": "2026-11-04",
+    "title": "昆仑万维 SkyReels 全新版本正式上线：聚合 Veo 3.1/Sora 2 等外部模型，五大核心功能齐发",
+    "details": [
+      "SkyReels 焕新上线，Web 端与移动端 App 同步全面登陆，定位从自研模型平台升级为聚合式 AI 视频创作平台",
+      "模型侧聚合 Google Veo 3.1、Sora 2、Runway 及自研 SkyReels V3 等全球多模态模型；SkyReels V3 基于 Multi-modal In Context Learning 框架预训练，支持图片、音频、视频参考生成",
+      "五大核心功能：①无限画布，将所有 AI 工具与模型集成于单一创作空间，支持 AI 编辑、Agent Chat 与拖拽三种操作；②Agent 双核系统，含 1 个全能 Super Agent 与 28 位覆盖市场营销、电商、虚拟形象、创意故事的 Expert Agents",
+      "③视频模板：近 10 个大类、150 余种模板，支持智能海报、商品 B-Roll、广告大片一键生成，并提供虚拟试穿与商品演示数字人；④数字人：依托 SkyReels V3，为全球首个支持单镜头多人多轮对话的数字人方案；⑤视频延长与风格化：智能叙事延展与高保真风格迁移"
+    ],
+    "type": "产品升级",
+    "source": "https://applet.10100.com/article/64474002",
+    "sourceName": "AI信报 / 每经网（昆仑万维官方发布）"
+  },
+  {
+    "competitor": "pixverse",
+    "date": "2026-11-03",
+    "title": "PixVerse 与 OpenAI 完成深度产品集成：官方插件原生接入 ChatGPT 与 Codex，新增 CLI 与 Canvas",
+    "details": [
+      "PixVerse 官方插件（PixVerse ChatGPT Plugin）原生接入 ChatGPT 与 Codex，借助 PixVerse 制作规范与质量审核体系，可在对话中完成视频、图像、音频的端到端生产",
+      "PixVerse CLI 让 Codex 集中调用视频/图像/音频生成能力，并搭建可复用的标准化流程，满足大规模内容创作",
+      "插件新增 Canvas（AI 视频项目工作台）支持，可在 Canvas 中管理、打磨素材，生成并对比多个结果后再转入制作与交付",
+      "双方共同推出「从提示词到成片」(Prompt to Production) 创作者教育计划，首场线上研讨会由 OpenAI 应用 AI 工程师 Tyler Ryu 演示完整链路",
+      "视频生成从「用户打开网页操作」转向「Agent 可直接调用的能力」，成为 Agent 生态中的原生生产工具"
+    ],
+    "type": "产品升级",
+    "source": "https://www.36kr.com/p/4053451046933640",
+    "sourceName": "36氪（爱诗科技 PixVerse × OpenAI 官宣）"
+  },
+  {
+    "competitor": "higgsfield",
+    "date": "2026-11-02",
+    "title": "Higgsfield 上线 Mangaka：从创意或剧本直出漫画、条漫与 Webtoon，并支持 Recreate 复刻",
+    "details": [
+      "面向漫画、条漫与 Webtoon 的新工具：可从一句创意或一份剧本起步，创建角色、生成章节与页面、编辑结果并导出成书",
+      "Recreate 能力可把已有漫画换成自己的角色阵容：用照片替换人物、改标题、并追加提示词做其他改动",
+      "起步方式：描述一个创意，或上传带参考素材的剧本；可选风格（黑白漫画、彩色漫画、美漫、条漫）与画幅比例，覆盖 14 种语言",
+      "提供自动裁剪等多种生成模式，把 AI 视频平台能力外延到静态连载内容生产"
+    ],
+    "type": "新功能",
+    "source": "https://higgsfield.ai/creator-hub/changelog",
+    "sourceName": "Higgsfield 官方 Changelog"
+  },
+  {
+    "competitor": "higgsfield",
+    "date": "2026-10-30",
+    "title": "Higgsfield 上线 Intone：说话角色口型同步工具，跨场景保持同一音色",
+    "details": [
+      "面向「会说话的角色」的工具：选角色 + 选场景 + 加语音，直接产出带口型同步的视频，同一音色可跨场景保持一致",
+      "角色可上传图片（含用户本人照片），或直接选用 AI Influencer 形象；语音可上传录音或现场生成音频",
+      "支持方括号表演提示（如 [smirks]、[short pause]）控制语气与节奏；单次生成语音时长上限 30 秒",
+      "输出规格：720p 或 1080p，支持五种画幅比例"
+    ],
+    "type": "新功能",
+    "source": "https://higgsfield.ai/creator-hub/changelog",
+    "sourceName": "Higgsfield 官方 Changelog"
+  },
+  {
+    "competitor": "higgsfield",
+    "date": "2026-10-30",
+    "title": "Ideogram 4.5 Precise Edit 接入 Higgsfield：原分辨率局部精确改图，最高支持 8K",
+    "details": [
+      "Ideogram 面向定向图像编辑的模型上线 Higgsfield：仅被选中的区域发生变化，且保持原图分辨率",
+      "两种模式：整图编辑作用于整张图片、大文件会自动缩放到约 2K；选区编辑只改框选部分，并按上传尺寸返回结果",
+      "支持最高 8K 图片；选区限制：每边至少 256px、总面积上限 4.2MP、长宽比上限 6:1",
+      "提供从 Very low 到高多档质量可选"
+    ],
+    "type": "模型更新",
+    "source": "https://higgsfield.ai/creator-hub/changelog",
+    "sourceName": "Higgsfield 官方 Changelog"
+  },
+  {
+    "competitor": "oiioii",
+    "date": "2026-10-29",
+    "title": "OiiOii 上线「一键替换素材」：对话式批量替换原片主体、物体与场景，文字/界面/动效均可换",
+    "details": [
+      "给一段参考视频加替换素材，通过对话即可替换原片里的所有主体、物体与场景，文字、界面、动效也能替换",
+      "采用「视频模型 + Coding 模型」组合模式：需要改文字或界面的镜头交给 Code 2 Video 降本提速，需要改画面的镜头用 Seedance 2.5 生成",
+      "主打批量复刻爆款：电商/TVC 可复刻广告创意与镜头叙事并换成自家商品模特，游戏影游可替换角色场景，自媒体可替换人物素材",
+      "双 11 活动：10.28-11.04 新用户开会员可免费畅用 7 天，并享 Seedance 2.5 等 20 款热门模型折扣"
+    ],
+    "type": "新功能",
+    "source": "https://www.bestblogs.dev/en/article/b2fa71a4ae",
+    "sourceName": "BestBlogs（OiiOii 官方活动+功能实测）"
+  },
+  {
+    "competitor": "openart",
+    "date": "2026-10-22",
+    "title": "OpenArt 上线 Kling 4.0：首/中/尾帧引导 + 最多 10 张参考图，生成与编辑统一模型",
+    "details": [
+      "OpenArt 宣布 Kling 4.0 上线，可用首帧、中间帧、尾帧引导视频生成，最多使用 10 张参考图",
+      "支持文本或帧生成与视频编辑，All-in-One Reference 让一个模型同时完成生成与编辑，降低多工具切换门槛",
+      "首中尾帧引导与多参考图能力直接针对长视频生成中的连贯性难题",
+      "促销：11 月 20 日前 Pro 与 Wonder 套餐享 50% 折扣"
+    ],
+    "type": "模型更新",
+    "source": "https://radar.suversal.com/event/eb6f7fd5a4bcb",
+    "sourceName": "Suversal Radar（OpenArt 官方公告）"
+  },
+  {
+    "competitor": "updream",
+    "date": "2026-10-21",
+    "title": "Kling 4.0 API 服务在 updream 同步首发上线",
+    "details": [
+      "10 月 21 日晚间 Kling 4.0 API 服务正式首发上线，并在 updream、爱奇艺纳逗 Pro 等平台同步上线",
+      "updream 以此延续「第一时间接入最新模型」的策略，节点式画布可直接调用 Kling 4.0 能力",
+      "配合平台既有 Agent 对话助手、SKILL 技能社区与无限画布，形成「最新模型 + 工作流」的组合供给"
+    ],
+    "type": "模型更新",
+    "source": "https://baike.baidu.com/item/updream/67562765",
+    "sourceName": "百度百科（updream 词条，引用官方首发信息）"
+  },
+  {
+    "competitor": "deevid",
+    "date": "2026-10-20",
+    "title": "DeeVid App 2.6.5 发布：修复若干已知问题",
+    "details": [
+      "DeeVid App 更新至 2.6.5 版本，主要修复若干已知问题、优化稳定性",
+      "延续此前 2.6.x 的移动端迭代节奏（2.6.4→2.6.5 间隔约一个月），未见新增功能点",
+      "同期官网主推 DeeVid Agent（全能 AI 导演）与 DeeVid Canvas 编辑画布"
+    ],
+    "type": "修复",
+    "source": "https://4ph.one/13510035",
+    "sourceName": "4ph 应用页（ALWAYS RISING PTE. LTD. 版本记录）"
+  },
   {
     "competitor": "higgsfield",
     "date": "2026-10-29",
