@@ -8,7 +8,7 @@ window.COMPETITOR_DATA = {
   "site": {
     "title": "AI 视频竞品每日功能监控",
     "subtitle": "产品视角 · 每日追踪 DeeVid / TapNow / LibTV / Higgsfield / 小云雀AI / Runway / Pika / 可灵Kling / Luma / Vidu / 即梦AI / 海螺AI / Sora / PixVerse / RunningHub / RHTV / OpenArt / Pollo AI / Updream / OiiOii / Elser.AI / Pexo / Shotlab / LTX Studio / SkyReels / Storyboarder 的功能动态",
-    "updated": "2026-11-06"
+    "updated": "2026-11-08"
   },
   "competitors": [
     {
@@ -169,6 +169,34 @@ window.COMPETITOR_DATA = {
     }
   ],
     "updates": [
+  {
+    "competitor": "higgsfield",
+    "date": "2026-11-06",
+    "title": "Higgsfield 发布 Miracle 视频后期技术：把视频矢量化分层，支持单主体像素级实时编辑（私有 Beta）",
+    "details": [
+      "官方 changelog 与 X 公告同步上线 Miracle，定位为 Higgsfield 最新的专有后期制作技术",
+      "核心是把任意视频「矢量化」拆成多个图层（人物、衣物、天空、招牌等），从而在视频播放过程中只改动其中一个对象，做到局部、像素级实时编辑",
+      "官方称每帧都保留影视级后期所需的图像深度信息，并内置 world knowledge 辅助理解画面语义",
+      "当前为私有 Beta + 候补名单制，官方尚未公布定价、开放时间与文件限制，外部用户暂无法直接使用"
+    ],
+    "type": "新功能",
+    "source": "https://higgsfield.ai/creator-hub/changelog",
+    "sourceName": "Higgsfield Changelog"
+  },
+  {
+    "competitor": "kling",
+    "date": "2026-11-05",
+    "title": "Kling 4.0 Flash 面向全部用户开放：官网 / API / MCP / CLI / Adobe 插件全链路接入",
+    "details": [
+      "可灵 AI 宣布 Kling 4.0 Flash 向全球所有用户全面开放，定位高频创作与高性价比场景，不再限定灰度或会员档位",
+      "接入方式除官网与 API 外，新增 MCP、CLI 及 AI 插件，可在 Claude 等 Agent 端直接调度可灵批量出片",
+      "Adobe 生态打通：Photoshop、Premiere Pro、After Effects 内可通过可灵插件直接调用该模型，进入专业影视工作流",
+      "官方强调 4.0 Flash 主打批量多版本测试与自动化成片的生产效率，与 4.0 的影视级长镜头路线形成高低搭配"
+    ],
+    "type": "模型更新",
+    "source": "https://klingai.com/document-api/updates/api",
+    "sourceName": "Kling AI 官方更新公告"
+  },
   {
     "competitor": "runway",
     "date": "2026-11-05",
