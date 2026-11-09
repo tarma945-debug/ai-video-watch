@@ -8,7 +8,7 @@ window.COMPETITOR_DATA = {
   "site": {
     "title": "AI 视频竞品每日功能监控",
     "subtitle": "产品视角 · 每日追踪 DeeVid / TapNow / LibTV / Higgsfield / 小云雀AI / Runway / Pika / 可灵Kling / Luma / Vidu / 即梦AI / 海螺AI / Sora / PixVerse / RunningHub / RHTV / OpenArt / Pollo AI / Updream / OiiOii / Elser.AI / Pexo / Shotlab / LTX Studio / SkyReels / Storyboarder 的功能动态",
-    "updated": "2026-11-08"
+    "updated": "2026-11-10"
   },
   "competitors": [
     {
@@ -169,6 +169,35 @@ window.COMPETITOR_DATA = {
     }
   ],
     "updates": [
+  {
+    "competitor": "jimeng",
+    "date": "2026-11-09",
+    "title": "字节 Seed 发布图像模型 Seedream 5.5，同步在即梦网页版上线：支持百轮多轮编辑与原生 RGBA 透明素材",
+    "details": [
+      "字节跳动 Seed 官方博客 11 月 9 日宣布正式发布 Seedream 5.5，明确「今天正式发布」，并公布多轮编辑、透明素材、质感与文字渲染三项核心升级",
+      "多轮编辑实现非编辑区域像素级保持、消除色彩偏移，可围绕同一作品连续修改最多 100 轮，降低长期编辑中的细节丢失与画质衰减",
+      "原生 RGBA 透明素材生成：直接输出带 Alpha 通道的透明/半透明图像并精细处理轮廓边缘，省去后期抠图修边",
+      "改善光照、材质与皮肤纹理，减少过度油亮与过曝；同时显著提升文字渲染，对复杂字形与密集小字还原更准",
+      "即梦网页版入口为「创作-生成/画布-选择 Seedream 5.5」，豆包 App/网页版、豆包工作技能、火山方舟体验中心同步陆续上线"
+    ],
+    "type": "模型更新",
+    "source": "https://seed.bytedance.com/zh/blog/more-realistic-images-more-stable-editing-across-100-rounds-introducing-seedream-5-5",
+    "sourceName": "字节跳动 Seed 官方博客"
+  },
+  {
+    "competitor": "pixverse",
+    "date": "2026-11-08",
+    "title": "PixVerse 上线 Draw to Fly 站内迷你应用：先画路径，再让画中场景沿路径飞出电影感 FPV 镜头",
+    "details": [
+      "官方社交账号 11 月 6 日发布演示视频并于 11 月 8 日正式上线 Draw to Fly 迷你应用，入口位于 app.pixverse.ai 的 mini-apps 目录",
+      "玩法只有两步：在画面里画出一条路径，镜头即沿该路径运动完成转向与穿行，产出第一人称视角（FPV）飞行观感，而非常规固定机位或平滑推拉",
+      "官方演示场景为微缩玩具房，强调镜头能跟住「每一个转弯和拐角」，定位「画一条线就变成 FPV 大片」的轻量创意玩法",
+      "官方本次仅发布演示与试用邀请，未公布开放范围、额度限制与更多可调参数；同月 PixVerse Canvas 已上线 Best Take 候选对比功能"
+    ],
+    "type": "新功能",
+    "source": "https://app.pixverse.ai",
+    "sourceName": "PixVerse 官方（含 11-06 官方演示记录）"
+  },
   {
     "competitor": "higgsfield",
     "date": "2026-11-06",
