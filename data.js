@@ -8,7 +8,7 @@ window.COMPETITOR_DATA = {
   "site": {
     "title": "AI 视频竞品每日功能监控",
     "subtitle": "产品视角 · 每日追踪 DeeVid / TapNow / LibTV / Higgsfield / 小云雀AI / Runway / Pika / 可灵Kling / Luma / Vidu / 即梦AI / 海螺AI / Sora / PixVerse / RunningHub / RHTV / OpenArt / Pollo AI / Updream / OiiOii / Elser.AI / Pexo / Shotlab / LTX Studio / SkyReels / Storyboarder 的功能动态",
-    "updated": "2026-11-10"
+    "updated": "2026-11-11"
   },
   "competitors": [
     {
@@ -170,6 +170,48 @@ window.COMPETITOR_DATA = {
   ],
     "updates": [
   {
+    "competitor": "ltxstudio",
+    "date": "2026-11-10",
+    "title": "LTX API 新增 Mask Extraction 与 Video Upscale 两个异步端点：前景/背景分离遮罩 + 视频超分",
+    "details": [
+      "官方 API Changelog 11 月 10 日记录新增 Mask Extraction 端点 /v2/video-alpha-gen，可从视频画面提取前景与背景分离的遮罩输出",
+      "同日新增 Video Upscale 端点 /v2/video-upscale，对已有视频做 1080p/4K 分辨率放大",
+      "两个端点均为异步任务模式：先创建任务，再轮询状态与结果，与既有视频生成端点保持一致",
+      "同一 Changelog 此前记录 11 月 5 日已支持 HDR output_colorspace 输出参数"
+    ],
+    "type": "新功能",
+    "source": "https://docs.ltx.video/api-changelog",
+    "sourceName": "LTX API Changelog（Nov 10, 2026）"
+  },
+  {
+    "competitor": "higgsfield",
+    "date": "2026-11-10",
+    "title": "Higgsfield 接入字节 Seedream 5.5 图像模型：原生 RGBA 透明输出 + 最多百轮连续编辑",
+    "details": [
+      "字节跳动 11 月 9 日正式发布 Seedream 5.5 后，Higgsfield 模型列表同步上架该模型，官网首页可见 Seedream 5.5 入口",
+      "能力与官方口径一致：原生 Alpha 透明素材直出、非编辑区域像素级保持、围绕同一作品最多 100 轮连续编辑",
+      "光照材质与皮肤纹理增强，减少过度油亮与过曝；复杂字形与密集小字渲染改善",
+      "此前平台已接入 Seedream 5.0 Flash，本次为同一条模型线的版本升级"
+    ],
+    "type": "模型更新",
+    "source": "https://higgsfield.ai/",
+    "sourceName": "Higgsfield 官网模型列表（Seedream 5.5）"
+  },
+  {
+    "competitor": "hailuo",
+    "date": "2026-11-09",
+    "title": "海螺上线 MiniMax H3-Image 图像模型预览：最多 16 张参考图、最高 4K 输出",
+    "details": [
+      "11 月 9 日海螺（Hailuo）图像模型列表首位出现 MiniMax-H3-Image，模型 id 为 MiniMax-H3-Image，处于预览形态",
+      "支持最多 16 张参考图作为输入，单次提示词长度上限提升至 32000 字符，最高可输出 4K 图像",
+      "官方暂未开放 H3-Image 的模型权重与对外 API，仅站内可用",
+      "海螺视频侧仍以 Hailuo 3.0 为主力模型，本次新增为图像模型线"
+    ],
+    "type": "模型更新",
+    "source": "https://hailuoai.video/",
+    "sourceName": "海螺 AI 官方（图像模型列表）"
+  },
+  {
     "competitor": "jimeng",
     "date": "2026-11-09",
     "title": "字节 Seed 发布图像模型 Seedream 5.5，同步在即梦网页版上线：支持百轮多轮编辑与原生 RGBA 透明素材",
@@ -211,6 +253,20 @@ window.COMPETITOR_DATA = {
     "type": "新功能",
     "source": "https://higgsfield.ai/creator-hub/changelog",
     "sourceName": "Higgsfield Changelog"
+  },
+  {
+    "competitor": "openart",
+    "date": "2026-11-05",
+    "title": "OpenArt 上线 GPT Image 2.6：覆盖图像生成、编辑与 GIF 输出",
+    "details": [
+      "OpenArt 官方博客 11 月 5 日发布「GPT Image 2.6 Overview – Tech Specs, Key Features, and How to Use It on OpenArt」，确认该模型已在平台内可直接选用",
+      "官方概览将该模型定位为统一支持图像生成、图像编辑与 GIF 动图输出的单一图像模型",
+      "同期配套发布 GPT Image 2.6 提示词指南，针对生成、编辑与 GIF 三类任务给出写法建议",
+      "平台内容侧同期主推 Director 影视级智能体与 Arena 模型榜单"
+    ],
+    "type": "模型更新",
+    "source": "https://openart.ai/blog/",
+    "sourceName": "OpenArt 官方博客（Nov 5, 2026）"
   },
   {
     "competitor": "kling",
@@ -297,6 +353,21 @@ window.COMPETITOR_DATA = {
     "type": "模型更新",
     "source": "https://github.com/Lightricks/LTX-2/releases/tag/v1.6.0",
     "sourceName": "Lightricks GitHub Releases"
+  },
+  {
+    "competitor": "oiioii",
+    "date": "2026-11-03",
+    "title": "OiiOii 上线「全能复刻」：Opus 5.5 + Seedance 2.5 双模型混合流水线复刻参考视频",
+    "details": [
+      "新功能「全能复刻」11 月 3 日前后上线：上传原视频、logo、界面截图再加一句自然语言提示，即可产出结构与节奏对齐的复刻成片",
+      "流水线按画面内容自动分派模型：真人表演、镜头光影与商品物理质感交由 Seedance 2.5 生成，文字排版、UI 界面与 MG 动效交由 Opus 5.5 写代码并在云端浏览器渲染录制后合成",
+      "复刻后原本压缩模糊的文字会被重绘得更清晰，解决多文字画面易糊的问题",
+      "实测覆盖网站 UI 动效、MG 动画、商业广告、游戏画面、口播等 6 类视频的批量复刻变体；单条一分钟视频约 1 小时完成，全程无需手动关键帧",
+      "同期上线双十一会员权益：7 天内 Seedance 2.5 等 20 款模型不消耗积分"
+    ],
+    "type": "新功能",
+    "source": "https://www.163.com/dy/article/LARJTVBB055659FP.html",
+    "sourceName": "网易号「卡尔的AI沃茨」实测（2026-11-03）"
   },
   {
     "competitor": "pixverse",
@@ -3479,5 +3550,5 @@ window.COMPETITOR_DATA = {
     "source": "https://pandaily.com/ai-powered-cap-cut-alternative-pollo-ai-secures-nearly-14-m-in-seed-funding-hits-6-m-mau-and-turns-profitable",
     "sourceName": "Pandaily / 晚点LatePost"
   }
-  ]
+]
 };
