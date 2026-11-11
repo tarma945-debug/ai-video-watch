@@ -8,7 +8,7 @@ window.COMPETITOR_DATA = {
   "site": {
     "title": "AI 视频竞品每日功能监控",
     "subtitle": "产品视角 · 每日追踪 DeeVid / TapNow / LibTV / Higgsfield / 小云雀AI / Runway / Pika / 可灵Kling / Luma / Vidu / 即梦AI / 海螺AI / Sora / PixVerse / RunningHub / RHTV / OpenArt / Pollo AI / Updream / OiiOii / Elser.AI / Pexo / Shotlab / LTX Studio / SkyReels / Storyboarder 的功能动态",
-    "updated": "2026-11-11"
+    "updated": "2026-11-12"
   },
   "competitors": [
     {
@@ -169,6 +169,34 @@ window.COMPETITOR_DATA = {
     }
   ],
     "updates": [
+  {
+    "competitor": "hailuo",
+    "date": "2026-11-11",
+    "title": "MiniMax 开源 H3-Image 模型权重：10 秒内生成 4K 图像，支持文生图、参考生成与图像编辑",
+    "details": [
+      "MiniMax 于 11 月 11 日发布并开源 MiniMax H3-Image，基于 H3 底座构建，官方称可在 10 秒内生成 4096×4096 的 4K 图像",
+      "同一模型覆盖文本生成图像、参考图生成与图像编辑三类任务，此前海螺已于 11 月 9 日提供该模型预览",
+      "开源权重延续 MiniMax 消费级硬件本地部署路线，与此前 FastH3 Omni 开源口径一致",
+      "图像模型的持续迭代为海螺 H3 视频管线提供更强的参考图与素材生产能力"
+    ],
+    "type": "模型更新",
+    "source": "https://poyo.ai/hub/2026-11-11-ai-news",
+    "sourceName": "PoYo 2026-11-11 AI Daily（引 MiniMax 官方发布）"
+  },
+  {
+    "competitor": "jimeng",
+    "date": "2026-11-10",
+    "title": "即梦调整会员订阅价格：连续包月首月折扣由约 5.2 折降至 4 折",
+    "details": [
+      "11 月 10 日即梦网页版会员页改版，连续包月首月折扣在多数档位由约 5.2 折下调至 4 折",
+      "超级会员首月价格由 ¥2235 降至 ¥1706，高级会员档位由 ¥1168 降至 ¥896",
+      "会员权益列表统一加上勾选标记，功能项更直观；页面底部「短剧工作室」推广区块被移除",
+      "与 10 月底短剧工作室上线、Seedance 2.5 双 11 折扣形成组合，进一步压低专业创作者首月入局成本"
+    ],
+    "type": "产品升级",
+    "source": "https://headsup.bot/changes/jimeng-jianying-com",
+    "sourceName": "HeadsUp.bot 变更记录（Nov 10, 2026）"
+  },
   {
     "competitor": "ltxstudio",
     "date": "2026-11-10",
@@ -353,6 +381,20 @@ window.COMPETITOR_DATA = {
     "type": "模型更新",
     "source": "https://github.com/Lightricks/LTX-2/releases/tag/v1.6.0",
     "sourceName": "Lightricks GitHub Releases"
+  },
+  {
+    "competitor": "vidu",
+    "date": "2026-11-03",
+    "title": "Vidu Q4 Preview 新增原生 4K 视频生成",
+    "details": [
+      "11 月 3 日 Vidu 为 Q4 Preview 模型增加原生 4K 生成能力，用户直接用该模型出片即可获得真 4K 分辨率",
+      "官方 Vidu Q4 页面同步标注：参考生视频与图生视频均支持 2K/4K 输出，单次最长 16 秒、最多 15 张参考图与 3 段音色",
+      "这是 10 月 27 日 Q4 Preview 提速与画质优化后的又一次能力补齐，延续 10 月 7 日 Q4 Preview 首发的迭代节奏",
+      "4K 原生输出面向 AI 短剧、广告营销与影视级素材场景，减少后期放大环节"
+    ],
+    "type": "模型更新",
+    "source": "https://www.aiformortals.co/ai-tools/vidu",
+    "sourceName": "AIForMortals Vidu Changelog（Nov 3, 2026）+ Vidu 官方 Q4 页"
   },
   {
     "competitor": "oiioii",
