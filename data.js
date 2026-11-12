@@ -8,7 +8,7 @@ window.COMPETITOR_DATA = {
   "site": {
     "title": "AI 视频竞品每日功能监控",
     "subtitle": "产品视角 · 每日追踪 DeeVid / TapNow / LibTV / Higgsfield / 小云雀AI / Runway / Pika / 可灵Kling / Luma / Vidu / 即梦AI / 海螺AI / Sora / PixVerse / RunningHub / RHTV / OpenArt / Pollo AI / Updream / OiiOii / Elser.AI / Pexo / Shotlab / LTX Studio / SkyReels / Storyboarder 的功能动态",
-    "updated": "2026-11-12"
+    "updated": "2026-11-13"
   },
   "competitors": [
     {
@@ -169,6 +169,134 @@ window.COMPETITOR_DATA = {
     }
   ],
     "updates": [
+  {
+    "competitor": "jimeng",
+    "date": "2026-11-12",
+    "title": "Seedance 2.5 flash 发布并首批登陆即梦：速度翻倍、价格较 Seedance 2.5 低约 34%",
+    "details": [
+      "火山引擎 11 月 12 日推出视频生成模型 Seedance 2.5 flash，官方称其为当前效果最接近 Seedance 2.5 的版本，生成速度提升一倍",
+      "720P 文生/图生视频价格约 0.99 元/秒，较 Seedance 2.5 降低约 34%，与 Seedance 2.0 定价持平",
+      "单段最长 30 秒，单次最多输入 10 张图片、5 段视频与 5 段音频，提供 480P / 720P 两档分辨率",
+      "即日起陆续在即梦、LibTV、Updream、Creao AI、TapNow 等平台上线，API 计划 11 月 15 日上线火山方舟",
+      "Seedance 2.5 系列由此形成旗舰（画质/1080P-4K）与 flash（速度/成本）双线，补齐高频批量生产场景"
+    ],
+    "type": "模型更新",
+    "source": "https://www.cnstock.com/commonDetail/827612",
+    "sourceName": "上海证券报·中国证券网 / 网易智能（2026-11-12）"
+  },
+  {
+    "competitor": "libtv",
+    "date": "2026-11-12",
+    "title": "LibTV 接入 Seedance 2.5 flash：30 秒内批量出片，成本下探约三成",
+    "details": [
+      "作为火山引擎首批合作平台之一，LibTV 于 11 月 12 日起陆续开放 Seedance 2.5 flash 模型调用",
+      "flash 版本在效果接近 Seedance 2.5 的前提下生成速度提升一倍，720P 约 0.99 元/秒，较 2.5 降低约 34%",
+      "支持单段最长 30 秒，最多 10 图 + 5 视频 + 5 音频混合输入，覆盖 480P / 720P",
+      "对以剧本 + 分镜 + 成片为主链路的 LibTV 而言，flash 更适合批量素材与初版镜头生成，高清镜头仍走 Seedance 2.5"
+    ],
+    "type": "模型更新",
+    "source": "https://www.cnstock.com/commonDetail/827612",
+    "sourceName": "上海证券报·中国证券网（2026-11-12）"
+  },
+  {
+    "competitor": "updream",
+    "date": "2026-11-12",
+    "title": "updream 同步上线 Seedance 2.5 flash：预览渲染提速，单秒成本约 0.99 元",
+    "details": [
+      "updream 于 11 月 12 日起陆续上线 Seedance 2.5 flash，成为火山引擎首批接入平台之一",
+      "模型生成速度提升一倍、价格较 Seedance 2.5 降低约 34%，720P 文生/图生视频约 0.99 元/秒",
+      "支持 30 秒单段直出与 10 图 / 5 视频 / 5 音频多模态混合输入，输出 480P / 720P",
+      "与 updream 的 3D 预演、分镜预演流程结合后，可先用 flash 低成本试片、再切高保真模型出正片"
+    ],
+    "type": "模型更新",
+    "source": "https://www.cnstock.com/commonDetail/827612",
+    "sourceName": "上海证券报·中国证券网（2026-11-12）"
+  },
+  {
+    "competitor": "tapnow",
+    "date": "2026-11-12",
+    "title": "TapNow 接入 Seedance 2.5 flash：节点画布新增高性价比视频模型，速度翻倍",
+    "details": [
+      "TapNow 于 11 月 12 日起陆续提供 Seedance 2.5 flash，为火山引擎首批上线平台之一",
+      "flash 版本生成速度提升一倍，720P 约 0.99 元/秒，较 Seedance 2.5 便宜约 34%，与 Seedance 2.0 同价",
+      "支持 30 秒单段生成、最多 10 张图片 + 5 段视频 + 5 段音频输入，分辨率 480P / 720P",
+      "在 TapNow 的节点式画布中可用于批量试镜头与并行分支生成，降低多版本对比的算力成本"
+    ],
+    "type": "模型更新",
+    "source": "https://www.cnstock.com/commonDetail/827612",
+    "sourceName": "上海证券报·中国证券网（2026-11-12）"
+  },
+  {
+    "competitor": "runway",
+    "date": "2026-11-11",
+    "title": "Runway 调整 Seedream 5 Pro Layers 计费：由每次 18 credits 改为按返回图像张数计费",
+    "details": [
+      "官方 API Changelog 11 月 11 日记录：seedream5_pro_layers 不再按 18 credits / 次分解计费，改为按返回图像计费",
+      "1K 与 1.5K 为 3 credits / 张，2K 与 auto 为 5 credits / 张，基础图与每一层分别计数",
+      "分解任务会按最坏情况预留 credits，实际用量以返回图像数量结算",
+      "计费颗粒度细化到图层，鼓励开发者在图像编辑工作流中按需控制拆分深度"
+    ],
+    "type": "产品升级",
+    "source": "https://thismonthinai.com/updates/runway/2026-11",
+    "sourceName": "Runway API Changelog（Nov 11, 2026，经 This Month in AI 索引）"
+  },
+  {
+    "competitor": "runway",
+    "date": "2026-11-10",
+    "title": "Seedream 5 Pro Layers 上线 Runway Dev：一张图拆成可编辑图层",
+    "details": [
+      "Runway Dev 新增 seedream5_pro_layers 模型，把单张 PNG / JPEG 源图拆分为可独立编辑的图层，服务图像编辑工作流",
+      "调用走 text to image 端点，可附提示词，分辨率支持 auto / 1K / 1.5K / 2K",
+      "面向海报、电商素材、版式重组等需要分层二次编辑的场景，输出可直接进入图层化后期",
+      "与 Runway 近期密集接入第三方模型的策略一致（此前已上线 Kling 4.0 Flash、GPT Image 2.6 Flare、Gemini Omni 1.2 Flash）"
+    ],
+    "type": "新功能",
+    "source": "https://thismonthinai.com/updates/runway/2026-11",
+    "sourceName": "Runway API Changelog（Nov 10, 2026，经 This Month in AI 索引）"
+  },
+  {
+    "competitor": "pollo",
+    "date": "2026-11-10",
+    "title": "Pollo 上线 Seedream 5.5：多轮精修 + 多语言排版，限时 8 折",
+    "details": [
+      "Pollo 更新日志 11 月 10 日记录 Seedream 5.5 上线，支持多轮编辑与细节保留式改图",
+      "精准编辑：替换服装、颜色、配饰或表情时保留周围细节；「继续编辑」可连续多轮精修",
+      "强化人像与产品图的自然光线与纹理表现，并支持海报、标签等设计的易读文字排版",
+      "11 月 10 日至 16 日限时 8 折，配合图片赛道补齐 Seedream 系列最新版本"
+    ],
+    "type": "模型更新",
+    "source": "https://pollo.ai/zh/whats-new",
+    "sourceName": "Pollo AI 更新日志（2026-11-10）"
+  },
+  {
+    "competitor": "pollo",
+    "date": "2026-11-10",
+    "title": "Pollo 推出故事视频（Story Video）：脚本转分镜场景 + 角色一致性 + 有声旁白",
+    "details": [
+      "11 月 10 日上线 AI Story Video 生成器，面向 YouTube、TikTok 等平台的叙事类内容",
+      "脚本变故事：把剧本改写成节奏连贯、符合所选视觉风格的分镜场景",
+      "角色一致性：同一人物在不同场景中保持可辨识的形象特征",
+      "有声故事：为每个场景配旁白、音乐与音效，输出可直接发布的成片",
+      "同步开启 Pollo Storyland 挑战赛（11 月 10 日至 23 日），要求 720p 以上、时长不少于 30 秒"
+    ],
+    "type": "新功能",
+    "source": "https://pollo.ai/zh/whats-new",
+    "sourceName": "Pollo AI 更新日志（2026-11-10）"
+  },
+  {
+    "competitor": "pollo",
+    "date": "2026-11-09",
+    "title": "Pollo 智能体接入 Claude Fable 5.2：新增 3D 建模与视觉推理能力",
+    "details": [
+      "11 月 9 日 Pollo 智能体新增 Claude Fable 5.2 模型选项，可在现有工作区直接切换使用",
+      "3D 建模：把想法直接转成较精细的 3D 资产，补齐此前以 2D 为主的产出形态",
+      "视觉推理：通过专用推理模型理解复杂视觉任务，提升多步编辑与素材判断的准确度",
+      "延续 Pollo 智能体多模型并挂的路线（此前已并入 DeepSeek V4.1 FLASH、Gemini 4 Argon）"
+    ],
+    "type": "产品升级",
+    "source": "https://pollo.ai/zh/whats-new",
+    "sourceName": "Pollo AI 更新日志（2026-11-09）"
+  },
   {
     "competitor": "hailuo",
     "date": "2026-11-11",
