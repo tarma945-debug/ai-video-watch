@@ -8,7 +8,7 @@ window.COMPETITOR_DATA = {
   "site": {
     "title": "AI 视频竞品每日功能监控",
     "subtitle": "产品视角 · 每日追踪 DeeVid / TapNow / LibTV / Higgsfield / 小云雀AI / Runway / Pika / 可灵Kling / Luma / Vidu / 即梦AI / 海螺AI / Sora / PixVerse / RunningHub / RHTV / OpenArt / Pollo AI / Updream / OiiOii / Elser.AI / Pexo / Shotlab / LTX Studio / SkyReels / Storyboarder 的功能动态",
-    "updated": "2026-11-13"
+    "updated": "2026-11-14"
   },
   "competitors": [
     {
@@ -169,6 +169,36 @@ window.COMPETITOR_DATA = {
     }
   ],
     "updates": [
+  {
+    "competitor": "libtv",
+    "date": "2026-11-13",
+    "title": "LibTV 全球首发上线 Seedance 2.5 Flash：面向全部用户开放，双 11 期 720P 有参视频低至 0.10 元/秒",
+    "details": [
+      "11 月 13 日 LibTV 全球首发上线 Seedance 2.5 Flash，面向所有用户开放，主打更低成本、更高效率完成高质量视频创作",
+      "双十一限时价格加码：720P 有参视频低至 0.10 元/秒（Seedance 2.5 Flash 常规定价约 0.99 元/秒），为目前公开渠道最低档",
+      "智东西 11 月 13 日实测：在 LibTV 以 480P / 15 秒 / 16:9 / 开启声音出片，快速动作准确、人物与场景一致性较好，画面文字偶有乱码",
+      "官方口径仍将 flash 定位为速度与成本优先档，与 Seedance 2.5 形成「高清正片 + 高频试片」的双线组合",
+      "距 11 月 12 日首批接入仅隔一天，LibTV 从「陆续开放」升级为「全球首发 + 专属价格」，在国内聚合型视频平台中抢到首发身位"
+    ],
+    "type": "模型更新",
+    "source": "https://www.163.com/dy/article/KE53UO1I0511D3QS.html",
+    "sourceName": "网易号·AI异类 / 智东西实测（2026-11-13）"
+  },
+  {
+    "competitor": "runway",
+    "date": "2026-11-13",
+    "title": "Runway 上线 Seedance 2.5 Flash：平台再引入第三方视频模型，480P 0.07 美元/秒、无 1080P 档",
+    "details": [
+      "Runway 于 11 月 13 日 01:23 UTC 发布上线通告，Seedance 2.5 Flash 已可在 Runway 平台调用，比字节自家 BytePlus ModelArk 早两天",
+      "定价：480P 0.07 美元/秒、720P 0.15 美元/秒，约为 Seedance 2.5 的 0.103 / 0.231 美元的三分之二；Flash 不提供 1080P 档",
+      "字节侧文档口径：BytePlus ModelArk 自 11 月 15 日 14:00（UTC+8）起开放在线体验与 API 调用，模型 id 为 dreamina-seedance-2-5-flash-261115",
+      "对 Runway 的意义：在自研 Gen-4.5 / Aleph 2.0 之外继续扩充第三方模型目录，以「聚合 + 快速上新」承接价格敏感与高频试片需求",
+      "该模型为 Seedance 2.5 的轻量档（非新架构、无技术报告），主打速度与成本；1080P 及以上仍需回退 Seedance 2.5 或 Gen-4.5"
+    ],
+    "type": "模型更新",
+    "source": "https://www.orcarouter.ai/blog/seedance-2-5-flash-runway",
+    "sourceName": "OrcaRouter 分析 / Runway 官方发布（2026-11-13）"
+  },
   {
     "competitor": "jimeng",
     "date": "2026-11-12",
