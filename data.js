@@ -8,7 +8,7 @@ window.COMPETITOR_DATA = {
   "site": {
     "title": "AI 视频竞品每日功能监控",
     "subtitle": "产品视角 · 每日追踪 DeeVid / TapNow / LibTV / Higgsfield / 小云雀AI / Runway / Pika / 可灵Kling / Luma / Vidu / 即梦AI / 海螺AI / Sora / PixVerse / RunningHub / RHTV / OpenArt / Pollo AI / Updream / OiiOii / Elser.AI / Pexo / Shotlab / LTX Studio / SkyReels / Storyboarder 的功能动态",
-    "updated": "2026-11-14"
+    "updated": "2026-11-16"
   },
   "competitors": [
     {
@@ -169,6 +169,21 @@ window.COMPETITOR_DATA = {
     }
   ],
     "updates": [
+  {
+    "competitor": "pixverse",
+    "date": "2026-11-14",
+    "title": "PixVerse App 更新至 3.22.30：上线 Beat Sync 节奏卡点短视频生成，含 Bug 修复与体验优化",
+    "details": [
+      "11 月 14 日 PixVerse App 发布 3.22.30 版本（Android 包名 com.pixverseai.pixverse，版本号 426），Google Play 商店更新日期标注为 2026-11-14",
+      "新增 Beat Sync 短视频生成器（What's New 首项）：可让画面节奏自动对齐音乐节拍，一键产出卡点短视频，无需再导出到剪辑软件手动对轨",
+      "同版本包含 Bug 修复与体验优化，定位为使用流畅度提升，未涉及新的视频基础模型或分辨率档位变化",
+      "与 11 月 8 日上线的 Draw to Fly 站内迷你应用同属移动端轻量化创作补强：前者解决「怎么拍」，Beat Sync 解决「怎么卡点成片」",
+      "官方渠道（pixverse.ai/en/changelog）当前不可直读，本条以应用商店版本记录与带日期的新版本说明交叉核验后入库"
+    ],
+    "type": "新功能",
+    "source": "https://play.google.com/store/apps/details?id=com.pixverseai.pixverse",
+    "sourceName": "Google Play 版本记录 / Appteka（2026-11-14）"
+  },
   {
     "competitor": "libtv",
     "date": "2026-11-13",
