@@ -8,7 +8,7 @@ window.COMPETITOR_DATA = {
   "site": {
     "title": "AI 视频竞品每日功能监控",
     "subtitle": "产品视角 · 每日追踪 DeeVid / TapNow / LibTV / Higgsfield / 小云雀AI / Runway / Pika / 可灵Kling / Luma / Vidu / 即梦AI / 海螺AI / Sora / PixVerse / RunningHub / RHTV / OpenArt / Pollo AI / Updream / OiiOii / Elser.AI / Pexo / Shotlab / LTX Studio / SkyReels / Storyboarder 的功能动态",
-    "updated": "2026-11-17"
+    "updated": "2026-11-18"
   },
   "competitors": [
     {
@@ -168,7 +168,27 @@ window.COMPETITOR_DATA = {
       "tagline": "AI 故事板生成器：从剧本到分镜、镜头列表、动画预览（Animatic）与 Pitch Deck 全流程自动生成，3D Camera Angle Control 精准控制机位。"
     }
   ],
-    "updates": [    {
+    "updates": [
+    {
+      "competitor": "kling",
+      "date": "2026-11-17",
+      "title": "可灵上线 Kling Image 4.0：首个底层自研图像模型，主打文字渲染与主体一致性",
+      "details": [
+        "11 月 17 日可灵 AI 上线 Kling Image 4.0，官方将其定位为可灵首个底层自研图像模型，网页端与移动端同步开放（经 IT之家、腾讯新闻、新浪等 11 月 17 日报道交叉核验）",
+        "强化文字渲染与版式排版能力，海报、封面、电商主图等含中英文字样的成品可直接出图，减少后期补字工序",
+        "支持基于参考图的主体与风格一致性控制，同一角色在多张素材间保持外貌与画风稳定，便于短剧、漫剧的连续出图",
+        "提供局部重绘与区域编辑能力，可指定画面局部替换元素而不改动其余内容，降低整图重抽成本",
+        "与可灵 4.0 系列视频链路衔接：图像侧先定稿，再顺势转视频，缩短从静帧到成片的路径",
+        "补齐可灵此前「视频强、图像依靠第三方」的短板，与 11 月 14 日 Kling 4.0 / 4.0 Flash 新增 4:3、3:4 画幅形成同一周内的能力组合"
+      ],
+      "type": "模型更新",
+      "source": "https://klingai.com/cn/",
+      "sourceName": "可灵 AI 官方（2026-11-17 上线，经 IT之家 / 腾讯新闻 / 新浪 11-17 报道核验）"
+    },
+
+
+
+    {
       "competitor": "kling",
       "date": "2026-11-14",
       "title": "可灵 API 更新：Kling 4.0 / 4.0 Flash 画面比例新增 4:3、3:4，补齐横竖屏中间档",
@@ -316,6 +336,47 @@ window.COMPETITOR_DATA = {
       "type": "模型更新",
       "source": "https://www.cnstock.com/commonDetail/827612",
       "sourceName": "上海证券报·中国证券网（2026-11-12）"
+    },    {
+      "competitor": "hailuo",
+      "date": "2026-11-12",
+      "title": "海螺 AI App 更新至 v4.24.0：品牌视觉焕新，同步推出全新订阅 M Plan",
+      "details": [
+        "11 月 12 日海螺 AI（MiniMax）Android 端发布 v4.24.0（包名 com.xproducer.yingshiai），多个应用站版本记录标注更新日期为 2026-11-12",
+        "官方更新说明首项为品牌视觉整体焕新，App 图标、界面配色与品牌标识同步调整",
+        "同版本推出全新订阅方案 M Plan，与原有订阅档位并行，用于承载更高额度的多模态调用",
+        "端内已整合视频、音频、图片多模态生成，以及深度研究、演示文稿、全栈应用构建与远程控制长程任务等 Agent 能力，本条更新集中在端侧体验与商业化层",
+        "未涉及底层视频模型版本变化；11 月 11 日海螺侧接入 MiniMax H3 Max 的 API 更新仍在生效"
+      ],
+      "type": "产品升级",
+      "source": "https://m.87g.com/az/203271.html",
+      "sourceName": "应用商店版本记录（海螺 AI v4.24.0，2026-11-12）"
+    },    {
+      "competitor": "ltxstudio",
+      "date": "2026-11-12",
+      "title": "LTX Studio 更新至 1.6.2：以修复与稳定性优化为主，配套 LTX-2 API 四项 VFX 能力落地",
+      "details": [
+        "11 月 12 日 LTX Studio 发布 1.6.2 版本，更新说明以问题修复、导出与交互稳定性优化为主，未引入新的生成模型档位",
+        "与 11 月 10 日 LTX API 上线的 Alpha Generation、Video Upscale、SDR-to-HDR、Reframe 四项能力形成配套，站内工作流可直接调用升级后的画质与重构链路",
+        "LTX-2 系列仍是平台主力视频模型，1.6.x 版本线集中处理工程细节而非能力扩张",
+        "第三方工具目录（TAAFT）与版本留档站均记录该版本发布于 2026-11-12，可与官方 release notes 交叉对应"
+      ],
+      "type": "修复",
+      "source": "https://ltx.io/release-notes",
+      "sourceName": "LTX Studio 官方 Release Notes（1.6.2，2026-11-12）"
+    },    {
+      "competitor": "higgsfield",
+      "date": "2026-11-11",
+      "title": "Higgsfield 支持 Seedance 2.5 输出 4K，站内多模型档位再往上探一档",
+      "details": [
+        "11 月 11 日 Higgsfield 官方 changelog 记录 Seedance 2.5 已支持 4K 输出，站内可直接选择 4K 档位生成",
+        "4K 档位沿用 Seedance 2.5 的参考图 / 参考视频一致性能力，适配广告片、电商主图转视频等对分辨率要求高的交付场景",
+        "与 11 月 10 日上线的前一档模型更新形成同一周内连续补强，Creator Hub 侧同步更新说明",
+        "Higgsfield 仍以多模型聚合为核心，Seedance 2.5 与自家 Cinema Studio、Shorts 等链路并存",
+        "同期官方推出限时折扣活动，本条只登记模型能力变化，营销活动不计入功能更新"
+      ],
+      "type": "模型更新",
+      "source": "https://higgsfield.ai/creator-hub/changelog",
+      "sourceName": "Higgsfield 官方 Changelog（2026-11-11）"
     },
     {
       "competitor": "runway",
