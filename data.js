@@ -8,7 +8,7 @@ window.COMPETITOR_DATA = {
   "site": {
     "title": "AI 视频竞品每日功能监控",
     "subtitle": "产品视角 · 每日追踪 DeeVid / TapNow / LibTV / Higgsfield / 小云雀AI / Runway / Pika / 可灵Kling / Luma / Vidu / 即梦AI / 海螺AI / Sora / PixVerse / RunningHub / RHTV / OpenArt / Pollo AI / Updream / OiiOii / Elser.AI / Pexo / Shotlab / LTX Studio / SkyReels / Storyboarder 的功能动态",
-    "updated": "2026-11-18"
+    "updated": "2026-11-19"
   },
   "competitors": [
     {
@@ -169,6 +169,22 @@ window.COMPETITOR_DATA = {
     }
   ],
     "updates": [
+    {
+      "competitor": "pika",
+      "date": "2026-11-18",
+      "title": "Pika 发布 Pika Enact 研究预览：实时舞台调度 + 演员指导 + 机位控制",
+      "details": [
+        "11 月 18 日 Pika 官方站 Latest News 挂出「Research Preview: Pika Enact」，定位为基于 Pika H3 Flex 的实时导戏式创作环境",
+        "三大交互模式：Live Staging（鼠标拖动画面中的演员/物体即时改位，场景持续播放）、Live Actor Direction（直接对话给台词/情绪/动作指令，喊 Action 转为新一条连续镜头）、Live Camera Control（鼠标实时控制机位运动）",
+        "流式生成：以亚秒级分块持续输出画面与声音，并携带场景上下文，使创作者可在生成过程中实时改戏",
+        "性能口径：单服务器生成速度约为播放速度的 1.8 倍；低延迟配置下 H100 画面响应 <0.4 秒（含解码）；鼠标采样 24 次/秒",
+        "训练侧采用物理驱动的合成数据引擎，生成带帧级光标轨迹的前后一致视频对，覆盖搬抬、多步搬运、照片人物插入实拍场景等场景",
+        "官方将其描述为从「提示词生成」向「片场导戏」的形态演进，属研究预览阶段能力"
+      ],
+      "type": "新功能",
+      "source": "https://pika.art/",
+      "sourceName": "Pika 官方站 Latest News（Research Preview: Pika Enact，2026-11-18）"
+    },
     {
       "competitor": "openart",
       "date": "2026-11-17",
