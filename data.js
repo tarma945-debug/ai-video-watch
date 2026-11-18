@@ -170,6 +170,50 @@ window.COMPETITOR_DATA = {
   ],
     "updates": [
     {
+      "competitor": "openart",
+      "date": "2026-11-17",
+      "title": "OpenArt 支持与 Claude 平台关联计费（Linked Billing），订阅与调用额度打通",
+      "details": [
+        "11 月 17 日 OpenArt 官方更新列表发布「OpenArt Now Supports Linked Billing with Claude Platform」，支持在 Claude 平台侧关联 OpenArt 计费",
+        "关联后创作调用与订阅额度统一结算，减少跨平台重复付费与额度割裂，便于团队把 OpenArt 生成能力挂到 Claude 侧工作流中",
+        "与 11 月 12 日上线的 MCP / CLI 接入指引配合，外部 Agent 调用链路进一步闭环",
+        "同期站内仍在推 Seedance 2.5（30 秒视频、帧级编辑）、Extract Layers、IP Safety Check 等新工具，Kling 4 五折活动持续至 11 月 30 日"
+      ],
+      "type": "产品升级",
+      "source": "https://openart.ai/blog",
+      "sourceName": "OpenArt 官方 Blog 更新列表（2026-11-17）"
+    },
+    {
+      "competitor": "runninghub",
+      "date": "2026-11-17",
+      "title": "RunningHub 全新 Runow 正式上线：新增 Agent 与 Skill，从快捷生成转向智能协作",
+      "details": [
+        "官方站首页挂出公告「快捷创作全面升级，全新 Runow 正式上线！全新支持 Agent、Skill」，入口切换为 runow/agent",
+        "Agent 模式由智能体统筹模型选择、参数配置与多步生成；Skill 支持把调试好的创作流程沉淀为可复用能力",
+        "11 月 17 日媒体报道指出新版 Runow 可自动选择 Skill 与模型，用户无需手动连线节点即可跑完从拆解爆款到成片的链路",
+        "同期首页在推 Seedream 5.5（支持图层拆分、透明背景）、GPT Image 2.6（生成 GIF 动图、导出可编辑矢量图、生图提速 50%）与自研 RH Upscale 视频超分模型",
+        "配合黑五创作狂欢季（11 月 10 日–20 日），Seedance 2.5 Flash 低至 0.016 美元/秒"
+      ],
+      "type": "产品升级",
+      "source": "https://www.runninghub.ai/",
+      "sourceName": "RunningHub 官方站公告 + 11-17 媒体报道"
+    },
+    {
+      "competitor": "vidu",
+      "date": "2026-11-17",
+      "title": "Vidu 开放 MCP 与 CLI 接入：官方 MCP 服务 + 命令行双通道调用视频生成能力",
+      "details": [
+        "11 月 17 日 Vidu 开放 MCP 与 CLI 访问，官方 MCP 服务地址为 service.vidu.cn/vidu/mcp，连接类型 streamableHttp，Token 鉴权",
+        "MCP 支持在 WorkBuddy 等 Agent 客户端接入：可由 AI Agent 按提示词自动配置，也可手动填写 connector 配置，重启后工具自动注入，首次可用 get_server_info 自检",
+        "CLI 面向批量与自动化场景，配合 Vidu MCP Skill 可串起完整创作与素材工作流，无需额外安装即可用 MCP 通道",
+        "与 11 月 16 日 S2 Editing、11 月 15 日 S2 Avatar 构成同一周内的连续迭代（发布日经多家第三方更新聚合站 11-17 条目交叉核验）",
+        "官网首页当前主推 Vidu Q4 与 S11 系列模型"
+      ],
+      "type": "新功能",
+      "source": "https://www.vidu.cn/mcp",
+      "sourceName": "Vidu 官方 MCP 文档页"
+    },
+    {
       "competitor": "kling",
       "date": "2026-11-17",
       "title": "可灵上线 Kling Image 4.0：首个底层自研图像模型，主打文字渲染与主体一致性",
@@ -184,6 +228,22 @@ window.COMPETITOR_DATA = {
       "type": "模型更新",
       "source": "https://klingai.com/cn/",
       "sourceName": "可灵 AI 官方（2026-11-17 上线，经 IT之家 / 腾讯新闻 / 新浪 11-17 报道核验）"
+    },
+    {
+      "competitor": "higgsfield",
+      "date": "2026-11-16",
+      "title": "Higgsfield 发布 Short Drama Studio：剧本直出短剧剧集，三阶段流水线可全自动跑完",
+      "details": [
+        "官方 changelog 于 11 月 16 日收录 Short Drama Studio（higgsfield.ai/short-drama），面向微短剧/系列短片的独立工作台（官方博客 11 月 15 日发布）",
+        "三阶段流水线：剧本 Script → 选角与世界观 Cast & World → 剧集 Episodes，可逐阶段人工审核，也可 Auto-generate all 一键全自动（更快但更耗积分）",
+        "剧本文档支持 PDF / DOCX / Final Draft FDX / TXT / Markdown 上传，单文件上限 10MB；画幅覆盖 9:16（默认）与 21:9、16:9、4:3、3:4、1:1",
+        "内置 15 种风格预设，含 Higgsfield Cinematic、K-Drama、90s、Dark Academia、Anime、Classic 3D、Noir 3D、Classic 2D 等",
+        "剧集草稿 480p 生成、成片 720p / 1080p；Attraction 参数控制角色表情表现力，配 Agent 面板接受对话式改稿",
+        "全部消耗 Higgsfield credits：人脸方案免费生成，其余动作在按钮上显示预估积分，官方称积分主要花在剧集生成上"
+      ],
+      "type": "新功能",
+      "source": "https://higgsfield.ai/blog/higgsfield-short-drama-studio",
+      "sourceName": "Higgsfield 官方 Changelog（2026-11-16）"
     },
 
 
