@@ -8,7 +8,7 @@ window.COMPETITOR_DATA = {
   "site": {
     "title": "AI 视频竞品每日功能监控",
     "subtitle": "产品视角 · 每日追踪 DeeVid / TapNow / LibTV / Higgsfield / 小云雀AI / Runway / Pika / 可灵Kling / Luma / Vidu / 即梦AI / 海螺AI / Sora / PixVerse / RunningHub / RHTV / OpenArt / Pollo AI / Updream / OiiOii / Elser.AI / Pexo / Shotlab / LTX Studio / SkyReels / Storyboarder 的功能动态",
-    "updated": "2026-11-19"
+    "updated": "2026-11-20"
   },
   "competitors": [
     {
@@ -170,6 +170,20 @@ window.COMPETITOR_DATA = {
   ],
     "updates": [
     {
+      "competitor": "kling",
+      "date": "2026-11-18",
+      "title": "可灵 AI App 更新至 v3.10.30：以 Bug 修复与性能优化为主",
+      "details": [
+        "11 月 18 日 App Store 版本记录（trackId 6738049229）显示 Kling AI 上架 v3.10.30，发布说明为 Bug fixes and performance improvements",
+        "本次为客户端维护性版本，官方未披露新增功能；与 11 月 17 日上线的 Kling Image 4.0、11 月 14 日 Kling 4.0 / 4.0 Flash 新增 4:3 与 3:4 画幅构成同一周的连续迭代",
+        "网页端当前主推 Kling 4.0 与 Kling Image 4.0：前者主打视听表现、最多 10 张关键帧、3–30 秒时长与 4K/10bit HDR，后者主打文字渲染、组图直出与分层画布",
+        "开发者侧 klingai.com/dev/model-release 为 JS 渲染页面，未提供带日期的更新清单；11 月 19 日快手财报电话会提及 Kling 4.0 已进入影视、短剧、广告、游戏等场景，10 月 28 日 API 已面向全球企业客户开放"
+      ],
+      "type": "修复",
+      "source": "https://apps.apple.com/app/id6738049229",
+      "sourceName": "App Store 版本记录（Kling AI v3.10.30，2026-11-18）"
+    },
+    {
       "competitor": "pika",
       "date": "2026-11-18",
       "title": "Pika 发布 Pika Enact 研究预览：实时舞台调度 + 演员指导 + 机位控制",
@@ -244,6 +258,20 @@ window.COMPETITOR_DATA = {
       "type": "模型更新",
       "source": "https://klingai.com/cn/",
       "sourceName": "可灵 AI 官方（2026-11-17 上线，经 IT之家 / 腾讯新闻 / 新浪 11-17 报道核验）"
+    },
+    {
+      "competitor": "runway",
+      "date": "2026-11-16",
+      "title": "Runway App 更新至 v105.0.0：维护性版本，侧重稳定性与性能",
+      "details": [
+        "11 月 16 日 App Store 版本记录（trackId 1665024375）显示 Runway 上架 v105.0.0，发布说明为 Bug fixes and performance improvements",
+        "官方 changelog（runway.com/changelog）最新条目仍为 10 月 27 日的 Runway Ads，11 月中旬未见新功能公告；dev.runway.com/changelog 已下线（返回页面不存在）",
+        "runwayml.com/changelog 现 304 跳转至 runway.com/changelog，旧域名抓取容易拿到过期内容，核验时需注意",
+        "移动端本次无功能披露，产品迭代仍集中在 Gen-4.5 视频生成与 Aleph 视频编辑链路"
+      ],
+      "type": "修复",
+      "source": "https://apps.apple.com/app/id1665024375",
+      "sourceName": "App Store 版本记录（Runway v105.0.0，2026-11-16）"
     },
     {
       "competitor": "higgsfield",
