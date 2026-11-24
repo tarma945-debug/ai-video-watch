@@ -12,6 +12,18 @@ window.COMPETITOR_DATA = {
   },
   "competitors": [
     {
+      "id": "hiapi",
+      "name": "HiAPI",
+      "url": "https://hiapi.ai/",
+      "tagline": "提供多家图像和视频生成模型的统一 API。"
+    },
+    {
+      "id": "ideogram",
+      "name": "Ideogram",
+      "url": "https://ideogram.ai/",
+      "tagline": "提供图像生成、局部编辑和开发者 API。"
+    },
+    {
       "id": "nightcafe",
       "name": "NightCafe",
       "url": "https://nightcafe.studio/",
@@ -181,6 +193,116 @@ window.COMPETITOR_DATA = {
     }
   ],
     "updates": [
+    {
+      "competitor": "pixeldojo",
+      "date": "2026-11-23",
+      "title": "PixelDojo 重做 Change Camera Angle 镜头角度工具",
+      "details": [
+        "可分别调整虚拟机位的位置、高度和拍摄距离。"
+      ],
+      "type": "产品升级",
+      "source": "https://pixeldojo.ai/changelog/2026-11",
+      "sourceName": "PixelDojo 官方更新日志"
+    },
+    {
+      "competitor": "pixeldojo",
+      "date": "2026-11-23",
+      "title": "PixelDojo Video Studio 新增提示词 Enhance 与 Refine",
+      "details": [
+        "视频工作室增加提示词优化入口，并保留原有的 @ 引用名称。"
+      ],
+      "type": "新功能",
+      "source": "https://pixeldojo.ai/changelog/2026-11",
+      "sourceName": "PixelDojo 官方更新日志"
+    },
+    {
+      "competitor": "pixeldojo",
+      "date": "2026-11-21",
+      "title": "PixelDojo 恢复 HeyGen Avatar 和 Boogu Image Edit",
+      "details": [
+        "HeyGen Avatar 可将单张肖像与脚本或音频生成口播视频。Boogu 恢复上传图片后用文字编辑的入口。"
+      ],
+      "type": "产品升级",
+      "source": "https://pixeldojo.ai/changelog/2026-11",
+      "sourceName": "PixelDojo 官方更新日志"
+    },
+    {
+      "competitor": "pixeldojo",
+      "date": "2026-11-20",
+      "title": "PixelDojo 上架 MOSS-Image 并开放图像 LoRA 训练",
+      "details": [
+        "支持为 Krea 2、MiniMax H3 Image 和 MOSS-Image 训练 LoRA。MiniMax H3 Image 和 MOSS-Image 出图时可叠加最多三个 LoRA。"
+      ],
+      "type": "新功能",
+      "source": "https://pixeldojo.ai/changelog/2026-11",
+      "sourceName": "PixelDojo 官方更新日志"
+    },
+    {
+      "competitor": "runway",
+      "date": "2026-11-20",
+      "title": "Runway 上架 MiniMax H3 Image",
+      "details": [
+        "面向付费方案开放，最多支持 16 张参考图，可在设置里启用高速生成。"
+      ],
+      "type": "模型更新",
+      "source": "https://runway.com/changelog",
+      "sourceName": "Runway 官方更新日志"
+    },
+    {
+      "competitor": "hiapi",
+      "date": "2026-11-20",
+      "title": "HiAPI 上架 Kling Image 4.0 API",
+      "details": [
+        "支持标准图、组图、网页长图和电商长图。标准图提供参考图和命名主体控制。"
+      ],
+      "type": "模型更新",
+      "source": "https://hiapi.ai/en/changelog?category=model-launch",
+      "sourceName": "HiAPI 官方更新日志"
+    },
+    {
+      "competitor": "higgsfield",
+      "date": "2026-11-20",
+      "title": "Higgsfield MCP 新增 CIMD 客户端识别方式",
+      "details": [
+        "第三方客户端可使用客户端元数据文档进行身份识别。旧的 DCR 方式在过渡期内继续可用。"
+      ],
+      "type": "产品升级",
+      "source": "https://higgsfield.ai/blog/higgsfield-mcp-moves-to-cimd",
+      "sourceName": "Higgsfield 官方公告"
+    },
+    {
+      "competitor": "ideogram",
+      "date": "2026-11-19",
+      "title": "Ideogram 发布 4.6 图像生成与编辑模型",
+      "details": [
+        "最高支持 4K 输出，开放 Generate 和 Precise Edit API。生成接口最多支持五张参考图，局部编辑可选用蒙版。"
+      ],
+      "type": "模型更新",
+      "source": "https://ideogram.ai/models/4.6/",
+      "sourceName": "Ideogram 官方模型页"
+    },
+    {
+      "competitor": "runway",
+      "date": "2026-11-19",
+      "title": "Runway 上架 Ideogram 4.6",
+      "details": [
+        "付费方案可使用文生图、图生图和蒙版编辑，提供 2K 与 4K 输出。"
+      ],
+      "type": "模型更新",
+      "source": "https://runway.com/changelog",
+      "sourceName": "Runway 官方更新日志"
+    },
+    {
+      "competitor": "hiapi",
+      "date": "2026-11-18",
+      "title": "HiAPI 的 Seedance 2.5 Flash 增加参考视频输入",
+      "details": [
+        "参考生视频接口最多支持五段参考视频，可和参考图、参考音频共同使用。"
+      ],
+      "type": "新功能",
+      "source": "https://hiapi.ai/en/changelog?category=model-launch",
+      "sourceName": "HiAPI 官方更新日志"
+    },
     {
       "competitor": "nightcafe",
       "date": "2026-11-23",
