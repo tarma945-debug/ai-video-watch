@@ -8,9 +8,21 @@ window.COMPETITOR_DATA = {
   "site": {
     "title": "AI 视频竞品每日功能监控",
     "subtitle": "产品视角 · 每日追踪 DeeVid / TapNow / LibTV / Higgsfield / 小云雀AI / Runway / Pika / 可灵Kling / Luma / Vidu / 即梦AI / 海螺AI / Sora / PixVerse / RunningHub / RHTV / OpenArt / Pollo AI / Updream / OiiOii / Elser.AI / Pexo / Shotlab / LTX Studio / SkyReels / Storyboarder 的功能动态",
-    "updated": "2026-11-20"
+    "updated": "2026-11-24"
   },
   "competitors": [
+    {
+      "id": "nightcafe",
+      "name": "NightCafe",
+      "url": "https://nightcafe.studio/",
+      "tagline": "AI 图片生成和编辑平台，提供多家模型的文生图与参考图编辑。"
+    },
+    {
+      "id": "pixeldojo",
+      "name": "PixelDojo",
+      "url": "https://pixeldojo.ai/",
+      "tagline": "集成多款图片和视频模型的生成、编辑与延长平台。"
+    },
     {
       "id": "deevid",
       "name": "DeeVid",
@@ -169,6 +181,39 @@ window.COMPETITOR_DATA = {
     }
   ],
     "updates": [
+    {
+      "competitor": "nightcafe",
+      "date": "2026-11-23",
+      "title": "NightCafe 上架 MiniMax H3 Image",
+      "details": [
+        "PRO 用户可用提示词生成图片，也可上传图片后用提示词编辑。"
+      ],
+      "type": "模型更新",
+      "source": "https://help.nightcafe.studio/portal/en/kb/articles/minimax-h3-image-on-nightcafe",
+      "sourceName": "NightCafe 官方帮助中心"
+    },
+    {
+      "competitor": "nightcafe",
+      "date": "2026-11-23",
+      "title": "NightCafe 上架 Qwen Image 2.1 Turbo 和 Pro",
+      "details": [
+        "两个版本均支持文生图及参考图编辑，每次最多可使用 10 张参考图。"
+      ],
+      "type": "模型更新",
+      "source": "https://help.nightcafe.studio/portal/en/kb/articles/qwen-image-2-1-on-nightcafe",
+      "sourceName": "NightCafe 官方帮助中心"
+    },
+    {
+      "competitor": "pixeldojo",
+      "date": "2026-11-23",
+      "title": "PixelDojo 为 Seedance 2.5、Kling 4.0 和 WAN 2.7 增加视频编辑入口",
+      "details": [
+        "Seedance 2.5 和 WAN 2.7 的生成页新增创建、编辑和延长标签，可灵 4.0 的生成页新增创建和编辑标签。"
+      ],
+      "type": "新功能",
+      "source": "https://pixeldojo.ai/changelog/2026-11",
+      "sourceName": "PixelDojo 官方更新日志"
+    },
     {
       "competitor": "kling",
       "date": "2026-11-18",
