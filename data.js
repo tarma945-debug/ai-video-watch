@@ -8,7 +8,7 @@ window.COMPETITOR_DATA = {
   "site": {
     "title": "AI 视频竞品每日功能监控",
     "subtitle": "产品视角 · 每日追踪 DeeVid / TapNow / LibTV / Higgsfield / 小云雀AI / Runway / Pika / 可灵Kling / Luma / Vidu / 即梦AI / 海螺AI / Sora / PixVerse / RunningHub / RHTV / OpenArt / Pollo AI / Updream / OiiOii / Elser.AI / Pexo / Shotlab / LTX Studio / SkyReels / Storyboarder 的功能动态",
-    "updated": "2026-11-24"
+    "updated": "2026-11-25"
   },
   "competitors": [
     {
@@ -190,9 +190,39 @@ window.COMPETITOR_DATA = {
       "name": "Storyboarder",
       "url": "https://storyboarder.ai/",
       "tagline": "AI 故事板生成器：从剧本到分镜、镜头列表、动画预览（Animatic）与 Pitch Deck 全流程自动生成，3D Camera Angle Control 精准控制机位。"
+    },
+    {
+      "id": "sand-ai",
+      "name": "Sand.ai",
+      "url": "https://sand.ai/",
+      "tagline": ""
     }
   ],
-    "updates": [
+  "updates": [
+    {
+      "competitor": "sand-ai",
+      "date": "2026-11-24",
+      "title": "Sand.ai 发布 480B 视频生成模型 MAGI-2",
+      "details": [
+        "最高支持生成 30 秒、1080p、25 fps 的同步音视频。",
+        "支持最多 20 个图片、视频和音频参考素材，可控制镜头切换并编辑已有视频。"
+      ],
+      "type": "模型更新",
+      "source": "https://sand.ai/blog/magi-2/",
+      "sourceName": "Sand.ai 官方发布"
+    },
+    {
+      "competitor": "pixeldojo",
+      "date": "2026-11-24",
+      "title": "PixelDojo 更新 Film Studio 的费用提示和重试扣费规则",
+      "details": [
+        "Film Studio 在按钮上显示生成费用，并在积分不足时提前提示。",
+        "Film Studio 镜头及 Faceless Studio 渲染在断线后重复提交同一请求时，API 和连接器会复用已有结果并避免再次扣费。"
+      ],
+      "type": "产品升级",
+      "source": "https://pixeldojo.ai/changelog/2026-11",
+      "sourceName": "PixelDojo 官方更新日志"
+    },
     {
       "competitor": "pixeldojo",
       "date": "2026-11-23",
@@ -456,9 +486,6 @@ window.COMPETITOR_DATA = {
       "source": "https://higgsfield.ai/blog/higgsfield-short-drama-studio",
       "sourceName": "Higgsfield 官方 Changelog（2026-11-16）"
     },
-
-
-
     {
       "competitor": "kling",
       "date": "2026-11-14",
@@ -607,7 +634,8 @@ window.COMPETITOR_DATA = {
       "type": "模型更新",
       "source": "https://www.cnstock.com/commonDetail/827612",
       "sourceName": "上海证券报·中国证券网（2026-11-12）"
-    },    {
+    },
+    {
       "competitor": "hailuo",
       "date": "2026-11-12",
       "title": "海螺 AI App 更新至 v4.24.0：品牌视觉焕新，同步推出全新订阅 M Plan",
@@ -621,7 +649,8 @@ window.COMPETITOR_DATA = {
       "type": "产品升级",
       "source": "https://m.87g.com/az/203271.html",
       "sourceName": "应用商店版本记录（海螺 AI v4.24.0，2026-11-12）"
-    },    {
+    },
+    {
       "competitor": "ltxstudio",
       "date": "2026-11-12",
       "title": "LTX Studio 更新至 1.6.2：以修复与稳定性优化为主，配套 LTX-2 API 四项 VFX 能力落地",
@@ -634,7 +663,8 @@ window.COMPETITOR_DATA = {
       "type": "修复",
       "source": "https://ltx.io/release-notes",
       "sourceName": "LTX Studio 官方 Release Notes（1.6.2，2026-11-12）"
-    },    {
+    },
+    {
       "competitor": "higgsfield",
       "date": "2026-11-11",
       "title": "Higgsfield 支持 Seedance 2.5 输出 4K，站内多模型档位再往上探一档",
