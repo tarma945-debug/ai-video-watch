@@ -8,7 +8,7 @@ window.COMPETITOR_DATA = {
   "site": {
     "title": "AI 视频竞品每日功能监控",
     "subtitle": "产品视角 · 每日追踪 DeeVid / TapNow / LibTV / Higgsfield / 小云雀AI / Runway / Pika / 可灵Kling / Luma / Vidu / 即梦AI / 海螺AI / Sora / PixVerse / RunningHub / RHTV / OpenArt / Pollo AI / Updream / OiiOii / Elser.AI / Pexo / Shotlab / LTX Studio / SkyReels / Storyboarder 的功能动态",
-    "updated": "2026-11-25"
+    "updated": "2026-11-26"
   },
   "competitors": [
     {
@@ -199,6 +199,31 @@ window.COMPETITOR_DATA = {
     }
   ],
   "updates": [
+    {
+      "competitor": "higgsfield",
+      "date": "2026-11-25",
+      "title": "Higgsfield 网页和 API 接入 MAGI-2",
+      "details": [
+        "支持生成 4–30 秒的 1080p 视频，可同步生成声音。",
+        "可用图片、视频和音频做参考，也可指定首帧与可选尾帧。"
+      ],
+      "type": "模型更新",
+      "source": "https://higgsfield.ai/blog/higgsfield-magi-2",
+      "sourceName": "Higgsfield 官方博客"
+    },
+    {
+      "competitor": "pixeldojo",
+      "date": "2026-11-25",
+      "title": "PixelDojo 新增镜头设置栏和整段视频字幕卡片",
+      "details": [
+        "图像和视频生成工具、Video Studio 与 Canvas 新增 Shot 栏，可选景别、镜头风格、光线和色彩。视频还可选运镜。",
+        "Clipper 新增整段视频卡片模式，能在说到数字、重点句或列表时显示对应卡片。",
+        "同日 PixelDojo 的 MAGI-2 新增多素材参考，可输入最多 10 张图片、5 段视频和 5 段音频。"
+      ],
+      "type": "产品升级",
+      "source": "https://pixeldojo.ai/changelog/2026-11",
+      "sourceName": "PixelDojo 官方更新日志"
+    },
     {
       "competitor": "sand-ai",
       "date": "2026-11-24",
