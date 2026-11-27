@@ -8,7 +8,7 @@ window.COMPETITOR_DATA = {
   "site": {
     "title": "AI 视频竞品每日功能监控",
     "subtitle": "产品视角 · 每日追踪 DeeVid / TapNow / LibTV / Higgsfield / 小云雀AI / Runway / Pika / 可灵Kling / Luma / Vidu / 即梦AI / 海螺AI / Sora / PixVerse / RunningHub / RHTV / OpenArt / Pollo AI / Updream / OiiOii / Elser.AI / Pexo / Shotlab / LTX Studio / SkyReels / Storyboarder 的功能动态",
-    "updated": "2026-11-26"
+    "updated": "2026-11-27"
   },
   "competitors": [
     {
@@ -199,6 +199,19 @@ window.COMPETITOR_DATA = {
     }
   ],
   "updates": [
+    {
+      "competitor": "hiapi",
+      "date": "2026-11-26",
+      "title": "HiAPI 平台接入 MAGI 2 视频生成模型",
+      "details": [
+        "新增文生视频、图生视频与参考生视频能力",
+        "支持 4-30 秒、1080p MP4 输出",
+        "默认生成对白、音效和环境声，可关闭"
+      ],
+      "type": "模型更新",
+      "source": "https://hiapi.ai/en/changelog",
+      "sourceName": "HiAPI 官网"
+    },
     {
       "competitor": "higgsfield",
       "date": "2026-11-25",
