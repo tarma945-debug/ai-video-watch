@@ -201,12 +201,73 @@ window.COMPETITOR_DATA = {
   "updates": [
     {
       "competitor": "hiapi",
+      "date": "2026-11-27",
+      "title": "HiAPI 新增 API 入口 api.hiapi.sh",
+      "details": [
+        "新入口可通过替换 base URL 使用，原有密钥、模型名和请求参数继续适用。",
+        "从新入口提交的任务会返回 .sh 域名的结果链接。旧入口后续将下线，官方暂未给出日期。"
+      ],
+      "type": "产品升级",
+      "source": "https://hiapi.ai/en/changelog",
+      "sourceName": "HiAPI 官网"
+    },
+    {
+      "competitor": "pixeldojo",
+      "date": "2026-11-26",
+      "title": "PixelDojo API 支持费用预估和同步取回结果",
+      "details": [
+        "生成前可用 dry_run 参数查看本次预计费用。",
+        "可用 wait 参数在同一次请求里等待生成完成并取回文件。"
+      ],
+      "type": "新功能",
+      "source": "https://pixeldojo.ai/changelog/2026-11",
+      "sourceName": "PixelDojo 官网"
+    },
+    {
+      "competitor": "hailuo",
+      "date": "2026-11-26",
+      "title": "MiniMax 公布 H3 视频和图像模型家族",
+      "details": [
+        "官方介绍了 H3、H3-Highspeed、H3-Lite，以及 H3-Image 和 H3-Image Highspeed 等不同档位。",
+        "旗舰模型及部分扩展模型可通过 MiniMax 开放平台、MiniMax Code 等入口使用。"
+      ],
+      "type": "模型更新",
+      "source": "https://www.minimax.io/blog/minimax-h3-family",
+      "sourceName": "海螺AI (MiniMax Hailuo) 官网"
+    },
+    {
+      "competitor": "hiapi",
       "date": "2026-11-26",
       "title": "HiAPI 平台接入 MAGI 2 视频生成模型",
       "details": [
         "新增文生视频、图生视频与参考生视频能力",
         "支持 4-30 秒、1080p MP4 输出",
         "默认生成对白、音效和环境声，可关闭"
+      ],
+      "type": "模型更新",
+      "source": "https://hiapi.ai/en/changelog",
+      "sourceName": "HiAPI 官网"
+    },
+    {
+      "competitor": "luma",
+      "date": "2026-11-25",
+      "title": "Luma 上线品牌套件和角色库",
+      "details": [
+        "品牌套件可存 Logo、字体和产品素材，也可用网站链接生成初稿，再绑定到画板供后续生成使用。",
+        "角色库可保存角色外观、服装和表情等参考，生成图片或视频时可在画板里用 @ 引用。"
+      ],
+      "type": "新功能",
+      "source": "https://lumalabs.ai/news/brand-kit-character-library",
+      "sourceName": "Luma Dream Machine 官网"
+    },
+    {
+      "competitor": "hiapi",
+      "date": "2026-11-25",
+      "title": "HiAPI 接入 LTX 2.5、Kling 2.6 运动控制和视频编辑模型",
+      "details": [
+        "LTX 2.5 Pro 支持文生视频、图生视频和音频生视频，Fast 版新增音频生视频。",
+        "Kling 2.6 运动控制支持用角色图和动作参考视频驱动角色。",
+        "Wan 2.2 Animate 增加替换和动作迁移接口，Runway Aleph 2 与 BRIA VRMBG 3.0 分别用于视频编辑和背景移除。"
       ],
       "type": "模型更新",
       "source": "https://hiapi.ai/en/changelog",
@@ -284,6 +345,39 @@ window.COMPETITOR_DATA = {
       "sourceName": "PixelDojo 官方更新日志"
     },
     {
+      "competitor": "nightcafe",
+      "date": "2026-11-23",
+      "title": "NightCafe 上架 MiniMax H3 Image",
+      "details": [
+        "PRO 用户可用提示词生成图片，也可上传图片后用提示词编辑。"
+      ],
+      "type": "模型更新",
+      "source": "https://help.nightcafe.studio/portal/en/kb/articles/minimax-h3-image-on-nightcafe",
+      "sourceName": "NightCafe 官方帮助中心"
+    },
+    {
+      "competitor": "nightcafe",
+      "date": "2026-11-23",
+      "title": "NightCafe 上架 Qwen Image 2.1 Turbo 和 Pro",
+      "details": [
+        "两个版本均支持文生图及参考图编辑，每次最多可使用 10 张参考图。"
+      ],
+      "type": "模型更新",
+      "source": "https://help.nightcafe.studio/portal/en/kb/articles/qwen-image-2-1-on-nightcafe",
+      "sourceName": "NightCafe 官方帮助中心"
+    },
+    {
+      "competitor": "pixeldojo",
+      "date": "2026-11-23",
+      "title": "PixelDojo 为 Seedance 2.5、Kling 4.0 和 WAN 2.7 增加视频编辑入口",
+      "details": [
+        "Seedance 2.5 和 WAN 2.7 的生成页新增创建、编辑和延长标签，可灵 4.0 的生成页新增创建和编辑标签。"
+      ],
+      "type": "新功能",
+      "source": "https://pixeldojo.ai/changelog/2026-11",
+      "sourceName": "PixelDojo 官方更新日志"
+    },
+    {
       "competitor": "pixeldojo",
       "date": "2026-11-21",
       "title": "PixelDojo 恢复 HeyGen Avatar 和 Boogu Image Edit",
@@ -293,6 +387,18 @@ window.COMPETITOR_DATA = {
       "type": "产品升级",
       "source": "https://pixeldojo.ai/changelog/2026-11",
       "sourceName": "PixelDojo 官方更新日志"
+    },
+    {
+      "competitor": "higgsfield",
+      "date": "2026-11-20",
+      "title": "Higgsfield 上线 Editing Room 视频编辑器",
+      "details": [
+        "在时间线上选中片段，可换人物、角度、地点、运镜或灯光，也可用画笔标出局部修改区域。",
+        "多项编辑可叠加，支持分屏与原片对比后导出。"
+      ],
+      "type": "新功能",
+      "source": "https://higgsfield.ai/creator-hub/changelog",
+      "sourceName": "Higgsfield 官网"
     },
     {
       "competitor": "pixeldojo",
@@ -339,6 +445,30 @@ window.COMPETITOR_DATA = {
       "sourceName": "Higgsfield 官方公告"
     },
     {
+      "competitor": "higgsfield",
+      "date": "2026-11-19",
+      "title": "Higgsfield 接入 Ideogram 4.6 图像模型",
+      "details": [
+        "支持在上一版结果上继续修改颜色、材质或背景。",
+        "单次最多用 5 张参考图，支持 2K 或原生 4K 输出。"
+      ],
+      "type": "模型更新",
+      "source": "https://higgsfield.ai/creator-hub/changelog",
+      "sourceName": "Higgsfield 官网"
+    },
+    {
+      "competitor": "higgsfield",
+      "date": "2026-11-19",
+      "title": "Higgsfield 上线 Property Studio 户型图导览工具",
+      "details": [
+        "上传户型图后可自动识别房间，逐间生成布置并通过文字调整。",
+        "可编辑分房间脚本，用预设声音、自录样本或已有录音配音，再生成导览视频。"
+      ],
+      "type": "新功能",
+      "source": "https://higgsfield.ai/creator-hub/changelog",
+      "sourceName": "Higgsfield 官网"
+    },
+    {
       "competitor": "ideogram",
       "date": "2026-11-19",
       "title": "Ideogram 发布 4.6 图像生成与编辑模型",
@@ -361,6 +491,18 @@ window.COMPETITOR_DATA = {
       "sourceName": "Runway 官方更新日志"
     },
     {
+      "competitor": "runway",
+      "date": "2026-11-18",
+      "title": "Runway Ads 可直发 Google Display 和 Performance Max",
+      "details": [
+        "可把 Runway 制作的广告素材直接发到 Google Display 和 Performance Max。",
+        "支持轮播、图像和视频组合素材，以及同步查看和暂停 Performance Max 广告活动。"
+      ],
+      "type": "产品升级",
+      "source": "https://runway.com/changelog",
+      "sourceName": "Runway 官网"
+    },
+    {
       "competitor": "hiapi",
       "date": "2026-11-18",
       "title": "HiAPI 的 Seedance 2.5 Flash 增加参考视频输入",
@@ -370,39 +512,6 @@ window.COMPETITOR_DATA = {
       "type": "新功能",
       "source": "https://hiapi.ai/en/changelog?category=model-launch",
       "sourceName": "HiAPI 官方更新日志"
-    },
-    {
-      "competitor": "nightcafe",
-      "date": "2026-11-23",
-      "title": "NightCafe 上架 MiniMax H3 Image",
-      "details": [
-        "PRO 用户可用提示词生成图片，也可上传图片后用提示词编辑。"
-      ],
-      "type": "模型更新",
-      "source": "https://help.nightcafe.studio/portal/en/kb/articles/minimax-h3-image-on-nightcafe",
-      "sourceName": "NightCafe 官方帮助中心"
-    },
-    {
-      "competitor": "nightcafe",
-      "date": "2026-11-23",
-      "title": "NightCafe 上架 Qwen Image 2.1 Turbo 和 Pro",
-      "details": [
-        "两个版本均支持文生图及参考图编辑，每次最多可使用 10 张参考图。"
-      ],
-      "type": "模型更新",
-      "source": "https://help.nightcafe.studio/portal/en/kb/articles/qwen-image-2-1-on-nightcafe",
-      "sourceName": "NightCafe 官方帮助中心"
-    },
-    {
-      "competitor": "pixeldojo",
-      "date": "2026-11-23",
-      "title": "PixelDojo 为 Seedance 2.5、Kling 4.0 和 WAN 2.7 增加视频编辑入口",
-      "details": [
-        "Seedance 2.5 和 WAN 2.7 的生成页新增创建、编辑和延长标签，可灵 4.0 的生成页新增创建和编辑标签。"
-      ],
-      "type": "新功能",
-      "source": "https://pixeldojo.ai/changelog/2026-11",
-      "sourceName": "PixelDojo 官方更新日志"
     },
     {
       "competitor": "kling",
@@ -433,6 +542,30 @@ window.COMPETITOR_DATA = {
       "type": "新功能",
       "source": "https://pika.art/",
       "sourceName": "Pika 官方站 Latest News（Research Preview: Pika Enact，2026-11-18）"
+    },
+    {
+      "competitor": "runway",
+      "date": "2026-11-17",
+      "title": "Runway 接入 Kling Image 4.0",
+      "details": [
+        "付费方案可使用文生图和图生图，一次最多可用 10 张参考图。",
+        "支持 2K、4K、8K 分辨率和 8 种宽高比。"
+      ],
+      "type": "模型更新",
+      "source": "https://runway.com/changelog",
+      "sourceName": "Runway 官网"
+    },
+    {
+      "competitor": "higgsfield",
+      "date": "2026-11-17",
+      "title": "Higgsfield 接入 Kling Image 4.0",
+      "details": [
+        "支持文字与参考图生成，默认 2K，可选 4K 或 8K。",
+        "单条提示词最多生成 10 张同风格系列图。"
+      ],
+      "type": "模型更新",
+      "source": "https://higgsfield.ai/creator-hub/changelog",
+      "sourceName": "Higgsfield 官网"
     },
     {
       "competitor": "openart",
@@ -571,6 +704,42 @@ window.COMPETITOR_DATA = {
       "sourceName": "Google Play 版本记录 / Appteka（2026-11-14）"
     },
     {
+      "competitor": "runway",
+      "date": "2026-11-13",
+      "title": "Runway 接入 LTX Alphagen 视频抠像模型",
+      "details": [
+        "可从视频生成独立 Alpha 通道的抠像结果。",
+        "支持两路输出和 ProRes 格式。"
+      ],
+      "type": "模型更新",
+      "source": "https://runway.com/changelog",
+      "sourceName": "Runway 官网"
+    },
+    {
+      "competitor": "runway",
+      "date": "2026-11-13",
+      "title": "Runway MCP 在 ChatGPT 上线 Ad Director",
+      "details": [
+        "输入广告需求和商品参考后，Ad Director 可生成制作方案。",
+        "审阅方案后，可在 ChatGPT 的 Runway MCP 内生成商品广告。"
+      ],
+      "type": "新功能",
+      "source": "https://runway.com/changelog",
+      "sourceName": "Runway 官网"
+    },
+    {
+      "competitor": "higgsfield",
+      "date": "2026-11-13",
+      "title": "Higgsfield 上线 GPU Harness 云端工作环境",
+      "details": [
+        "可按需选择 GPU、CPU、内存和存储，用预装环境处理 3D 渲染和自定义模型等工作。",
+        "可通过创作助手或云桌面操作，停止运行后可从保存的工作区继续。"
+      ],
+      "type": "新功能",
+      "source": "https://higgsfield.ai/creator-hub/changelog",
+      "sourceName": "Higgsfield 官网"
+    },
+    {
       "competitor": "jimeng",
       "date": "2026-11-13",
       "title": "即梦 AI 上线 Seedance 2.5 4K：样片模式打通 480P 试创意到 4K 出成片，Flash 限时 0.08 元/秒",
@@ -615,6 +784,30 @@ window.COMPETITOR_DATA = {
       "type": "模型更新",
       "source": "https://www.orcarouter.ai/blog/seedance-2-5-flash-runway",
       "sourceName": "OrcaRouter 分析 / Runway 官方发布（2026-11-13）"
+    },
+    {
+      "competitor": "pixeldojo",
+      "date": "2026-11-12",
+      "title": "PixelDojo 接入 Seedream 5.5 图像模型",
+      "details": [
+        "可输出透明背景 PNG。",
+        "同时接入 Character Studio、Character Sheets、Consistent Characters、Reality Polisher 和 Canvas。"
+      ],
+      "type": "模型更新",
+      "source": "https://pixeldojo.ai/changelog/2026-11",
+      "sourceName": "PixelDojo 官网"
+    },
+    {
+      "competitor": "higgsfield",
+      "date": "2026-11-12",
+      "title": "Higgsfield 接入 Seedance 2.5 Flash 视频模型",
+      "details": [
+        "可生成 480p 或 720p 的带同步声音的预览，支持 Omni 参考和首尾帧。",
+        "同一组提示词和参考素材可复用到 Seedance 2.5 生成成片。"
+      ],
+      "type": "模型更新",
+      "source": "https://higgsfield.ai/creator-hub/changelog",
+      "sourceName": "Higgsfield 官网"
     },
     {
       "competitor": "jimeng",
@@ -748,6 +941,29 @@ window.COMPETITOR_DATA = {
     {
       "competitor": "runway",
       "date": "2026-11-10",
+      "title": "Runway 接入 Seedream 5.5 和 Seedream 5.5 Layers",
+      "details": [
+        "可在工具模式、Workflows 和 Agent 中使用。",
+        "支持原生透明 PNG 和图层操作，可连续进行多轮编辑。"
+      ],
+      "type": "模型更新",
+      "source": "https://runway.com/changelog",
+      "sourceName": "Runway 官网"
+    },
+    {
+      "competitor": "runway",
+      "date": "2026-11-10",
+      "title": "Runway MCP 接入 Gemini Omni 1.2 Flash",
+      "details": [
+        "可在 Runway MCP 中用文字提示生成带同步音频的视频。"
+      ],
+      "type": "模型更新",
+      "source": "https://runway.com/changelog",
+      "sourceName": "Runway 官网"
+    },
+    {
+      "competitor": "runway",
+      "date": "2026-11-10",
       "title": "Seedream 5 Pro Layers 上线 Runway Dev：一张图拆成可编辑图层",
       "details": [
         "Runway Dev 新增 seedream5_pro_layers 模型，把单张 PNG / JPEG 源图拆分为可独立编辑的图层，服务图像编辑工作流",
@@ -831,6 +1047,18 @@ window.COMPETITOR_DATA = {
       "sourceName": "Higgsfield 官网模型列表（Seedream 5.5）"
     },
     {
+      "competitor": "runway",
+      "date": "2026-11-09",
+      "title": "Runway MCP 接入 GPT Image 2.6",
+      "details": [
+        "可生成和编辑透明背景 PNG。",
+        "也可生成 GIF 动图和 SVG 矢量图。"
+      ],
+      "type": "模型更新",
+      "source": "https://runway.com/changelog",
+      "sourceName": "Runway 官网"
+    },
+    {
       "competitor": "pollo",
       "date": "2026-11-09",
       "title": "Pollo 智能体接入 Claude Fable 5.2：新增 3D 建模与视觉推理能力",
@@ -902,6 +1130,18 @@ window.COMPETITOR_DATA = {
       "sourceName": "Higgsfield Changelog"
     },
     {
+      "competitor": "runway",
+      "date": "2026-11-05",
+      "title": "Runway Workflows 支持 Seedance 2.5 草稿模式",
+      "details": [
+        "可在 Workflows 先生成 480p 预览，再把选中的版本增强到 1080p 或 4K。",
+        "草稿和增强后的视频会归在同一组，方便比较。"
+      ],
+      "type": "新功能",
+      "source": "https://runway.com/changelog",
+      "sourceName": "Runway 官网"
+    },
+    {
       "competitor": "openart",
       "date": "2026-11-05",
       "title": "OpenArt 上线 GPT Image 2.6：覆盖图像生成、编辑与 GIF 输出",
@@ -958,6 +1198,18 @@ window.COMPETITOR_DATA = {
       "sourceName": "Lightricks GitHub Releases"
     },
     {
+      "competitor": "higgsfield",
+      "date": "2026-11-04",
+      "title": "Higgsfield 接入 Kling 4.0 Flash",
+      "details": [
+        "可用参考、首帧或视频编辑模式生成 3–20 秒的 720p 视频。",
+        "可提供最多 10 张图片和 5 段视频作参考，帧控制仅限首帧。"
+      ],
+      "type": "模型更新",
+      "source": "https://higgsfield.ai/creator-hub/changelog",
+      "sourceName": "Higgsfield 官网"
+    },
+    {
       "competitor": "kling",
       "date": "2026-11-04",
       "title": "Kling 4.0 与 Kling 4.0 Flash API 全面上线：4.0 支持 30 秒原生直出，Flash 覆盖 3-20 秒轻量场景",
@@ -1000,6 +1252,18 @@ window.COMPETITOR_DATA = {
       "type": "模型更新",
       "source": "https://github.com/Lightricks/LTX-2/releases/tag/v1.6.0",
       "sourceName": "Lightricks GitHub Releases"
+    },
+    {
+      "competitor": "higgsfield",
+      "date": "2026-11-03",
+      "title": "Higgsfield 上线 Shorts Studio 数字人短视频工具",
+      "details": [
+        "输入主题或要点生成脚本，并以角色作为 9:16 短视频的出镜者。",
+        "可上传动作参考或复用 Explore 的模板，生成 10 秒至 2 分钟的内容。"
+      ],
+      "type": "新功能",
+      "source": "https://higgsfield.ai/creator-hub/changelog",
+      "sourceName": "Higgsfield 官网"
     },
     {
       "competitor": "vidu",
